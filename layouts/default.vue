@@ -2,14 +2,17 @@
   <div>
     <light-dark-btn class="switch-mode-btn" />
     <Nuxt />
+    <navbar />
   </div>
 </template>
 
 <script>
 import LightDarkBtn from '../components/layout/LightDarkBtn.vue'
+import Navbar from '../components/layout/Navbar.vue'
 export default {
   components: {
     LightDarkBtn,
+    Navbar,
   },
 }
 </script>
