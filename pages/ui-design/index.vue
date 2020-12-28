@@ -7,7 +7,7 @@
         <div class="row">
           <div class="overview col">
             <small class="subtitle">Case Study</small>
-            <h1 class="main-title">UX-UI - Dokogo App Design</h1>
+            <h1 class="main-title">UX Research Design - Revolut App Design</h1>
             <h2 class="subtitle">Year</h2>
             <small class="subinfo">2017-2018</small>
             <h2 class="subtitle">Softwares</h2>
@@ -65,32 +65,7 @@
       </div>
 
       <div class="page-content">
-        <div class="row">
-          <iframe
-            class="img"
-            width="560"
-            height="515"
-            src="https://www.youtube.com/embed/gY8j9aBq0GA"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <iframe
-            class="img"
-            width="560"
-            height="515"
-            src="https://www.youtube.com/embed/8vGQD67ROjY"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <img
-            class="img"
-            src="@/static/img/dokogo-app/iphonex-vue.png"
-            alt="img"
-          />
-          <img class="img" src="@/static/img/dokogo-app/dokogo.png" alt="img" />
-        </div>
+        <div class="row"></div>
       </div>
     </div>
 
@@ -116,6 +91,6 @@ export default {}
 
 <style lang="scss" scoped>
 .page-background {
-  background-image: url('../../static/img/home/dokogo.jpg');
+  background-image: url('../../static/img/revolut-app/background.jpeg') !important;
 }
 </style>
