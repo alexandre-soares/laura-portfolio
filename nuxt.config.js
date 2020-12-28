@@ -23,6 +23,11 @@ export default {
           'sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==',
         crossorigin: 'anonymous',
       },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://cdn.jsdelivr.net/npm/bootstrap-4-grid@3/css/grid.min.css',
+      },
     ],
   },
 

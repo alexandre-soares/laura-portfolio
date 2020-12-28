@@ -1,26 +1,42 @@
 <template>
   <div class="home">
     <div class="home__container">
-      <div class="home__card home__card--revolut">
+      <nuxt-link
+        to="/revolut-app"
+        tag="div"
+        class="home__card home__card--revolut"
+      >
         <div class="home__card--info">
           <h3>Revolut App</h3>
         </div>
-      </div>
-      <div class="home__card home__card--louboutin">
+      </nuxt-link>
+      <nuxt-link
+        to="/louboutin-app"
+        tag="div"
+        class="home__card home__card--louboutin"
+      >
         <div class="home__card--info">
           <h3>Louboutin App</h3>
         </div>
-      </div>
-      <div class="home__card home__card--dokogo">
+      </nuxt-link>
+      <nuxt-link
+        to="/dokogo-app"
+        tag="div"
+        class="home__card home__card--dokogo"
+      >
         <div class="home__card--info">
           <h3>Dokogo App</h3>
         </div>
-      </div>
-      <div class="home__card home__card--ux-design">
+      </nuxt-link>
+      <nuxt-link
+        to="/ui-design"
+        tag="div"
+        class="home__card home__card--ux-design"
+      >
         <div class="home__card--info">
           <h3>UI Design</h3>
         </div>
-      </div>
+      </nuxt-link>
       <div class="home__card home__card--infos">
         <h3>Send me a message</h3>
         <small>hello@jesaispasencore.com</small>
@@ -44,6 +60,11 @@ export default {}
 <style lang="scss" scoped>
 .home {
   margin-left: 40rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 100vh;
 
   &__container {

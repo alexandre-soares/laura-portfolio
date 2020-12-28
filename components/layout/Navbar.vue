@@ -1,6 +1,8 @@
 <template>
   <div class="navbar">
-    <div class="navbar__logo">Creative Spirit - Web Designer</div>
+    <nuxt-link to="/" tag="div" class="navbar__logo"
+      >Creative Spirit - Web Designer</nuxt-link
+    >
     <div class="navbar__profile">Who am I?</div>
     <div class="navbar__email">
       <p>Send me an email</p>
@@ -27,20 +29,22 @@ export default {}
 
   &__logo {
     font-size: 1.4rem;
+    cursor: pointer;
   }
 
   &__profile {
     font-size: 1.4rem;
+    cursor: pointer;
   }
 
   &__email {
     background-color: $dark-pink;
+    cursor: pointer;
     padding: 1rem 2rem;
     border-radius: 5rem;
     font-size: 1.4rem;
     letter-spacing: 1px;
     font-family: inherit;
-    margin-bottom: -5px;
     cursor: pointer;
     transition: 0.3s ease-in;
 
