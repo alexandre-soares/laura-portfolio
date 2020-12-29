@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1573" height="647.58" viewBox="0 0 1573 647.58">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#640f89"/>
+      <stop offset="1" stop-color="#23338d"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_296" data-name="Rectangle 296" width="1571" height="647.581" fill="none" stroke="#4d4d4d" stroke-width="2"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_306" data-name="Rectangle 306" width="1571" height="647.581" fill="#331d52" stroke="#4d4d4d" stroke-width="2"/>
+    </clipPath>
+  </defs>
+  <g id="Group_375" data-name="Group 375" transform="translate(-191 -28564.545)">
+    <g id="Rectangle_345" data-name="Rectangle 345" transform="translate(191 28819)" stroke="#707070" stroke-width="1" opacity="0.356" fill="url(#linear-gradient)">
+      <rect width="238" height="393" stroke="none"/>
+      <rect x="0.5" y="0.5" width="237" height="392" fill="none"/>
+    </g>
+    <text id="BEFORE" transform="translate(682 28587)" fill="#ef487d" font-size="35" font-family="GillSans-Bold, Gill Sans" font-weight="700"><tspan x="0" y="32">BEFORE</tspan></text>
+    <text id="AFTER" transform="translate(1343 28587)" fill="#97da7b" font-size="35" font-family="GillSans-Bold, Gill Sans" font-weight="700"><tspan x="12.682" y="32">AFTER</tspan></text>
+    <g id="Group_195" data-name="Group 195" transform="translate(191 28564.545)">
+      <g id="Group_196" data-name="Group 196" transform="translate(0 0)">
+        <g id="Group_195-2" data-name="Group 195" clip-path="url(#clip-path)">
+          <rect id="Rectangle_294" data-name="Rectangle 294" width="665.604" height="94.57" transform="translate(239.014 0.779)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+          <rect id="Rectangle_295" data-name="Rectangle 295" width="665.604" height="94.57" transform="translate(904.618 0.779)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+        </g>
+      </g>
+      <rect id="Rectangle_297" data-name="Rectangle 297" width="166.399" height="158.535" transform="translate(239.014 95.349)" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2" opacity="0.452" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle_298" data-name="Rectangle 298" width="166.399" height="158.535" transform="translate(405.42 95.349)" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2" opacity="0.452" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle_299" data-name="Rectangle 299" width="166.406" height="158.535" transform="translate(571.819 95.349)" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2" opacity="0.452" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle_300" data-name="Rectangle 300" width="166.399" height="158.535" transform="translate(738.218 95.349)" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2" opacity="0.452" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle_301" data-name="Rectangle 301" width="166.399" height="158.535" transform="translate(904.618 95.349)" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2" opacity="0.452" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle_302" data-name="Rectangle 302" width="166.399" height="158.535" transform="translate(1071.017 95.349)" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2" opacity="0.452" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle_303" data-name="Rectangle 303" width="166.399" height="158.535" transform="translate(1237.416 95.349)" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2" opacity="0.452" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle_304" data-name="Rectangle 304" width="166.399" height="158.535" transform="translate(1403.822 95.349)" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2" opacity="0.452" fill="url(#linear-gradient)"/>
+      <g id="Group_198" data-name="Group 198" transform="translate(0 0)">
+        <g id="Group_197" data-name="Group 197" clip-path="url(#clip-path-2)">
+          <rect id="Rectangle_305" data-name="Rectangle 305" width="238.241" height="98.228" transform="translate(0.779 253.883)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+        </g>
+      </g>
+      <rect id="Rectangle_307" data-name="Rectangle 307" width="166.399" height="98.228" transform="translate(239.014 253.883)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_308" data-name="Rectangle 308" width="166.399" height="98.228" transform="translate(405.42 253.883)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_309" data-name="Rectangle 309" width="166.406" height="98.228" transform="translate(571.819 253.883)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_310" data-name="Rectangle 310" width="166.399" height="98.228" transform="translate(738.218 253.883)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_311" data-name="Rectangle 311" width="166.399" height="98.228" transform="translate(904.618 253.883)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_312" data-name="Rectangle 312" width="166.399" height="98.228" transform="translate(1071.017 253.883)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_313" data-name="Rectangle 313" width="166.399" height="98.228" transform="translate(1237.416 253.883)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_314" data-name="Rectangle 314" width="166.399" height="98.228" transform="translate(1403.822 253.883)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+      <g id="Group_200" data-name="Group 200" transform="translate(0 0)">
+        <g id="Group_199" data-name="Group 199" clip-path="url(#clip-path)">
+          <rect id="Rectangle_315" data-name="Rectangle 315" width="238.241" height="98.234" transform="translate(0.779 352.111)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+        </g>
+      </g>
+      <rect id="Rectangle_317" data-name="Rectangle 317" width="166.399" height="98.234" transform="translate(239.014 352.111)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_318" data-name="Rectangle 318" width="166.399" height="98.234" transform="translate(405.42 352.111)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_319" data-name="Rectangle 319" width="166.406" height="98.234" transform="translate(571.819 352.111)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_320" data-name="Rectangle 320" width="166.399" height="98.234" transform="translate(738.218 352.111)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_321" data-name="Rectangle 321" width="166.399" height="98.234" transform="translate(904.618 352.111)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_322" data-name="Rectangle 322" width="166.399" height="98.234" transform="translate(1071.017 352.111)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_323" data-name="Rectangle 323" width="166.399" height="98.234" transform="translate(1237.416 352.111)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_324" data-name="Rectangle 324" width="166.399" height="98.234" transform="translate(1403.822 352.111)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+      <g id="Group_202" data-name="Group 202" transform="translate(0 0)">
+        <g id="Group_201" data-name="Group 201" clip-path="url(#clip-path)">
+          <path id="Path_393" data-name="Path 393" d="M0,0H238.241V98.228H0Z" transform="translate(0.779 450.346)" fill="none" stroke="#4d4d4d" stroke-width="2"/>
+        </g>
+      </g>
+      <rect id="Rectangle_327" data-name="Rectangle 327" width="166.399" height="98.228" transform="translate(239.014 450.346)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_328" data-name="Rectangle 328" width="166.399" height="98.228" transform="translate(405.42 450.346)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_329" data-name="Rectangle 329" width="166.406" height="98.228" transform="translate(571.819 450.346)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_330" data-name="Rectangle 330" width="166.399" height="98.228" transform="translate(738.218 450.346)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_331" data-name="Rectangle 331" width="166.399" height="98.228" transform="translate(904.618 450.346)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_332" data-name="Rectangle 332" width="166.399" height="98.228" transform="translate(1071.017 450.346)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_333" data-name="Rectangle 333" width="166.399" height="98.228" transform="translate(1237.416 450.346)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_334" data-name="Rectangle 334" width="166.399" height="98.228" transform="translate(1403.822 450.346)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+      <g id="Group_204" data-name="Group 204" transform="translate(0 0)">
+        <g id="Group_203" data-name="Group 203" clip-path="url(#clip-path)">
+          <rect id="Rectangle_335" data-name="Rectangle 335" width="238.241" height="98.234" transform="translate(0.779 548.567)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+          <rect id="Rectangle_336" data-name="Rectangle 336" width="166.399" height="98.234" transform="translate(239.014 548.567)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+          <rect id="Rectangle_337" data-name="Rectangle 337" width="166.399" height="98.234" transform="translate(405.42 548.567)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+          <rect id="Rectangle_338" data-name="Rectangle 338" width="166.406" height="98.234" transform="translate(571.819 548.567)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+          <rect id="Rectangle_339" data-name="Rectangle 339" width="166.399" height="98.234" transform="translate(738.218 548.567)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+          <rect id="Rectangle_340" data-name="Rectangle 340" width="166.399" height="98.234" transform="translate(904.618 548.567)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+          <rect id="Rectangle_341" data-name="Rectangle 341" width="166.399" height="98.234" transform="translate(1071.017 548.567)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+          <rect id="Rectangle_342" data-name="Rectangle 342" width="166.399" height="98.234" transform="translate(1237.416 548.567)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+          <rect id="Rectangle_343" data-name="Rectangle 343" width="166.399" height="98.234" transform="translate(1403.822 548.567)" fill="none" stroke="#4d4d4d" stroke-miterlimit="10" stroke-width="2"/>
+        </g>
+      </g>
+    </g>
+    <text id="PAIN_POINT_5:_Customer_service" data-name="PAIN POINT 5: 
+Customer service" transform="translate(233 29139)" fill="#ccc" font-size="20" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="19">PAIN POINT 5: </tspan><tspan x="0" y="43">Customer service</tspan></text>
+    <text id="PAIN_POINT_4:_Transactions_check" data-name="PAIN POINT 4: 
+Transactions check" transform="translate(233 29040)" fill="#ccc" font-size="20" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="19">PAIN POINT 4: </tspan><tspan x="0" y="43">Transactions check</tspan></text>
+    <text id="Mininum_nb_of_actions_required_to_complete_the_task" data-name="Mininum nb of actions required to complete the task" transform="translate(440 28679)" fill="#ccc" font-size="20" font-family="HelveticaNeue, Helvetica Neue"><tspan x="6.89" y="19">Mininum nb of </tspan><tspan x="38.59" y="43">actions </tspan><tspan x="22.65" y="67">required to </tspan><tspan x="12.46" y="91">complete the </tspan><tspan x="52.29" y="115">task</tspan></text>
+    <text id="Mininum_nb_of_actions_required_to_complete_the_task-2" data-name="Mininum nb of actions required to complete the task" transform="translate(1108 28679)" fill="#ccc" font-size="20" font-family="HelveticaNeue, Helvetica Neue"><tspan x="6.89" y="19">Mininum nb of </tspan><tspan x="38.59" y="43">actions </tspan><tspan x="22.65" y="67">required to </tspan><tspan x="12.46" y="91">complete the </tspan><tspan x="52.29" y="115">task</tspan></text>
+    <text id="Average_nb_of_actions_done_by_the_users_to_complete_the_task" data-name="Average nb of actions done by the users to complete the task" transform="translate(605 28679)" fill="#ccc" font-size="20" font-family="HelveticaNeue, Helvetica Neue"><tspan x="8.77" y="19">Average nb of </tspan><tspan x="13.21" y="43">actions done </tspan><tspan x="4.5" y="67">by the users to </tspan><tspan x="12.46" y="91">complete the </tspan><tspan x="52.29" y="115">task</tspan></text>
+    <text id="Average_nb_of_actions_done_by_the_users_to_complete_the_task-2" data-name="Average nb of actions done by the users to complete the task" transform="translate(1273 28679)" fill="#ccc" font-size="20" font-family="HelveticaNeue, Helvetica Neue"><tspan x="8.77" y="19">Average nb of </tspan><tspan x="13.21" y="43">actions done </tspan><tspan x="4.5" y="67">by the users to </tspan><tspan x="12.46" y="91">complete the </tspan><tspan x="52.29" y="115">task</tspan></text>
+    <text id="Time_to_complete_the_task_during_the_user_survey" data-name="Time to complete the task during the user survey" transform="translate(774 28691)" fill="#ccc" font-size="20" font-family="HelveticaNeue, Helvetica Neue"><tspan x="37.47" y="19">Time to </tspan><tspan x="12.46" y="43">complete the </tspan><tspan x="4.31" y="67">task during the </tspan><tspan x="19.7" y="91">user survey</tspan></text>
+    <text id="Time_to_complete_the_task_during_the_user_survey-2" data-name="Time to complete the task during the user survey" transform="translate(1442 28691)" fill="#ccc" font-size="20" font-family="HelveticaNeue, Helvetica Neue"><tspan x="37.47" y="19">Time to </tspan><tspan x="12.46" y="43">complete the </tspan><tspan x="4.31" y="67">task during the </tspan><tspan x="19.7" y="91">user survey</tspan></text>
+    <text id="Success_rate" data-name="Success rate" transform="translate(943 28728)" fill="#ccc" font-size="20" font-family="HelveticaNeue, Helvetica Neue"><tspan x="12.85" y="19">Success rate</tspan></text>
+    <text id="Success_rate-2" data-name="Success rate" transform="translate(1611 28728)" fill="#ccc" font-size="20" font-family="HelveticaNeue, Helvetica Neue"><tspan x="12.85" y="19">Success rate</tspan></text>
+    <text id="PAIN_POINT_3:_Send_money_via_" data-name="PAIN POINT 3: 
+Send money via @" transform="translate(233 28941)" fill="#ccc" font-size="20" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="19">PAIN POINT 3: </tspan><tspan x="0" y="43">Send money via @</tspan></text>
+    <text id="PAIN_POINT_2:_Account_creation" data-name="PAIN POINT 2: 
+Account creation" transform="translate(233 28845)" fill="#ccc" font-size="20" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="19">PAIN POINT 2: </tspan><tspan x="0" y="43">Account creation</tspan></text>
+    <text id="_2" data-name="2" transform="translate(479 28851)" fill="#fff" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="23.66" y="29">2</tspan></text>
+    <text id="_1" data-name="1" transform="translate(1143 28851)" fill="#fff" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="23.66" y="29">1</tspan></text>
+    <text id="_5" data-name="5" transform="translate(644 28851)" fill="#fff" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="23.66" y="29">5</tspan></text>
+    <text id="_1-2" data-name="1" transform="translate(1308 28851)" fill="#fff" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="23.66" y="29">1</tspan></text>
+    <text id="_7_s" data-name="7 s" transform="translate(813 28851)" fill="#fff" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="11.99" y="29">7 s</tspan></text>
+    <text id="_2_s" data-name="2 s" transform="translate(1477 28851)" fill="#fff" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="11.99" y="29">2 s</tspan></text>
+    <text id="_5_6" data-name="5/6" transform="translate(978 28851)" fill="#fff" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="10.325" y="29">5/6</tspan></text>
+    <text id="_6_6" data-name="6/6" transform="translate(1642 28851)" fill="#fff" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="10.325" y="29">6/6</tspan></text>
+    <text id="_3" data-name="3" transform="translate(479 28947)" fill="#fff" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="23.66" y="29">3</tspan></text>
+    <text id="_3-2" data-name="3" transform="translate(1143 28947)" fill="#fff" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="23.66" y="29">3</tspan></text>
+    <text id="_23" data-name="23" transform="translate(644 28947)" fill="#ef487d" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="15.32" y="29">23</tspan></text>
+    <text id="_3-3" data-name="3" transform="translate(1308 28947)" fill="#fff" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="23.66" y="29">3</tspan></text>
+    <text id="_1_min_23" data-name="1 min 23" transform="translate(780 28947)" fill="#ef487d" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="7.175" y="29">1 min 23</tspan></text>
+    <text id="_4_s" data-name="4 s" transform="translate(1444 28947)" fill="#fff" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="44.99" y="29">4 s</tspan></text>
+    <text id="_2_6" data-name="2/6" transform="translate(978 28947)" fill="#fff" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="10.325" y="29">2/6</tspan></text>
+    <text id="_6_6-2" data-name="6/6" transform="translate(1642 28947)" fill="#fff" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="10.325" y="29">6/6</tspan></text>
+    <text id="_2-2" data-name="2" transform="translate(479 29043)" fill="#fff" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="23.66" y="29">2</tspan></text>
+    <text id="_1-3" data-name="1" transform="translate(1143 29043)" fill="#fff" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="23.66" y="29">1</tspan></text>
+    <text id="_7" data-name="7" transform="translate(644 29043)" fill="#fff" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="23.66" y="29">7</tspan></text>
+    <text id="_1-4" data-name="1" transform="translate(1308 29043)" fill="#fff" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="23.66" y="29">1</tspan></text>
+    <text id="_9_s_" data-name="9 s " transform="translate(813 29043)" fill="#fff" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="11.99" y="29">9 s </tspan></text>
+    <text id="_1_s" data-name="1 s" transform="translate(1477 29043)" fill="#fff" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="11.99" y="29">1 s</tspan></text>
+    <text id="_4_6" data-name="4/6" transform="translate(978 29043)" fill="#fff" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="10.325" y="29">4/6</tspan></text>
+    <text id="_6_6-3" data-name="6/6" transform="translate(1642 29043)" fill="#fff" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="10.325" y="29">6/6</tspan></text>
+    <text id="_3-4" data-name="3" transform="translate(479 29145)" fill="#fff" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="23.66" y="29">3</tspan></text>
+    <text id="_3-5" data-name="3" transform="translate(1143 29145)" fill="#fff" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="23.66" y="29">3</tspan></text>
+    <text id="_15" data-name="15" transform="translate(644 29145)" fill="#ef487d" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="15.32" y="29">15</tspan></text>
+    <text id="_3-6" data-name="3" transform="translate(1308 29145)" fill="#fff" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="23.66" y="29">3</tspan></text>
+    <text id="_1_min_08" data-name="1 min 08" transform="translate(774 29145)" fill="#ef487d" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="13.175" y="29">1 min 08</tspan></text>
+    <text id="_5_s" data-name="5 s" transform="translate(1438 29145)" fill="#fff" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="50.99" y="29">5 s</tspan></text>
+    <text id="_2_6-2" data-name="2/6" transform="translate(978 29145)" fill="#fff" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="10.325" y="29">2/6</tspan></text>
+    <text id="_6_6-4" data-name="6/6" transform="translate(1642 29145)" fill="#fff" font-size="30" font-family="HelveticaNeue, Helvetica Neue"><tspan x="10.325" y="29">6/6</tspan></text>
+    <g id="Rectangle_346" data-name="Rectangle 346" transform="translate(429 28819)" fill="none" stroke="#ef487d" stroke-width="1">
+      <rect width="501" height="393" stroke="none"/>
+      <rect x="0.5" y="0.5" width="500" height="392" fill="none"/>
+    </g>
+    <g id="Rectangle_354" data-name="Rectangle 354" transform="translate(1096 28819)" fill="none" stroke="#97da7b" stroke-width="1">
+      <rect width="501" height="393" stroke="none"/>
+      <rect x="0.5" y="0.5" width="500" height="392" fill="none"/>
+    </g>
+    <g id="Rectangle_349" data-name="Rectangle 349" transform="translate(596 28819)" fill="none" stroke="#ef487d" stroke-width="1">
+      <rect width="167" height="393" stroke="none"/>
+      <rect x="0.5" y="0.5" width="166" height="392" fill="none"/>
+    </g>
+    <g id="Rectangle_355" data-name="Rectangle 355" transform="translate(1263 28819)" fill="none" stroke="#97da7b" stroke-width="1">
+      <rect width="167" height="393" stroke="none"/>
+      <rect x="0.5" y="0.5" width="166" height="392" fill="none"/>
+    </g>
+    <g id="Rectangle_347" data-name="Rectangle 347" transform="translate(429 28916)" fill="none" stroke="#ef487d" stroke-width="1">
+      <rect width="667" height="197" stroke="none"/>
+      <rect x="0.5" y="0.5" width="666" height="196" fill="none"/>
+    </g>
+    <g id="Rectangle_352" data-name="Rectangle 352" transform="translate(1096 28916)" fill="none" stroke="#97da7b" stroke-width="1">
+      <rect width="668" height="197" stroke="none"/>
+      <rect x="0.5" y="0.5" width="667" height="196" fill="none"/>
+    </g>
+    <g id="Rectangle_350" data-name="Rectangle 350" transform="translate(429 28819)" fill="none" stroke="#ef487d" stroke-width="1">
+      <rect width="667" height="197" stroke="none"/>
+      <rect x="0.5" y="0.5" width="666" height="196" fill="none"/>
+    </g>
+    <g id="Rectangle_353" data-name="Rectangle 353" transform="translate(1096 28819)" fill="none" stroke="#97da7b" stroke-width="1">
+      <rect width="668" height="197" stroke="none"/>
+      <rect x="0.5" y="0.5" width="667" height="196" fill="none"/>
+    </g>
+    <g id="Rectangle_356" data-name="Rectangle 356" transform="translate(1096 28565)" fill="none" stroke="#97da7b" stroke-width="1">
+      <rect width="668" height="254" stroke="none"/>
+      <rect x="0.5" y="0.5" width="667" height="253" fill="none"/>
+    </g>
+    <g id="Rectangle_358" data-name="Rectangle 358" transform="translate(428 28565)" fill="none" stroke="#ef487d" stroke-width="1">
+      <rect width="668" height="254" stroke="none"/>
+      <rect x="0.5" y="0.5" width="667" height="253" fill="none"/>
+    </g>
+    <g id="Rectangle_357" data-name="Rectangle 357" transform="translate(1096 28659)" fill="none" stroke="#97da7b" stroke-width="1">
+      <rect width="668" height="160" stroke="none"/>
+      <rect x="0.5" y="0.5" width="667" height="159" fill="none"/>
+    </g>
+    <g id="Rectangle_359" data-name="Rectangle 359" transform="translate(428 28659)" fill="none" stroke="#ef487d" stroke-width="1">
+      <rect width="668" height="160" stroke="none"/>
+      <rect x="0.5" y="0.5" width="667" height="159" fill="none"/>
+    </g>
+    <g id="Rectangle_348" data-name="Rectangle 348" transform="translate(429 29015)" fill="none" stroke="#ef487d" stroke-width="1">
+      <rect width="667" height="197" stroke="none"/>
+      <rect x="0.5" y="0.5" width="666" height="196" fill="none"/>
+    </g>
+    <g id="Rectangle_351" data-name="Rectangle 351" transform="translate(1096 29015)" fill="none" stroke="#97da7b" stroke-width="1">
+      <rect width="668" height="197" stroke="none"/>
+      <rect x="0.5" y="0.5" width="667" height="196" fill="none"/>
+    </g>
+  </g>
+</svg>

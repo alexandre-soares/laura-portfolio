@@ -57,6 +57,9 @@
               process of creating a prototype for a mobile application and a
               marketing concept video.
             </p>
+            <p class="paragraph">
+              <strong>Turn your speakers on 🔊, the musics are cool</strong>
+            </p>
           </div>
           <section id="scroll-down" class="scroll-btn col-12">
             <a><span></span></a>

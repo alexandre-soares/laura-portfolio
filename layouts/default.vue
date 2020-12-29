@@ -33,6 +33,19 @@ html {
 html.light {
   background-color: $light-white;
   color: $dark-blue;
+
+  & .blue-background {
+    color: $light-white;
+  }
+
+  & .radient-background {
+    color: $light-white;
+
+    & .black-background {
+      background-color: $light-white;
+      color: $dark-blue;
+    }
+  }
 }
 
 body {
@@ -44,5 +57,19 @@ body {
   top: 2rem;
   right: 2rem;
   z-index: 999;
+}
+
+ul {
+  font-size: 1.6rem;
+}
+
+.light-pink {
+  color: $light-pink;
+}
+
+.blue-background {
+  background-color: $light-blue;
+  margin: 3rem 0;
+  padding: 5rem 15rem;
 }
 </style>
