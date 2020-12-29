@@ -26,7 +26,7 @@ export default {}
   padding: 1rem 3rem;
   background-color: $dark-black;
   color: $light-white;
-  z-index: 999;
+  z-index: 10;
 
   &__logo {
     font-size: 1.4rem;
