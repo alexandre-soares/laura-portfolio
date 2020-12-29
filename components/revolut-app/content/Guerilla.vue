@@ -31,7 +31,7 @@
 
     <p class="paragraph">This is how the survey works:</p>
 
-    <ol class="survey-list row">
+    <ol class="survey-list">
       <li>
         &#9201; Explain the purpose of this test:
         <strong>the test will not last more than 10 min</strong>
