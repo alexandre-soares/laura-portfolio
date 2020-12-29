@@ -7,7 +7,11 @@
         class="home__card home__card--revolut"
       >
         <div class="home__card--info">
-          <h3>Revolut App</h3>
+          <h3>
+            REVOLUT <br />
+            UX RESEARCH & <br />
+            DESIGN <br /><strong>Study case</strong>
+          </h3>
         </div>
       </nuxt-link>
       <nuxt-link
@@ -16,7 +20,10 @@
         class="home__card home__card--louboutin"
       >
         <div class="home__card--info">
-          <h3>Louboutin App</h3>
+          <h3>
+            Louboutin <br />
+            Design App
+          </h3>
         </div>
       </nuxt-link>
       <nuxt-link
@@ -25,7 +32,11 @@
         class="home__card home__card--dokogo"
       >
         <div class="home__card--info">
-          <h3>Dokogo App</h3>
+          <h3>
+            DOKOGO <br />
+            UX CREATION PROCESS <br />
+            <strong>VIDEO</strong>
+          </h3>
         </div>
       </nuxt-link>
       <nuxt-link
@@ -40,21 +51,40 @@
       <div class="home__card home__card--infos">
         <h3>Send me a message</h3>
         <small>hello@jesaispasencore.com</small>
-        <h3>Check on my logofolio</h3>
+        <h3>Check on Linkedin</h3>
         <small>Dribbble</small>
-        <h3>My Art</h3>
+        <h3>My social media</h3>
         <small>Behance</small>
       </div>
     </div>
-    <div class="scroll-right">
-      <i class="fas fa-chevron-right"></i>
-      <small>Scroll Right</small>
-    </div>
+    <transition name="fade">
+      <div v-if="isVisible" class="scroll-right">
+        <i class="fas fa-chevron-right"></i>
+        <small>Scroll Right</small>
+      </div>
+    </transition>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      isVisible: true,
+    }
+  },
+  mounted() {
+    window.addEventListener('scroll', (e) => {
+      if (window.scrollX > 120) {
+        this.isVisible = false
+      }
+
+      if (window.scrollX < 120) {
+        this.isVisible = true
+      }
+    })
+  },
+}
 </script>
 
 <style lang="scss" scoped>
@@ -95,6 +125,7 @@ export default {}
 
       & .home__card--info {
         display: flex;
+        text-align: center;
       }
     }
 
@@ -162,6 +193,10 @@ export default {}
     & .fas {
       display: block;
       margin: 1rem auto;
+      -webkit-animation: slide-right 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+        infinite both;
+      animation: slide-right 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite
+        both;
     }
   }
 }
