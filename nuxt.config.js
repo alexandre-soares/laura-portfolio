@@ -12,9 +12,17 @@ export default {
         content: 'width=device-width, initial-scale=1',
       },
       { hid: 'description', name: 'description', content: '' },
+      {
+        name: 'msapplication-TileColor',
+        content: '#da532c',
+      },
+      {
+        name: 'theme-color-',
+        content: '#ffffff',
+      },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      // { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
         href:
@@ -27,6 +35,27 @@ export default {
         rel: 'stylesheet',
         href:
           'https://cdn.jsdelivr.net/npm/bootstrap-4-grid@3/css/grid.min.css',
+      },
+      {
+        rel: 'apple-touch-icon',
+        sizes: '180x180',
+        href: '/img/icons/favicon/apple-touch-icon.png',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '180x180',
+        href: '/img/icons/favicon/favicon-32x32.png',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        href: '/img/icons/favicon/favicon-16x16.png',
+      },
+      {
+        rel: 'manifest',
+        href: '/img/icons/favicon/site.webmanifest',
       },
     ],
   },

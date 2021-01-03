@@ -50,11 +50,34 @@
       </nuxt-link>
       <div class="home__card home__card--infos">
         <h3>Send me a message</h3>
-        <small>hello@jesaispasencore.com</small>
+        <small class="light-pink">hello@laurasibille.com</small>
         <h3>Check on Linkedin</h3>
-        <small>Dribbble</small>
+        <div class="row">
+          <a href="https://www.linkedin.com/in/laura-sibille/" target="_blank">
+            <img
+              class="icon"
+              src="@/static/img/icons/linkedin.svg"
+              alt="linkedin"
+            />
+          </a>
+        </div>
         <h3>My social media</h3>
-        <small>Behance</small>
+        <div class="row">
+          <a href="https://www.behance.net/laurasibil2c3c" target="_blank">
+            <img
+              class="icon"
+              src="@/static/img/icons/behance.svg"
+              alt="behance"
+            />
+          </a>
+          <a href="https://dribbble.com/LauraSibille" target="_blank">
+            <img
+              class="icon"
+              src="@/static/img/icons/dribbble.svg"
+              alt="dribbble"
+            />
+          </a>
+        </div>
       </div>
     </div>
     <transition name="fade">
@@ -178,6 +201,12 @@ export default {
         margin: 1rem auto;
         font-size: 1.4rem;
         letter-spacing: 1px;
+      }
+
+      & img {
+        margin: 1rem;
+        height: 5rem;
+        width: 4rem;
       }
     }
   }

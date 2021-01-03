@@ -90,24 +90,33 @@
           <div class="card">
             <h3>See my Linkedin profile</h3>
             <div class="row">
-              <img
-                class="icon"
-                src="@/static/img/icons/linkedin.svg"
-                alt="linkedin"
-              />
+              <a
+                href="https://www.linkedin.com/in/laura-sibille/"
+                target="_blank"
+              >
+                <img
+                  class="icon"
+                  src="@/static/img/icons/linkedin.svg"
+                  alt="linkedin"
+                />
+              </a>
             </div>
             <h3>& my Social media</h3>
             <div class="row">
-              <img
-                class="icon"
-                src="@/static/img/icons/behance.svg"
-                alt="behance"
-              />
-              <img
-                class="icon"
-                src="@/static/img/icons/dribble.svg"
-                alt="dribble"
-              />
+              <a href="https://www.behance.net/laurasibil2c3c" target="_blank">
+                <img
+                  class="icon"
+                  src="@/static/img/icons/behance.svg"
+                  alt="behance"
+                />
+              </a>
+              <a href="https://dribbble.com/LauraSibille" target="_blank">
+                <img
+                  class="icon"
+                  src="@/static/img/icons/dribbble.svg"
+                  alt="dribbble"
+                />
+              </a>
             </div>
             <h3 class="download">Download My Resume</h3>
           </div>
@@ -142,7 +151,7 @@
         </div>
       </div>
       <div class="portfolio container-fluid">
-        <div v-show="selected == 'logo-design'" class="logo-design"></div>
+        <Logos v-show="selected == 'logo-design'" class="logo-design" />
 
         <Art v-show="selected == 'art'" class="art" />
 
@@ -159,8 +168,9 @@
 import ScrollDownBtn from '../../components/layout/ScrollDownBtn.vue'
 import Art from '../../components/profile/Art.vue'
 import DigitalPainting from '../../components/profile/DigitalPainting.vue'
+import Logos from '../../components/profile/Logos.vue'
 export default {
-  components: { ScrollDownBtn, DigitalPainting, Art },
+  components: { ScrollDownBtn, DigitalPainting, Art, Logos },
   data() {
     return {
       selected: 'logo-design',
