@@ -15,13 +15,6 @@ export default {
       darkMode: false,
     }
   },
-  methods: {
-    toggleMode() {
-      this.darkMode = !this.darkMode
-      const html = document.querySelector('html')
-      html.classList.toggle('light')
-    },
-  },
 }
 </script>
 

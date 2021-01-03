@@ -4,7 +4,7 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'laura-portfolio',
+    title: 'Laura SIBILLE - Portfolio',
     meta: [
       { charset: 'utf-8' },
       {
@@ -17,7 +17,7 @@ export default {
         content: '#da532c',
       },
       {
-        name: 'theme-color-',
+        name: 'theme-color',
         content: '#ffffff',
       },
     ],

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <light-dark-btn class="switch-mode-btn" />
+    <light-dark-btn v-if="false" class="switch-mode-btn" />
     <Nuxt />
     <navbar />
   </div>
@@ -13,6 +13,17 @@ export default {
   components: {
     LightDarkBtn,
     Navbar,
+  },
+  mounted() {
+    // dark-mode media query matched or not
+    const matched = window.matchMedia('(prefers-color-scheme: dark)').matches
+
+    if (matched) console.log('Currently in dark mode')
+    else {
+      this.darkMode = !this.darkMode
+      const html = document.querySelector('html')
+      html.classList.toggle('light')
+    }
   },
 }
 </script>
