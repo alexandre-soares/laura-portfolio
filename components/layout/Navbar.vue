@@ -3,7 +3,9 @@
     <nuxt-link to="/" tag="div" class="navbar__logo"
       >Creative Spirit - Web Designer</nuxt-link
     >
-    <div class="navbar__profile">Who am I?</div>
+    <nuxt-link to="/profile" tag="div" class="navbar__profile"
+      >Who am I?</nuxt-link
+    >
     <div class="navbar__email">
       <p>Send me an email</p>
     </div>

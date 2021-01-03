@@ -12,7 +12,9 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.6"
+    "gsap": "^3.5.1",
+    "nuxt": "^2.14.6",
+    "vue-cool-lightbox": "^2.7.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.1.0",

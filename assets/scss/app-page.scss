@@ -75,6 +75,10 @@
     &:nth-child(1) {
       margin-top: 0;
     }
+
+    &--lighter {
+      font-weight: lighter;
+    }
   }
   
   .scroll-btn a {
