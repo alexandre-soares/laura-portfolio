@@ -78,7 +78,7 @@ export default {
 
 <style lang="scss" scoped>
 .page-background {
-  background-image: url('../../static/img/ui-design/page-background.svg') !important;
+  background-image: url('../../static/img/ui-design/background.png') !important;
 }
 
 img {

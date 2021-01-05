@@ -1,11 +1,11 @@
 <template>
   <div class="navbar">
-    <div class="navbar__logo">
+    <nuxt-link to="/" tag="div" class="navbar__logo">
       <img src="@/static/img/icons/logo white.svg" alt="logo" />
-    </div>
-    <div class="navbar__brand">
+    </nuxt-link>
+    <nuxt-link tag="div" to="/" class="navbar__brand">
       <span>Laura SIBILLE - UX Designer</span>
-    </div>
+    </nuxt-link>
     <div class="navbar__contact">
       <img src="@/static/img/icons/behance.svg" alt="behance" />
       <img src="@/static/img/icons/dribbble.svg" alt="dribbble" />
@@ -43,9 +43,11 @@ export default {}
   }
 
   &__logo {
+    cursor: pointer;
   }
 
   &__brand {
+    cursor: pointer;
     margin-right: auto;
     margin-left: 2rem;
     font-size: 1.4rem;

@@ -89,6 +89,6 @@ export default {}
 
 <style lang="scss" scoped>
 .page-background {
-  background-image: url('../../static/img/louboutin-app/background.jpeg') !important;
+  background-image: url('../../static/img/louboutin-app/louboutin.jpeg') !important;
 }
 </style>

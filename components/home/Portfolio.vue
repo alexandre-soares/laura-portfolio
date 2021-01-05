@@ -4,31 +4,31 @@
       <h2>UX Design - Case studies</h2>
       <div class="row">
         <div class="col-sm-12 col-lg-4">
-          <div class="home__card">
+          <nuxt-link tag="div" to="/revolut-app" class="home__card">
             <img src="@/static/img/home/revolut.svg" alt="revolut" />
             <h3>
               REVOLUT <br />
               <span class="lighter">UX RESEARCH & DESIGN</span>
             </h3>
-          </div>
+          </nuxt-link>
         </div>
         <div class="col-sm-12 col-lg-4">
-          <div class="home__card">
+          <nuxt-link tag="div" to="/dokogo-app" class="home__card">
             <img src="@/static/img/home/dokogo.svg" alt="dokogo" />
             <h3>
               DOKOGO <br />
               <span class="lighter">UX CREATION PROCESS - VIDEO</span>
             </h3>
-          </div>
+          </nuxt-link>
         </div>
         <div class="col-sm-12 col-lg-4">
-          <div class="home__card">
+          <nuxt-link tag="div" to="/louboutin-app" class="home__card">
             <img src="@/static/img/home/louboutin.svg" alt="louboutin" />
             <h3>
               LOUBOUTIN <br />
               APP DESIGN
             </h3>
-          </div>
+          </nuxt-link>
         </div>
       </div>
     </div>
@@ -37,12 +37,12 @@
 
       <div class="row justify-content-start">
         <div class="col-sm-12 col-lg-4">
-          <div class="home__card">
+          <nuxt-link tag="div" to="/ui-design" class="home__card">
             <img src="@/static/img/home/ui-design.svg" alt="ui-design" />
             <h3>
               <span class="lighter">Mock-ups & Prototypes </span>
             </h3>
-          </div>
+          </nuxt-link>
         </div>
       </div>
     </div>
