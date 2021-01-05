@@ -242,6 +242,7 @@ h3 {
     color: $light-pink;
     margin: 3rem auto;
     cursor: pointer;
+    font-family: 'Gill Sans', sans-serif;
   }
 }
 

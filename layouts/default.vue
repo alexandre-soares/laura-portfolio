@@ -1,29 +1,15 @@
 <template>
   <div>
-    <light-dark-btn v-if="false" class="switch-mode-btn" />
-    <Nuxt />
     <navbar />
+    <Nuxt />
   </div>
 </template>
 
 <script>
-import LightDarkBtn from '../components/layout/LightDarkBtn.vue'
 import Navbar from '../components/layout/Navbar.vue'
 export default {
   components: {
-    LightDarkBtn,
     Navbar,
-  },
-  mounted() {
-    // dark-mode media query matched or not
-    const matched = window.matchMedia('(prefers-color-scheme: dark)').matches
-
-    if (matched) console.log('Currently in dark mode')
-    else {
-      this.darkMode = !this.darkMode
-      const html = document.querySelector('html')
-      html.classList.toggle('light')
-    }
   },
 }
 </script>
@@ -35,26 +21,40 @@ export default {
 }
 
 html {
-  font-size: 62.5% !important;
+  font-size: 62.5%;
   background-color: $dark-blue;
   color: #c4c4c4;
   transition: background-color 0.5s ease-in, color 0.5s ease-in;
-}
 
-html.light {
-  background-color: $light-white;
-  color: $dark-blue;
-
-  & .blue-background {
-    color: $light-white;
+  @media only screen and (max-width: $bp-large) {
+    font-size: 50%;
   }
 
-  & .radient-background {
-    color: $light-white;
+  @media only screen and (max-width: $bp-small) {
+    font-size: 50%;
+  }
+}
 
-    & .black-background {
-      background-color: $light-white;
-      color: $dark-blue;
+@media (prefers-color-scheme: light) {
+  html {
+    background-color: $light-white;
+    color: $dark-blue;
+
+    & .blue-background {
+      color: $light-white;
+    }
+
+    & .radient-background {
+      color: $light-white;
+
+      & .black-background {
+        background-color: $light-white;
+        color: $dark-blue;
+      }
+    }
+
+    & .bottom-row__item {
+      color: $dark-blue !important;
     }
   }
 }
@@ -82,5 +82,10 @@ ul {
   background-color: $light-blue;
   margin: 3rem 0;
   padding: 5rem 15rem;
+}
+
+.lighter {
+  font-weight: lighter;
+  letter-spacing: 2px;
 }
 </style>
