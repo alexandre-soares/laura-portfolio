@@ -53,6 +53,12 @@ export default {}
     }
     & ul {
       list-style-type: none;
+
+      @media only screen and (max-width: $bp-small) {
+        text-align: left;
+        display: block;
+        margin: 0 auto;
+      }
     }
   }
 }

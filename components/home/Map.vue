@@ -15,6 +15,10 @@ export default {}
 <style lang="scss" scoped>
 .home {
   &__map {
+    @media only screen and (max-width: $bp-small) {
+      width: 90%;
+    }
+
     h2 {
       text-transform: uppercase;
       font-size: 4rem;

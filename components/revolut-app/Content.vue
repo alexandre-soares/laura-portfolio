@@ -56,6 +56,10 @@ export default {
     align-self: start;
     text-transform: uppercase;
     font-weight: 400;
+
+    @media only screen and (max-width: $bp-small) {
+      text-align: center;
+    }
   }
 }
 
@@ -63,5 +67,9 @@ export default {
   width: 75%;
   margin: 5rem auto;
   display: block;
+
+  @media only screen and (max-width: $bp-small) {
+    width: 90%;
+  }
 }
 </style>

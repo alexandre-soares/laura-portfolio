@@ -36,11 +36,8 @@
           </div>
           <h4>(Very) Rarely I code</h4>
           <div class="row justify-content-start">
-            <img
-              class="icon"
-              src="@/static/img/icons/html-css.svg"
-              alt="icon"
-            />
+            <img class="icon" src="@/static/img/icons/html.svg" alt="icon" />
+            <img class="icon" src="@/static/img/icons/css.svg" alt="icon" />
             <img
               class="icon"
               src="@/static/img/icons/javascript.svg"
@@ -98,11 +95,13 @@
               />
             </a>
           </div>
-          <h4 class="download">
-            <a href="/static/Laura SIBILLE - Resume.pdf" target="_blank"
-              >Download My Resume</a
-            >
-          </h4>
+          <a
+            class="download"
+            href="/Laura SIBILLE - Resume.pdf"
+            target="_blank"
+          >
+            Download My Resume</a
+          >
         </div>
       </div>
     </div>
@@ -157,33 +156,34 @@ export default {}
         cursor: pointer;
       }
 
-      & .download {
-        padding: 2rem 0;
-        width: 80%;
-        border-radius: 3rem;
+      & a.download {
+        font-family: 'Baskerville', sans-serif;
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-weight: lighter;
         margin: 3rem auto;
-        cursor: pointer;
-        font-family: 'Gill Sans', sans-serif;
+        display: block;
+        border-radius: 3rem;
+        text-decoration: none;
+        padding: 2rem 0;
         background: rgb(239, 72, 125);
         background: linear-gradient(
           180deg,
           rgba(239, 72, 125, 1) 0%,
           rgba(165, 21, 66, 1) 100%
         );
+        color: $light-white;
         transition: 0.3s ease-in;
+
+        @media only screen and (max-width: $bp-small) {
+          width: 90%;
+        }
 
         &:hover {
           background: none;
           background-color: $light-white;
-
-          & a {
-            color: $dark-pink;
-          }
-        }
-
-        & a {
-          text-decoration: none;
-          color: $light-white;
+          color: $dark-pink !important;
         }
       }
     }

@@ -7,9 +7,9 @@
         <small class="case-study-subtitle">Case Study</small>
 
         <div class="row">
-          <Sideinfo class="col" />
+          <Sideinfo class="col-sm-12 col-lg" />
 
-          <Description class="col" />
+          <Description class="col-sm-12 col-lg" />
 
           <Scroll-down-btn />
         </div>

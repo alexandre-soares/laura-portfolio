@@ -27,4 +27,15 @@
 export default {}
 </script>
 
-<style></style>
+<style lang="scss">
+.img {
+  width: 75%;
+  margin: 5rem auto;
+  display: block;
+
+  @media only screen and (max-width: $bp-small) {
+    width: 90% !important;
+    margin: 1rem auto !important;
+  }
+}
+</style>

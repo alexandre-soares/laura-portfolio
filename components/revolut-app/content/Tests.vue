@@ -8,11 +8,6 @@
         first phase. I suggested this new layout to 6 new testers. I reiterated
         it once, until I reached a <strong>100% success rate</strong>
       </p>
-      <img
-        class="img"
-        src="@/static/img/revolut-app/pre-video.svg"
-        alt="pre-video"
-      />
     </div>
 
     <div class="container">
@@ -140,4 +135,4 @@
 export default {}
 </script>
 
-<style></style>
+<style scoped></style>

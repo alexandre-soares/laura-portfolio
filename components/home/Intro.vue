@@ -5,7 +5,7 @@
         <img src="@/static/img/me.svg" alt="me" />
       </div>
       <div class="col-sm-12 col-lg-8">
-        <h1>HI! I’m Laura, I’m French & I AM a Designer!</h1>
+        <h1>HI! I’m Laura, I’m French & I AM a Designer !</h1>
         <p class="paragraph">
           Currently based in Sofia, Bulgaria, I lived & worked in several
           countries to challenge myself and go beyond. Being pushed out of my
@@ -44,6 +44,12 @@ export default {}
     align-items: flex-start;
     padding: 15rem 0 5rem;
     height: 100vh;
+
+    h1 {
+      @media only screen and (max-width: $bp-small) {
+        text-align: center;
+      }
+    }
 
     @media only screen and (max-width: $bp-large) {
       height: auto;

@@ -108,7 +108,7 @@
     <div class="blue-background">
       <img
         class="pain-point-img"
-        src="@/static/img/revolut-app/pain-point-3.svg"
+        src="@/static/img/revolut-app/pain-point-2.svg"
         alt="pain-point-3"
       />
     </div>
@@ -190,11 +190,14 @@
     </div>
 
     <div class="blue-background">
-      <img
-        class="pain-point-img"
-        src="@/static/img/revolut-app/pain-point-5.svg"
-        alt="pain-point-5"
-      />
+      <div style="position: relative">
+        <img
+          class="pain-point-img"
+          src="@/static/img/revolut-app/pain-point-5.svg"
+          alt="pain-point-5"
+        />
+        <!-- <video src="@/static/img/revolut-app/revolut_chat.mp4"></video> -->
+      </div>
     </div>
   </div>
 </template>
@@ -203,12 +206,16 @@
 export default {}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .graph {
   & img {
     width: 75%;
     margin: 2rem auto;
     display: block;
+
+    @media only screen and (max-width: $bp-small) {
+      width: 90%;
+    }
   }
 }
 
@@ -236,6 +243,10 @@ export default {}
   width: 75%;
   margin: 5rem auto;
   display: block;
+
+  @media only screen and (max-width: $bp-small) {
+    width: 90%;
+  }
 }
 
 .radient-background {

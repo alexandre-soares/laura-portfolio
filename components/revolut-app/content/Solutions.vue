@@ -13,4 +13,10 @@
 export default {}
 </script>
 
-<style></style>
+<style scoped>
+img {
+  @media only screen and (max-width: $bp-small) {
+    width: 90%;
+  }
+}
+</style>

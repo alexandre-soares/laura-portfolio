@@ -8,4 +8,10 @@
 export default {}
 </script>
 
-<style></style>
+<style lang="scss">
+.scroll-btn {
+  @media only screen and (max-width: $bp-small) {
+    display: none;
+  }
+}
+</style>

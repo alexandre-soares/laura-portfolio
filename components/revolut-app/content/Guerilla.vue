@@ -12,20 +12,26 @@
     </p>
 
     <div class="row guerilla-user">
-      <div class="row">
-        <span class="guerilla-user__span">2 diligent user</span>
-        <img src="@/static/img/icons/user.png" alt="user" />
-        <img src="@/static/img/icons/user.png" alt="user" />
+      <div class="col-sm-12 col-lg">
+        <div class="row">
+          <span class="guerilla-user__span">2 diligent user</span>
+          <img src="@/static/img/icons/user.png" alt="user" />
+          <img src="@/static/img/icons/user.png" alt="user" />
+        </div>
       </div>
-      <div class="row">
-        <span class="guerilla-user__span">2 casual user</span>
-        <img src="@/static/img/icons/casual.png" alt="casual" />
-        <img src="@/static/img/icons/casual.png" alt="casual" />
+      <div class="col-sm-12 col-lg">
+        <div class="row">
+          <span class="guerilla-user__span">2 casual user</span>
+          <img src="@/static/img/icons/casual.png" alt="casual" />
+          <img src="@/static/img/icons/casual.png" alt="casual" />
+        </div>
       </div>
-      <div class="row">
-        <span class="guerilla-user__span">2 non user</span>
-        <img src="@/static/img/icons/non user.png" alt="no" />
-        <img src="@/static/img/icons/non user.png" alt="no" />
+      <div class="col-sm-12 col-lg">
+        <div class="row">
+          <span class="guerilla-user__span">2 non user</span>
+          <img src="@/static/img/icons/non user.png" alt="no" />
+          <img src="@/static/img/icons/non user.png" alt="no" />
+        </div>
       </div>
     </div>
 
@@ -62,13 +68,22 @@
 export default {}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .guerilla-user {
   margin: 3rem;
   &__span {
     font-size: 1.8rem;
     margin-right: 2rem;
     font-weight: bold;
+  }
+
+  & img {
+    width: 4rem;
+    height: 4rem;
+
+    @media only screen and (max-width: $bp-small) {
+      margin: 2rem 1rem;
+    }
   }
 }
 

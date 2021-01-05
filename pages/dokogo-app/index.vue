@@ -4,10 +4,13 @@
 
     <div class="container">
       <div class="page-description">
+        <small class="case-study-subtitle case-study-subtitle--green"
+          >Case Study</small
+        >
         <div class="row">
-          <Sideinfo class="col" />
+          <Sideinfo class="col-sm-12 col-lg" />
 
-          <Description class="col" />
+          <Description class="col-sm-12 col-lg" />
 
           <Scroll-down-btn />
         </div>

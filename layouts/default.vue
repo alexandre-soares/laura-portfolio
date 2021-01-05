@@ -29,10 +29,6 @@ html {
   @media only screen and (max-width: $bp-large) {
     font-size: 50%;
   }
-
-  @media only screen and (max-width: $bp-small) {
-    font-size: 50%;
-  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -61,17 +57,16 @@ html {
 
 body {
   font-family: 'Gill Sans', sans-serif;
+  overflow-x: hidden;
 }
 
-.switch-mode-btn {
-  position: absolute;
-  top: 2rem;
-  right: 2rem;
-  z-index: 999;
-}
-
-ul {
-  font-size: 1.6rem;
+ul,
+ol {
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+  text-align: justify;
+  margin: 1rem 0;
+  letter-spacing: 0.7px;
 }
 
 .light-pink {
@@ -82,10 +77,41 @@ ul {
   background-color: $light-blue;
   margin: 3rem 0;
   padding: 5rem 15rem;
+
+  @media only screen and (max-width: $bp-small) {
+    padding: 2rem 3rem;
+  }
 }
 
 .lighter {
   font-weight: lighter;
   letter-spacing: 2px;
+}
+
+.radient-background {
+  background: rgba(100, 15, 137, 0.8);
+  background: linear-gradient(
+    48deg,
+    rgba(100, 15, 137, 0.8) 0%,
+    rgba(63, 36, 139, 0.8) 59%,
+    rgba(35, 51, 128, 0.8) 100%
+  );
+  padding: 4rem 0;
+
+  & p {
+    margin: 3rem 0 !important;
+  }
+
+  & .black-background {
+    background-color: $dark-blue;
+    padding: 2rem 0;
+  }
+}
+
+.pain-point-h4 {
+  margin: 3rem 0;
+  font-size: 1.9rem;
+  line-height: 3rem;
+  text-transform: uppercase;
 }
 </style>

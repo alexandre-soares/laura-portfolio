@@ -29,7 +29,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 html.light {
   & .bottom-row {
     color: #121212 !important;

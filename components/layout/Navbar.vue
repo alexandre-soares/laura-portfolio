@@ -28,7 +28,7 @@ export default {}
 .navbar {
   position: fixed;
   top: 0;
-  right: 0;
+  left: 0;
   width: 100vw;
   display: flex;
   flex-direction: row;
@@ -39,11 +39,19 @@ export default {}
   z-index: 999;
 
   @media only screen and (max-width: $bp-small) {
-    padding: 1rem 1.5rem;
+    padding: 1rem 1.2rem;
   }
 
   &__logo {
     cursor: pointer;
+
+    & img {
+      @media only screen and (max-width: $bp-small) {
+        width: 4rem;
+        height: 3rem;
+        margin: 0 0.5rem;
+      }
+    }
   }
 
   &__brand {
@@ -51,6 +59,11 @@ export default {}
     margin-right: auto;
     margin-left: 2rem;
     font-size: 1.4rem;
+    color: $light-white;
+
+    @media only screen and (max-width: $bp-small) {
+      margin-left: 1rem;
+    }
   }
 
   &__contact {
@@ -64,10 +77,20 @@ export default {}
       width: 2.5rem;
       height: 2.5rem;
       margin: 0 1rem;
+
+      @media only screen and (max-width: $bp-small) {
+        width: 2rem;
+        height: 2rem;
+        margin: 0 0.5rem;
+      }
     }
   }
 
   &__email {
+    // @media only screen and (max-width: $bp-small) {
+    //   margin-right: 1.5rem;
+    // }
+
     & a {
       display: inline-flex;
       align-items: center;
@@ -93,6 +116,11 @@ export default {}
 
       & img {
         margin: 0 0 0 1rem;
+
+        @media only screen and (max-width: $bp-small) {
+          width: 2rem;
+          height: 2rem;
+        }
       }
     }
   }

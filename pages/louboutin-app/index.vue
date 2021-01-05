@@ -60,9 +60,7 @@
             of the experience.
           </p>
 
-          <div class="page-content__title">
-            <h3>User Personas</h3>
-          </div>
+          <div class="page-content__title">Coming Soon</div>
         </div>
       </div>
     </div>

@@ -1,6 +1,5 @@
 <template>
   <div class="overview">
-    <small class="subtitle">Case Study</small>
     <h1 class="main-title">UX-UI - Dokogo App Design</h1>
     <h2 class="subtitle">Year</h2>
     <small class="subinfo">2017-2018</small>

@@ -16,48 +16,83 @@
       </p>
 
       <div class="row persona">
-        <div class="persona__profile col-8">
-          <table>
-            <tr>
-              <td>
-                <h4 class="persona__h4">This is Alex</h4>
-                <img src="@/static/img/revolut-app/persona.png" alt="persona" />
-              </td>
-              <td>
-                <h4 class="persona__h4">Behavior</h4>
-                <ul class="persona__profile__list">
-                  <li>Mainly works from home</li>
-                  <li>Manage his finance from his phone</li>
-                  <li>Is in charge of domestics spendings</li>
-                  <li>Is interested in trading</li>
-                  <li>Save money for holidays</li>
-                  <li>Lives in Bulgaria with a French bank account</li>
-                  <li>Loves to travel abroad</li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <h4 class="persona__h4">Demographics</h4>
-                <ul class="persona__profile__list">
-                  <li><strong>Age:</strong> 24</li>
-                  <li><strong>Location:</strong> Sofia, Bulgaria</li>
-                  <li><strong>Occupation:</strong> Web Developer</li>
-                </ul>
-              </td>
-              <td>
-                <h4 class="persona__h4">Needs & Goals</h4>
-                <ul class="persona__profile__list">
-                  <li>Wants to change euro in lev for free and quick</li>
-                  <li>Wants to start trading</li>
-                  <li>Wants to manage his online bank account easily</li>
-                  <li>Wants to spare money</li>
-                </ul>
-              </td>
-            </tr>
+        <div class="persona__profile col-sm-12 col-lg-8">
+          <table class="desktop-version">
+            <tbody>
+              <tr>
+                <td>
+                  <h4 class="persona__h4">This is Alex</h4>
+                  <img
+                    src="@/static/img/revolut-app/persona.png"
+                    alt="persona"
+                  />
+                </td>
+                <td>
+                  <h4 class="persona__h4">Behavior</h4>
+                  <ul class="persona__profile__list">
+                    <li>Mainly works from home</li>
+                    <li>Manage his finance from his phone</li>
+                    <li>Is in charge of domestics spendings</li>
+                    <li>Is interested in trading</li>
+                    <li>Save money for holidays</li>
+                    <li>Lives in Bulgaria with a French bank account</li>
+                    <li>Loves to travel abroad</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h4 class="persona__h4">Demographics</h4>
+                  <ul class="persona__profile__list">
+                    <li><strong>Age:</strong> 24</li>
+                    <li><strong>Location:</strong> Sofia, Bulgaria</li>
+                    <li><strong>Occupation:</strong> Web Developer</li>
+                  </ul>
+                </td>
+                <td>
+                  <h4 class="persona__h4">Needs & Goals</h4>
+                  <ul class="persona__profile__list">
+                    <li>Wants to change euro in lev for free and quick</li>
+                    <li>Wants to start trading</li>
+                    <li>Wants to manage his online bank account easily</li>
+                    <li>Wants to spare money</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
           </table>
+
+          <div class="mobile-version">
+            <h4 class="persona__h4">This is Alex</h4>
+            <img src="@/static/img/revolut-app/persona.png" alt="persona" />
+            <h4 class="persona__h4">Behavior</h4>
+            <ul class="persona__profile__list">
+              <li>Mainly works from home</li>
+              <li>Manage his finance from his phone</li>
+              <li>Is in charge of domestics spendings</li>
+              <li>Is interested in trading</li>
+              <li>Save money for holidays</li>
+              <li>Lives in Bulgaria with a French bank account</li>
+              <li>Loves to travel abroad</li>
+            </ul>
+
+            <h4 class="persona__h4">Demographics</h4>
+            <ul class="persona__profile__list">
+              <li><strong>Age:</strong> 24</li>
+              <li><strong>Location:</strong> Sofia, Bulgaria</li>
+              <li><strong>Occupation:</strong> Web Developer</li>
+            </ul>
+
+            <h4 class="persona__h4">Needs & Goals</h4>
+            <ul class="persona__profile__list">
+              <li>Wants to change euro in lev for free and quick</li>
+              <li>Wants to start trading</li>
+              <li>Wants to manage his online bank account easily</li>
+              <li>Wants to spare money</li>
+            </ul>
+          </div>
         </div>
-        <div class="persona__pros-cons col-4">
+        <div class="persona__pros-cons col-sm-12 col-lg-4">
           <small
             >Most important features according to the users interviewed</small
           >
@@ -100,27 +135,47 @@
 export default {}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .persona {
   margin: 10rem 0;
   font-size: 1.7rem;
   align-items: center;
   justify-content: space-between;
 
+  @media only screen and (max-width: $bp-small) {
+    margin: 3rem 0;
+  }
+
   &__profile {
     & img {
       width: 85%;
       margin: 0 auto;
       display: block;
+
+      @media only screen and (max-width: $bp-small) {
+        width: 65%;
+      }
     }
 
     &__list li {
       margin: 1rem;
     }
 
-    table {
+    .mobile-version {
+      display: none;
+
+      @media only screen and (max-width: $bp-small) {
+        display: block;
+      }
+    }
+
+    table.desktop-version {
       border-collapse: collapse;
       margin: 0 auto;
+
+      @media only screen and (max-width: $bp-small) {
+        display: none;
+      }
     }
 
     table tr {
