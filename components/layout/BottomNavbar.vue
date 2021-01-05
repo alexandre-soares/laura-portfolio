@@ -2,13 +2,13 @@
   <div class="container-fluid">
     <div class="bottom-row">
       <nuxt-link tag="a" class="bottom-row__item" :to="previous">
-        <i class="fas fa-chevron-left"></i>Previous work
+        <i class="fas fa-chevron-left"></i> {{ previousText }}
       </nuxt-link>
       <nuxt-link tag="a" class="bottom-row__item" to="/"
         ><i class="fas fa-redo"></i>All works</nuxt-link
       >
       <nuxt-link tag="a" class="bottom-row__item" :to="next">
-        Next work<i class="fas fa-chevron-right"></i
+        {{ nextText }}<i class="fas fa-chevron-right"></i
       ></nuxt-link>
     </div>
   </div>
@@ -22,6 +22,14 @@ export default {
       default: undefined,
     },
     next: {
+      type: String,
+      default: undefined,
+    },
+    previousText: {
+      type: String,
+      default: undefined,
+    },
+    nextText: {
       type: String,
       default: undefined,
     },

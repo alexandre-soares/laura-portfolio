@@ -4,9 +4,11 @@
 
     <div class="container">
       <div class="page-description">
+        <small class="case-study-subtitle case-study-subtitle--red"
+          >Case Study</small
+        >
         <div class="row">
           <div class="overview col">
-            <small class="subtitle">Case Study</small>
             <h1 class="main-title">UX-UI - Louboutin App Design</h1>
             <h2 class="subtitle">Year</h2>
             <small class="subinfo">2020</small>

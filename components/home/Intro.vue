@@ -5,7 +5,7 @@
         <img src="@/static/img/me.svg" alt="me" />
       </div>
       <div class="col-sm-12 col-lg-8">
-        <h1>HI! I’m Laura, I’m French & I AM a Designer !</h1>
+        <h1>HI! I’m Laura, I’m French & I am an UX Designer !</h1>
         <p class="paragraph">
           Currently based in Sofia, Bulgaria, I lived & worked in several
           countries to challenge myself and go beyond. Being pushed out of my
@@ -46,6 +46,8 @@ export default {}
     height: 100vh;
 
     h1 {
+      text-transform: uppercase;
+      letter-spacing: 1px;
       @media only screen and (max-width: $bp-small) {
         text-align: center;
       }
@@ -61,13 +63,7 @@ export default {}
 
       @media only screen and (max-width: $bp-large) {
         display: block;
-        width: 75%;
-        margin: 2rem auto;
-      }
-
-      @media only screen and (max-width: $bp-medium) {
-        display: block;
-        width: 50%;
+        width: 80%;
         margin: 2rem auto;
       }
     }

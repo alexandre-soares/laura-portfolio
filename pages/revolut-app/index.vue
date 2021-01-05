@@ -18,7 +18,12 @@
 
     <Content />
 
-    <Bottom-navbar previous="/ui-design" next="/louboutin-app" />
+    <Bottom-navbar
+      previous-text="UI Design"
+      next-text="Louboutin App"
+      previous="/ui-design"
+      next="/louboutin-app"
+    />
   </div>
 </template>
 

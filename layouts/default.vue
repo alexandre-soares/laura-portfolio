@@ -24,6 +24,7 @@ html {
   font-size: 62.5%;
   background-color: $dark-blue;
   color: #c4c4c4;
+  overflow-x: hidden;
   transition: background-color 0.5s ease-in, color 0.5s ease-in;
 
   @media only screen and (max-width: $bp-large) {

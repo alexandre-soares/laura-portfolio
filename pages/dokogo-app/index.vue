@@ -21,7 +21,12 @@
       </div>
     </div>
 
-    <Bottom-navbar previous="/louboutin-app" next="/ui-design" />
+    <Bottom-navbar
+      previous-text="Louboutin App"
+      next-text="UI Design"
+      previous="/louboutin-app"
+      next="/ui-design"
+    />
   </div>
 </template>
 

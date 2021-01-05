@@ -62,7 +62,8 @@ export default {}
     color: $light-white;
 
     @media only screen and (max-width: $bp-small) {
-      margin-left: 1rem;
+      // margin-left: 1rem;
+      display: none;
     }
   }
 
@@ -70,7 +71,7 @@ export default {}
     margin-right: 2rem;
 
     @media only screen and (max-width: $bp-small) {
-      margin-right: 0;
+      margin-left: auto;
     }
 
     & img {
@@ -79,9 +80,9 @@ export default {}
       margin: 0 1rem;
 
       @media only screen and (max-width: $bp-small) {
-        width: 2rem;
-        height: 2rem;
-        margin: 0 0.5rem;
+        width: 3.2rem;
+        height: 3.2rem;
+        margin: 0 1.7rem;
       }
     }
   }
@@ -112,6 +113,10 @@ export default {}
         line-height: 1;
         font-size: 1.3rem;
         margin-top: 2px;
+
+        @media only screen and (max-width: $bp-small) {
+          font-size: 1.6rem;
+        }
       }
 
       & img {

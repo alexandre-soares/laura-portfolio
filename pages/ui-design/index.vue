@@ -46,7 +46,12 @@
       </div>
     </div>
 
-    <bottom-navbar previous="/dokogo-app" next="/revolut-app" />
+    <bottom-navbar
+      previous-text="Dokogo App"
+      next-text="Revolut App"
+      previous="/dokogo-app"
+      next="/revolut-app"
+    />
   </div>
 </template>
 
