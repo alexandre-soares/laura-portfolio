@@ -66,7 +66,7 @@
       <div class="col-sm-12 col-lg-4">
         <div class="card">
           <h4>See my Linkedin profile</h4>
-          <div class="row">
+          <div class="row justify-content-center">
             <a
               href="https://www.linkedin.com/in/laura-sibille/"
               target="_blank"
@@ -176,8 +176,8 @@ export default {}
         color: $light-white;
         transition: 0.3s ease-in;
 
-        @media only screen and (max-width: $bp-small) {
-          width: 90%;
+        @media only screen and (max-width: $bp-large) {
+          width: 50%;
         }
 
         &:hover {

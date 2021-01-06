@@ -34,7 +34,7 @@
         <CoolLightBox :items="items" :index="index" @close="index = null">
         </CoolLightBox>
 
-        <div class="row">
+        <div class="row justify-content-start">
           <img
             v-for="(image, imageIndex) in items"
             :key="imageIndex"
@@ -66,14 +66,14 @@ export default {
   data() {
     return {
       items: [
-        require('~/static/img/ui-design/gtr.svg'),
-        require('~/static/img/ui-design/capadoccia.svg'),
-        require('~/static/img/ui-design/utrecht.svg'),
-        require('~/static/img/ui-design/skin-care.svg'),
-        require('~/static/img/ui-design/be ready.svg'),
-        require('~/static/img/ui-design/slider.svg'),
-        require('~/static/img/ui-design/foodies.svg'),
-        require('~/static/img/ui-design/cute-cream.svg'),
+        require('~/static/img/ui-design/gtr.jpg'),
+        require('~/static/img/ui-design/cappadocia.jpg'),
+        require('~/static/img/ui-design/utrecht.jpg'),
+        require('~/static/img/ui-design/skin-care.jpg'),
+        require('~/static/img/ui-design/be-ready.jpg'),
+        require('~/static/img/ui-design/slider.jpg'),
+        require('~/static/img/ui-design/foodies.jpg'),
+        require('~/static/img/ui-design/cute-cream.jpg'),
       ],
       index: null,
     }

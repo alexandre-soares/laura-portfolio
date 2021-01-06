@@ -77,6 +77,10 @@ h2 {
       filter: grayscale(0);
     }
 
+    @media only screen and (max-width: $bp-large) {
+      filter: grayscale(0);
+    }
+
     @media only screen and (max-width: $bp-small) {
       padding: 2rem 0;
     }
