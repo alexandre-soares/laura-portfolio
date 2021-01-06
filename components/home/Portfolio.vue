@@ -22,8 +22,8 @@
           </nuxt-link>
         </div>
         <div class="col-sm-12 col-lg-4">
-          <nuxt-link tag="div" to="/louboutin-jpg" class="home__card">
-            <img src="@/static/img/home/louboutin.svg" alt="louboutin" />
+          <nuxt-link tag="div" to="/louboutin-app" class="home__card">
+            <img src="@/static/img/home/louboutin.jpg" alt="louboutin" />
             <h3>
               LOUBOUTIN <br />
               APP DESIGN
@@ -85,7 +85,7 @@ h2 {
       width: 100%;
       cursor: pointer;
 
-      @media only screen and (max-width: $bp-small) {
+      @media only screen and (max-width: $bp-large) {
         width: 75%;
         display: block;
         margin: 0 auto;

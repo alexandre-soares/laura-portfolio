@@ -8,7 +8,7 @@
 export default {}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .scroll-btn {
   @media only screen and (max-width: $bp-small) {
     display: none;

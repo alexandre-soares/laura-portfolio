@@ -8,6 +8,6 @@ export default {}
 
 <style>
 .page-background {
-  background-image: url('../../static/img/dokogo-app/background.jpeg');
+  background-image: url('../../static/img/dokogo-app/background.png');
 }
 </style>

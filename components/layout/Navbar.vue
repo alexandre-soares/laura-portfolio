@@ -7,8 +7,12 @@
       <span>Laura SIBILLE - UX Designer</span>
     </nuxt-link>
     <div class="navbar__contact">
-      <img src="@/static/img/icons/behance.svg" alt="behance" />
-      <img src="@/static/img/icons/dribbble.svg" alt="dribbble" />
+      <a href="https://www.behance.net/laurasibil2c3c" target="_blank">
+        <img src="@/static/img/icons/behance.svg" alt="behance" />
+      </a>
+      <a href="https://dribbble.com/LauraSibille" target="_blank">
+        <img src="@/static/img/icons/dribbble.svg" alt="dribbble" />
+      </a>
       <img src="@/static/img/icons/linkedin.svg" alt="linkedin" />
     </div>
     <div class="navbar__email">

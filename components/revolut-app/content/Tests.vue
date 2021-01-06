@@ -29,7 +29,7 @@
         </p>
         <img
           class="img"
-          src="@/static/img/revolut-app/solution-pp-1.svg"
+          src="@/static/img/revolut-app/solutions/solution-pp-1.png"
           alt="pp-1"
         />
       </div>
@@ -51,7 +51,7 @@
         </p>
         <img
           class="img"
-          src="@/static/img/revolut-app/solution-pp-2.svg"
+          src="@/static/img/revolut-app/solutions/solution-pp-2.png"
           alt="pp-2"
         />
       </div>
@@ -72,7 +72,7 @@
           Finding a contact from their username (@) is now instinctive.
           <img
             class="img"
-            src="@/static/img/revolut-app/solution-pp-3.svg"
+            src="@/static/img/revolut-app/solutions/solution-pp-3.png"
             alt="pp-3"
           />
         </p>
@@ -98,7 +98,7 @@
           right.
           <img
             class="img"
-            src="@/static/img/revolut-app/solution-pp-4.svg"
+            src="@/static/img/revolut-app/solutions/solution-pp-4.png"
             alt="pp-4"
           />
         </p>
@@ -122,7 +122,7 @@
           to scroll.
           <img
             class="img"
-            src="@/static/img/revolut-app/solution-pp-5.svg"
+            src="@/static/img/revolut-app/solutions/solution-pp-5.png"
             alt="pp-5"
           />
         </p>

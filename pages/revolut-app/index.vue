@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Top-image />
+    <Top-image :url="require('@/static/img/revolut-app/background.jpeg')" />
 
     <div class="container">
       <div class="page-description">
@@ -33,7 +33,7 @@ import BottomNavbar from '../../components/layout/BottomNavbar.vue'
 import ScrollDownBtn from '../../components/layout/ScrollDownBtn.vue'
 import Description from '../../components/revolut-app/Description.vue'
 import Sideinfo from '../../components/revolut-app/Sideinfo.vue'
-import TopImage from '../../components/revolut-app/TopImage.vue'
+import TopImage from '../../components/portfolio/TopImage.vue'
 export default {
   components: {
     TopImage,

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="page-background"></div>
+    <Top-image :url="require('@/static/img/louboutin-app/background.png')" />
 
     <div class="container">
       <div class="page-description">
@@ -8,46 +8,15 @@
           >Case Study</small
         >
         <div class="row">
-          <div class="overview col">
-            <h1 class="main-title">UX-UI - Louboutin App Design</h1>
-            <h2 class="subtitle">Year</h2>
-            <small class="subinfo">2020</small>
-            <h2 class="subtitle">Softwares</h2>
-            <div class="icons">
-              <img class="icon" src="@/static/img/icons/xd.png" alt="icon" />
-              <img
-                class="icon"
-                src="@/static/img/icons/illustrator.png"
-                alt="icon"
-              />
-              <img
-                class="icon"
-                src="@/static/img/icons/rotaro.png"
-                alt="icon"
-              />
-            </div>
-          </div>
-          <div class="description col">
-            <p class="paragraph">
-              While I was wandering on Louboutin website before Christmas and
-              grumbling about how slow their website is, I saw how easy it was
-              to spend money on Nike store. Sneakers are cool, but high heels
-              are better for a fancy event.
-            </p>
-            <p class="paragraph">
-              The next day, I was designing an app for the famous red sole
-              brand.
-            </p>
-            <p class="paragraph">
-              The goal of this study case is to check if the web pages on mobile
-              correspond to the brand values through a survey and developing an
-              e-commerce app that allows user to search and buy shoes in a
-              clean, catchy and easy to interact interface.
-            </p>
-          </div>
-          <section id="scroll-down" class="scroll-btn col-12">
-            <a><span></span></a>
-          </section>
+          <Side-info
+            class="col"
+            :main-title="'UX-UI - Louboutin App Design'"
+            :year="'2020'"
+            :icons="icons"
+          />
+          <Description-component :paragraphs="paragraphs" class="col" />
+
+          <Scroll-down-btn />
         </div>
       </div>
 
@@ -67,28 +36,44 @@
       </div>
     </div>
 
-    <div class="container-fluid">
-      <div class="bottom-row">
-        <nuxt-link tag="div" class="bottom-row__item" to="/revolut-app">
-          <i class="fas fa-chevron-left"></i>Previous work
-        </nuxt-link>
-        <nuxt-link tag="div" class="bottom-row__item" to="/"
-          ><i class="fas fa-redo"></i>All works</nuxt-link
-        >
-        <nuxt-link tag="div" class="bottom-row__item" to="/dokogo-app">
-          Next work<i class="fas fa-chevron-right"></i
-        ></nuxt-link>
-      </div>
-    </div>
+    <Bottom-navbar
+      previous-text="Revolut App"
+      next-text="Dokogo App"
+      previous="/revolut-app"
+      next="/dokogo-app"
+    />
   </div>
 </template>
 
 <script>
-export default {}
+import BottomNavbar from '../../components/layout/BottomNavbar.vue'
+import DescriptionComponent from '../../components/portfolio/DescriptionComponent.vue'
+import SideInfo from '../../components/portfolio/SideInfoComponent.vue'
+import TopImage from '../../components/portfolio/TopImage.vue'
+
+export default {
+  components: { TopImage, SideInfo, BottomNavbar, DescriptionComponent },
+  data() {
+    return {
+      icons: [
+        require('@/static/img/icons/xd.png'),
+        require('@/static/img/icons/illustrator.png'),
+        require('@/static/img/icons/rotaro.png'),
+      ],
+      paragraphs: [
+        `While I was wandering on Louboutin website before Christmas and grumbling
+          about how slow their website is, I saw how easy it was to spend money on
+          Nike store. Sneakers are cool, but high heels are better for a fancy
+          event.`,
+        `The next day, I was designing an app for the famous red sole brand.`,
+        `The goal of this study case is to check if the web pages on mobile
+          correspond to the brand values through a survey and developing an
+          e-commerce app that allows user to search and buy shoes in a clean, catchy
+          and easy to interact interface.`,
+      ],
+    }
+  },
+}
 </script>
 
-<style lang="scss" scoped>
-.page-background {
-  background-image: url('../../static/img/louboutin-app/louboutin.jpeg') !important;
-}
-</style>
+<style lang="scss" scoped></style>

@@ -2,7 +2,7 @@
   <div class="home__intro container">
     <div class="row">
       <div class="col-sm-12 col-lg-4">
-        <img src="@/static/img/me.svg" alt="me" />
+        <img src="@/static/img/me.jpg" alt="me" />
       </div>
       <div class="col-sm-12 col-lg-8">
         <h1>HI! I’m Laura, I’m French & I am an UX Designer !</h1>

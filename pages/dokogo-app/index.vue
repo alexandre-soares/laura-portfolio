@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Top-image />
+    <Top-image :url="require('@/static/img/dokogo-app/background.png')" />
 
     <div class="container">
       <div class="page-description">
@@ -32,7 +32,7 @@
 
 <script>
 import Sideinfo from '../../components/dokogo-app/Sideinfo.vue'
-import TopImage from '../../components/dokogo-app/TopImage.vue'
+import TopImage from '../../components/portfolio/TopImage.vue'
 import Description from '../../components/dokogo-app/Description.vue'
 import ScrollDownBtn from '../../components/layout/ScrollDownBtn.vue'
 import Content from '../../components/dokogo-app/Content.vue'

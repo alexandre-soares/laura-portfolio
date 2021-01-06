@@ -19,7 +19,7 @@
     </div>
 
     <div class="graph blue-background">
-      <img src="@/static/img/revolut-app/pain-point-graph.png" alt="graph" />
+      <img src="@/static/img/revolut-app/pain-points/graph.png" alt="graph" />
     </div>
 
     <div class="container">
@@ -74,7 +74,7 @@
     <div class="blue-background">
       <img
         class="pain-point-img"
-        src="@/static/img/revolut-app/pain-point-1-img1.svg"
+        src="@/static/img/revolut-app/pain-points/pain-point-1-1.png"
         alt="pain-point-1"
       />
 
@@ -86,7 +86,7 @@
 
       <img
         class="pain-point-img"
-        src="@/static/img/revolut-app/pain-point-1-img2.svg"
+        src="@/static/img/revolut-app/pain-points/pain-point-1-2.png"
         alt="pain-point-2"
       />
     </div>
@@ -108,7 +108,7 @@
     <div class="blue-background">
       <img
         class="pain-point-img"
-        src="@/static/img/revolut-app/pain-point-2.svg"
+        src="@/static/img/revolut-app/pain-points/pain-point-2.png"
         alt="pain-point-3"
       />
     </div>
@@ -149,7 +149,7 @@
     <div class="blue-background">
       <img
         class="pain-point-img"
-        src="@/static/img/revolut-app/pain-point-3.svg"
+        src="@/static/img/revolut-app/pain-points/pain-point-3.png"
         alt="pain-point-3"
       />
     </div>
@@ -171,7 +171,7 @@
     <div class="blue-background">
       <img
         class="pain-point-img"
-        src="@/static/img/revolut-app/pain-point-4.svg"
+        src="@/static/img/revolut-app/pain-points/pain-point-4.png"
         alt="pain-point-4"
       />
     </div>
@@ -193,10 +193,9 @@
       <div style="position: relative">
         <img
           class="pain-point-img"
-          src="@/static/img/revolut-app/pain-point-5.svg"
+          src="@/static/img/revolut-app/pain-points/pain-point-5.png"
           alt="pain-point-5"
         />
-        <!-- <video src="@/static/img/revolut-app/revolut_chat.mp4"></video> -->
       </div>
     </div>
   </div>

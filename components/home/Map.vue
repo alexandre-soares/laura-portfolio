@@ -36,6 +36,11 @@ export default {}
     & img {
       width: 80%;
       margin: 2rem auto;
+
+      @media only screen and (max-width: $bp-small) {
+        width: 80%;
+        height: 80%;
+      }
     }
 
     & span {

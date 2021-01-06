@@ -11,7 +11,7 @@
     </p>
     <img
       class="img"
-      src="@/static/img/revolut-app/final-result-table.svg"
+      src="@/static/img/revolut-app/solutions/solution-table.png"
       alt="final-result"
     />
   </div>

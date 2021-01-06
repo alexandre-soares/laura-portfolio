@@ -3,7 +3,7 @@
     <h3 class="page-content__title">Ideating the solution</h3>
     <img
       class="img"
-      src="@/static/img/revolut-app/wireframe Revolut.svg"
+      src="@/static/img/revolut-app/solutions/wireframes.png"
       alt="wireframe"
     />
   </div>
