@@ -11,7 +11,11 @@ export default {
         name: 'viewport',
         content: 'width=device-width, initial-scale=1',
       },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: `UX RESEARCH / DESIGN - My name is Laura SIBILLE and I'm a user experience designer & researcher rooted in psychology. I strive to tell stories that humanize the head with the ♡.`,
+      },
       {
         name: 'msapplication-TileColor',
         content: '#da532c',
@@ -73,7 +77,12 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    '@nuxtjs/google-analytics',
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'G-WJ62T11MZ9',
+      },
+    ],
   ],
 
   styleResources: {
