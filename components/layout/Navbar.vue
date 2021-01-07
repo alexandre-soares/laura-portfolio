@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar">
+  <div class="navbar" :class="backgroundNav ? 'navbar__background' : ''">
     <nuxt-link to="/" tag="div" class="navbar__logo">
       <img src="@/static/img/icons/logo white.svg" alt="logo" />
     </nuxt-link>
@@ -13,7 +13,9 @@
       <a href="https://dribbble.com/LauraSibille" target="_blank">
         <img src="@/static/img/icons/dribbble.svg" alt="dribbble" />
       </a>
-      <img src="@/static/img/icons/linkedin.svg" alt="linkedin" />
+      <a href="https://www.linkedin.com/in/laura-sibille/" target="_blank">
+        <img src="@/static/img/icons/linkedin.svg" alt="linkedin" />
+      </a>
     </div>
     <div class="navbar__email">
       <a href="mailto:laura.sibille@gmail.com" class="btn">
@@ -25,7 +27,22 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      backgroundNav: false,
+    }
+  },
+  mounted() {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 30) {
+        this.backgroundNav = true
+      } else {
+        this.backgroundNav = false
+      }
+    })
+  },
+}
 </script>
 
 <style lang="scss" scoped>
@@ -39,16 +56,25 @@ export default {}
   justify-content: space-between;
   align-items: center;
   padding: 1rem 3rem;
-  background-color: $dark-black;
-  z-index: 999;
+  z-index: 998;
+  transition: 0.3s ease-in-out;
 
   @media only screen and (max-width: $bp-small) {
     padding: 1rem 1.2rem;
   }
 
+  &__background {
+    background-color: $dark-black;
+
+    @media (prefers-color-scheme: light) {
+      background-color: $light-white;
+    }
+  }
+
   &__logo {
     cursor: pointer;
-
+    width: 3.5rem;
+    margin-right: 2rem;
     & img {
       @media only screen and (max-width: $bp-small) {
         width: 4rem;

@@ -60,7 +60,7 @@ export default {}
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 10rem 0 5rem;
+    padding: 8rem 0 5rem;
     height: 100vh;
     overflow-y: hidden;
 

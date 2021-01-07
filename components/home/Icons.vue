@@ -138,6 +138,14 @@ export default {}
       margin-bottom: 3rem;
     }
 
+    & .daily-icons {
+      & .icon {
+        &:first-child {
+          margin-left: 2rem;
+        }
+      }
+    }
+
     & .icon {
       width: 3rem;
       height: 3rem;

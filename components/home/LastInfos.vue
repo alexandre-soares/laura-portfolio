@@ -23,7 +23,7 @@
           <li>💸 Natural skin care addict</li>
           <li>⛷️ Between-the-trees skier</li>
           <li>🍰 Tiramisu master</li>
-          <li>👺 Devil-hides-in-details spoter</li>
+          <li>👺 Devil-hides-in-details spotter</li>
         </ul>
       </div>
     </div>

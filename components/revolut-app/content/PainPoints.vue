@@ -133,10 +133,8 @@
         </li>
       </ul>
       <p class="paragraph">
-        All of those are scattered in different places across the app. I don’t
-        know how Revolut team thought about this, but you have to the path for
-        each way to send money, because they are all different! For this survey,
-        I focused on
+        All of those are scattered in different places across the app. For this
+        survey, I focused on
         <strong>finding someone with its username, starting with</strong> @.
         Only 2 users succeeded.
       </p>
