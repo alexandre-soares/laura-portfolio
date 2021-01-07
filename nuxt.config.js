@@ -87,6 +87,6 @@ export default {
   build: {},
 
   googleAnalytics: {
-    id: '2236508633',
+    id: 'G-WJ62T11MZ9',
   },
 }
