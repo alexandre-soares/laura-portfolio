@@ -64,7 +64,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [],
+  plugins: [{ src: '~plugins/ga.js', mode: 'client' }],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
@@ -87,6 +87,6 @@ export default {
   build: {},
 
   googleAnalytics: {
-    id: 'G-WJ62T11MZ9',
+    id: '2236508633',
   },
 }
