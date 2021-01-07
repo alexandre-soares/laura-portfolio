@@ -77,12 +77,10 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    [
-      '@nuxtjs/google-analytics',
-      {
-        id: 'G-WJ62T11MZ9',
-      },
-    ],
+    '@nuxtjs/google-analytics',
+    {
+      id: 'G-WJ62T11MZ9',
+    },
   ],
 
   styleResources: {
@@ -90,12 +88,12 @@ export default {
   },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: ['@nuxtjs/style-resources'],
-
-  // Build Configuration (https://go.nuxtjs.dev/config-build)
-  build: {},
+  modules: ['@nuxtjs/style-resources', '@nuxtjs/google-analytics'],
 
   googleAnalytics: {
     id: 'G-WJ62T11MZ9',
   },
+
+  // Build Configuration (https://go.nuxtjs.dev/config-build)
+  build: {},
 }
