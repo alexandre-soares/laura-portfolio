@@ -4,7 +4,7 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'Laura SIBILLE - Portfolio',
+    title: 'Laura SIBILLE - UX Designer Portfolio',
     meta: [
       { charset: 'utf-8' },
       {

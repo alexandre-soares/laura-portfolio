@@ -1,7 +1,9 @@
 <template>
   <div>
     <navbar />
-    <Nuxt />
+    <transition name="fade" mode="out-in" appear>
+      <Nuxt />
+    </transition>
   </div>
 </template>
 
@@ -89,6 +91,11 @@ ol {
   letter-spacing: 2px;
 }
 
+.stronger {
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
 .radient-background {
   background: rgba(100, 15, 137, 0.8);
   background: linear-gradient(
@@ -114,5 +121,34 @@ ol {
   font-size: 1.9rem;
   line-height: 3rem;
   text-transform: uppercase;
+}
+
+.page-content {
+  &__title {
+    font-family: 'Baskerville', sans-serif;
+    font-size: 2.4rem;
+    letter-spacing: 1px;
+    text-align: left;
+    margin: 4rem 0;
+    align-self: start;
+    text-transform: uppercase;
+    font-weight: 400;
+
+    @media only screen and (max-width: $bp-small) {
+      text-align: center;
+    }
+  }
+}
+
+.situation {
+  color: $light-pink;
+}
+
+.motivation {
+  color: #948fe2;
+}
+
+.outcome {
+  color: #97da7b;
 }
 </style>

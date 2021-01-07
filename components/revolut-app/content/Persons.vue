@@ -15,7 +15,7 @@
         well as those which are useless.
       </p>
 
-      <div class="row persona">
+      <div class="row persona align-items-start">
         <div class="persona__profile col-sm-12 col-lg-8">
           <table class="desktop-version">
             <tbody>
@@ -135,7 +135,7 @@
 export default {}
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .persona {
   margin: 10rem 0;
   font-size: 1.7rem;
@@ -162,6 +162,9 @@ export default {}
     }
 
     .mobile-version {
+      border: 1px solid $light-pink;
+      margin: 2rem auto;
+
       display: none;
 
       @media only screen and (max-width: $bp-small) {

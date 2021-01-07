@@ -17,4 +17,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.description >>> .italic {
+  font-style: italic;
+}
+</style>

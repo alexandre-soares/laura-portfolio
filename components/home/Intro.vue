@@ -1,10 +1,7 @@
 <template>
   <div class="home__intro container">
     <div class="row">
-      <div class="col-sm-12 col-lg-4">
-        <img src="@/static/img/me.jpg" alt="me" />
-      </div>
-      <div class="col-sm-12 col-lg-8">
+      <div class="col-sm-12 col-lg-8 order-sm-12 order-md-1">
         <h1>HI! I’m Laura, I’m French & I am an UX Designer !</h1>
         <p class="paragraph">
           Currently based in Sofia, Bulgaria, I lived & worked in several
@@ -28,6 +25,9 @@
           about your favorite cafe, I’m cool ❤️
         </p>
       </div>
+      <div class="col-sm-12 col-lg-4 order-sm-1 order-md-12">
+        <img src="@/static/img/me.jpg" alt="me" />
+      </div>
     </div>
   </div>
 </template>
@@ -42,13 +42,28 @@ export default {}
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 15rem 0 5rem;
+    padding: 10rem 0 5rem;
     height: 100vh;
+    overflow-y: hidden;
+
+    & p {
+      margin: 3rem auto;
+    }
 
     h1 {
       text-transform: uppercase;
+      font-size: 4rem;
+      font-family: 'Baskerville';
+      font-weight: 100;
       letter-spacing: 1px;
+      margin: 0 0 6rem;
+
+      @media only screen and (max-width: $bp-large) {
+        margin: 4rem auto;
+        text-align: center;
+      }
       @media only screen and (max-width: $bp-small) {
+        margin: 4rem auto;
         text-align: center;
       }
     }

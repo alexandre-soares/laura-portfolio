@@ -1,9 +1,8 @@
 <template>
-  <div class="">
+  <div>
     <div class="job-stories container">
       <div class="page-content">
         <h3 class="page-content__title">Job Stories</h3>
-
         <p class="paragraph">
           Wanting to - once again - emphasise context, causation, and
           motivations, over assumption sprinkled with subjectivity, I chose to
@@ -64,7 +63,7 @@
 export default {}
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 html.light .job-story {
   color: $light-white;
 }
@@ -97,17 +96,5 @@ html.light .job-story {
       color: #97da7b;
     }
   }
-}
-
-.situation {
-  color: $light-pink;
-}
-
-.motivation {
-  color: #948fe2;
-}
-
-.outcome {
-  color: #97da7b;
 }
 </style>

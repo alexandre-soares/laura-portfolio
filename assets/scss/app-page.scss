@@ -7,6 +7,10 @@
     background-size: cover;
     background-position: center center;
     z-index: 999;
+
+    @media only screen and (max-width: 31.25em) {
+      height: 60vh;
+    }
   }
   
   .page-description {
@@ -15,6 +19,8 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 
     @media only screen and (max-width: 37.5em) {
       height: auto !important;
@@ -45,8 +51,11 @@
   }
   
   .subtitle {
-    font-size: 1.8rem;
+    font-size: 2.4rem;
     margin: 1rem 0;
+    font-family: 'Gill Sans', sans-serif;
+    letter-spacing: 2px;
+    font-weight: normal;
   }
   
   .main-title {

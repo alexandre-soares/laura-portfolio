@@ -8,32 +8,25 @@
           >Case Study</small
         >
         <div class="row">
-          <Side-info
-            class="col"
+          <SideInfo
+            class="col-12 col-lg-6"
             :main-title="'UX-UI - Louboutin App Design'"
             :year="'2020'"
             :icons="icons"
+            :duration="'2 weeks'"
           />
-          <Description-component :paragraphs="paragraphs" class="col" />
+          <Description-component
+            :paragraphs="paragraphs"
+            class="col-12 col-lg-6"
+          />
 
           <Scroll-down-btn />
         </div>
       </div>
+    </div>
 
-      <div class="page-content">
-        <div class="row">
-          <p class="paragraph">
-            Louboutin is one of my favorite shoe brands, but I run into problems
-            every time I use go the website on my phone. Although I am not
-            affiliated with the red sole brand, I wanted to figure out if other
-            users were having similar issues. I decided to conduct usability
-            tests, which led me to discover some pain points and redesign part
-            of the experience.
-          </p>
-
-          <div class="page-content__title">Coming Soon</div>
-        </div>
-      </div>
+    <div class="page-content">
+      <Content />
     </div>
 
     <Bottom-navbar
@@ -48,11 +41,20 @@
 <script>
 import BottomNavbar from '../../components/layout/BottomNavbar.vue'
 import DescriptionComponent from '../../components/portfolio/DescriptionComponent.vue'
-import SideInfo from '../../components/portfolio/SideInfoComponent.vue'
+import SideInfo from '../../components/portfolio/Sideinfo.vue'
 import TopImage from '../../components/portfolio/TopImage.vue'
+import Content from '../../components/louboutin-app/Content.vue'
+import ScrollDownBtn from '../../components/layout/ScrollDownBtn.vue'
 
 export default {
-  components: { TopImage, SideInfo, BottomNavbar, DescriptionComponent },
+  components: {
+    TopImage,
+    SideInfo,
+    BottomNavbar,
+    DescriptionComponent,
+    Content,
+    ScrollDownBtn,
+  },
   data() {
     return {
       icons: [

@@ -31,10 +31,10 @@
       </div>
 
       <div class="page-content container">
-        <CoolLightBox :items="items" :index="index" @close="index = null">
-        </CoolLightBox>
+        <!-- <CoolLightBox :items="items" :index="index" @close="index = null">
+        </CoolLightBox> -->
 
-        <div class="row justify-content-start">
+        <!-- <div class="row justify-content-start">
           <img
             v-for="(image, imageIndex) in items"
             :key="imageIndex"
@@ -42,11 +42,28 @@
             :src="image"
             @click="index = imageIndex"
           />
+        </div> -->
+
+        <div class="row justify-content-start">
+          <div
+            v-for="(image, imageIndex) in items2"
+            :key="imageIndex"
+            class="col-4"
+          >
+            <div v-if="image.type == 'img'">
+              <img :src="image.html" />
+            </div>
+            <div v-else>
+              <video :src="image.html" type="video/mp4" autoplay loop>
+                hello
+              </video>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-    <bottom-navbar
+    <Bottom-navbar
       previous-text="Dokogo App"
       next-text="Revolut App"
       previous="/dokogo-app"
@@ -56,13 +73,11 @@
 </template>
 
 <script>
-import CoolLightBox from 'vue-cool-lightbox'
-import 'vue-cool-lightbox/dist/vue-cool-lightbox.min.css'
 import BottomNavbar from '../../components/layout/BottomNavbar.vue'
 import ScrollDownBtn from '../../components/layout/ScrollDownBtn.vue'
 
 export default {
-  components: { BottomNavbar, CoolLightBox, ScrollDownBtn },
+  components: { BottomNavbar, ScrollDownBtn },
   data() {
     return {
       items: [
@@ -74,6 +89,36 @@ export default {
         require('~/static/img/ui-design/slider.jpg'),
         require('~/static/img/ui-design/foodies.jpg'),
         require('~/static/img/ui-design/cute-cream.jpg'),
+      ],
+      items2: [
+        {
+          type: 'video',
+          html: require('~/static/img/ui-design/videos/gtr.mp4'),
+        },
+        {
+          type: 'img',
+          html: require('~/static/img/ui-design/utrecht.jpg'),
+        },
+        {
+          type: 'video',
+          html: require('~/static/img/ui-design/videos/cappadocia.mp4'),
+        },
+        {
+          type: 'img',
+          html: require('~/static/img/ui-design/be-ready.jpg'),
+        },
+        {
+          type: 'video',
+          html: require('~/static/img/ui-design/videos/slider.mp4'),
+        },
+        {
+          type: 'img',
+          html: require('~/static/img/ui-design/foodies.jpg'),
+        },
+        {
+          type: 'video',
+          html: require('~/static/img/ui-design/videos/skin-care.mp4'),
+        },
       ],
       index: null,
     }
@@ -88,6 +133,11 @@ export default {
 
 img {
   width: 100%;
-  cursor: pointer;
+  margin: 1rem auto;
+}
+
+video {
+  width: 100%;
+  margin: 1rem auto;
 }
 </style>
