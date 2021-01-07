@@ -77,10 +77,12 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    '@nuxtjs/google-analytics',
-    {
-      id: 'G-WJ62T11MZ9',
-    },
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'G-WJ62T11MZ9',
+      },
+    ],
   ],
 
   styleResources: {
