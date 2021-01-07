@@ -25,7 +25,7 @@
           colors catch the eye in the upper third of the screen which gradually
           brings it down in an orderly way: the amount of the accounts > the
           functional icons > the transaction statement and finally the
-          navigation bar to keep on visiting the app.
+          navigation bar to keep on navigating the app.
         </p>
         <img
           class="img"
@@ -60,7 +60,7 @@
         <div class="container">
           <h4 class="pain-point-h4">
             <span class="light-pink">Pain Point 3:</span> <br />
-            WHERE I CAN FIND YOU IN THIS MESS? I WANT TO SEND YOU MONEY
+            WHERE CAN I FIND YOU IN THIS MESS? I WANT TO SEND YOU MONEY
           </h4>
         </div>
       </div>
@@ -117,8 +117,7 @@
         <p class="paragraph">
           <span class="outcome"><strong>Design solution:</strong></span> Place
           an icon accessible from all pages to refer to the F.A.Q. but also to
-          the chat. However, given the likely shortage of staff to answer user
-          questions, I left the chat at the bottom of the page, forcing the user
+          the chat. I left the chat at the bottom of the page, forcing the user
           to scroll.
           <img
             class="img"

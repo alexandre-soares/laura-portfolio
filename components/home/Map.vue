@@ -2,7 +2,7 @@
   <div class="home__map container">
     <h2>I LIVED & WORKED THERE</h2>
     <div class="row">
-      <span>(For the record, I would love to go back to Asia)</span>
+      <span>(Would love to go back to Asia)</span>
       <img src="@/static/img/home/map.png" alt="map" />
     </div>
   </div>

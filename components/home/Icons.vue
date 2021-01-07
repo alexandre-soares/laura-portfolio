@@ -96,7 +96,7 @@
             </a>
           </div>
           <a
-            class="download"
+            class="download btn"
             href="/Laura SIBILLE - Resume.pdf"
             target="_blank"
           >
@@ -141,7 +141,7 @@ export default {}
     & .icon {
       width: 3rem;
       height: 3rem;
-      margin: 0 1rem 2rem;
+      margin: 0 0.5rem 2rem;
     }
 
     & p {
@@ -164,26 +164,13 @@ export default {}
         font-weight: lighter;
         margin: 3rem auto;
         display: block;
-        border-radius: 3rem;
         text-decoration: none;
         padding: 2rem 0;
-        background: rgb(239, 72, 125);
-        background: linear-gradient(
-          180deg,
-          rgba(239, 72, 125, 1) 0%,
-          rgba(165, 21, 66, 1) 100%
-        );
+
         color: $light-white;
-        transition: 0.3s ease-in;
 
         @media only screen and (max-width: $bp-large) {
           width: 50%;
-        }
-
-        &:hover {
-          background: none;
-          background-color: $light-white;
-          color: $dark-pink !important;
         }
       }
     }

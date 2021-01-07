@@ -4,7 +4,10 @@
       <nuxt-link tag="a" class="bottom-row__item" :to="previous">
         <i class="fas fa-chevron-left"></i> {{ previousText }}
       </nuxt-link>
-      <nuxt-link tag="a" class="bottom-row__item" to="/"
+      <nuxt-link
+        tag="a"
+        class="bottom-row__item"
+        :to="{ path: '/', hash: '#ux-design' }"
         ><i class="fas fa-redo"></i>All works</nuxt-link
       >
       <nuxt-link tag="a" class="bottom-row__item" :to="next">

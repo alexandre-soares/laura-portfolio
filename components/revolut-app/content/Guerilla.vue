@@ -14,21 +14,21 @@
     <div class="row guerilla-user">
       <div class="col-sm-12 col-lg">
         <div class="row">
-          <span class="guerilla-user__span">2 diligent user</span>
+          <span class="guerilla-user__span">2 diligent users</span>
           <img src="@/static/img/icons/user.png" alt="user" />
           <img src="@/static/img/icons/user.png" alt="user" />
         </div>
       </div>
       <div class="col-sm-12 col-lg">
         <div class="row">
-          <span class="guerilla-user__span">2 casual user</span>
+          <span class="guerilla-user__span">2 casual users</span>
           <img src="@/static/img/icons/casual.png" alt="casual" />
           <img src="@/static/img/icons/casual.png" alt="casual" />
         </div>
       </div>
       <div class="col-sm-12 col-lg">
         <div class="row">
-          <span class="guerilla-user__span">2 non user</span>
+          <span class="guerilla-user__span">2 non users</span>
           <img src="@/static/img/icons/non user.png" alt="no" />
           <img src="@/static/img/icons/non user.png" alt="no" />
         </div>
@@ -47,9 +47,9 @@
         <strong
           >Give a quick explanation of what Revolut is and reassure them</strong
         >
-        about the questions: They are there to highlight the problems identified
+        about the questions: They are there to highlight the identified problems
         upstream. It is therefore quite normal that they are unable to perform
-        all the tasks requested.
+        all the requested tasks.
       </li>
       <li>
         &#128483; Ask them to <strong>perform the 4 scenarios</strong> by making

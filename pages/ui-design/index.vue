@@ -8,7 +8,7 @@
           <div class="overview col">
             <h1 class="main-title">UI Design</h1>
             <h2 class="subtitle">Year</h2>
-            <small class="subinfo">2017-2018</small>
+            <small class="subinfo">2017-2021</small>
             <h2 class="subtitle">Softwares</h2>
             <div class="icons">
               <img

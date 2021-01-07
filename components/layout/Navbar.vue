@@ -16,7 +16,7 @@
       <img src="@/static/img/icons/linkedin.svg" alt="linkedin" />
     </div>
     <div class="navbar__email">
-      <a href="mailto:laura.sibille@gmail.com">
+      <a href="mailto:laura.sibille@gmail.com" class="btn">
         <span>Contact</span>
         <img src="@/static/img/icons/message.svg" alt="email" />
       </a>
@@ -100,18 +100,10 @@ export default {}
       display: inline-flex;
       align-items: center;
       justify-content: space-between;
-      padding: 1rem 2rem;
-      border-radius: 3rem;
-      background: rgb(239, 72, 125);
-      background: linear-gradient(
-        180deg,
-        rgba(239, 72, 125, 1) 0%,
-        rgba(165, 21, 66, 1) 100%
-      );
-      border: none;
-      color: $light-white;
+
       cursor: pointer;
       text-decoration: none;
+      transition: all 0.8s ease-in;
 
       & span {
         line-height: 1;

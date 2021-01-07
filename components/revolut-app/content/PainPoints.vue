@@ -7,14 +7,12 @@
       <p class="paragraph">
         After the interviews, I analysed the videos and identified the different
         pain points, grouped them by categories and sorted them on a 2x2 map, by
-        how important they are to Revolut (x-axis) and to the users (y-axis). I
-        won’t show you the post-its note, it seems useless the show you little
-        coloured squared you won’t be able to read :)
+        how important they are to Revolut (x-axis) and to the users (y-axis).
       </p>
       <p class="paragraph">
         Assuming that the main business goal for the app is to drive up mobile
         revenue, I decided that the pain-points around adding and sending money
-        were the most important for Revolut and the users.
+        were the most important for both Revolut and the users.
       </p>
     </div>
 
@@ -27,7 +25,7 @@
       <ul class="problem__list">
         <li class="problem__item">
           <img src="@/static/img/icons/no.png" alt="no" />
-          Bland and not very intuitive interface
+          Dull and not very intuitive interface
         </li>
         <li class="problem__item">
           <img src="@/static/img/icons/no.png" alt="no" />
@@ -81,7 +79,7 @@
       <p class="paragraph">
         Then, they go through the other features in details: but they are lost!
         Their eyes go up and down, looking for a logic in the architecture.
-        Still looking for it after an year of use
+        Still looking for it after one year of use.
       </p>
 
       <img
@@ -99,9 +97,9 @@
 
       <p class="paragraph">
         There are 3 ways to add a different currency account from the dashboard,
-        two of which neither user has used. We note that there is no direct
-        access to this functionality, which is considered main by users. It
-        requires at least 2 clicks to access it.
+        two which neither user has used. We note that there is no direct access
+        to this functionality, which is considered main by users. It requires at
+        least 2 clicks to access it.
       </p>
     </div>
 
@@ -116,7 +114,7 @@
     <div class="container">
       <h4 class="pain-point-h4">
         <span class="light-pink">Pain Point 3:</span> <br />
-        WHERE I CAN FIND YOU IN THIS MESS? I WANT TO SEND YOU MONEY
+        WHERE CAN I FIND YOU IN THIS MESS? I WANT TO SEND YOU MONEY
       </h4>
       <p class="paragraph">
         Let’s face it. Finding someone who is not already in your contact list
@@ -124,16 +122,14 @@
         the app:
       </p>
       <ul>
-        <li>
-          Look into your Revolut friend listLook into your Revolut friend list
-        </li>
+        <li>Look into your Revolut friend list</li>
         <li>Invite a friend to use Revolut in your contact list</li>
         <li>Add a new friend with his email / phone number</li>
         <li>Find a Revolut user around you</li>
-        <li>Find an user with his Revolut ID striating by "@"</li>
+        <li>Find an user with his Revolut ID starting by "@"</li>
         <li>
           Send a payment link to whatever messaging platform, the receiver needs
-          to fill information up
+          to fill up information
         </li>
       </ul>
       <p class="paragraph">
@@ -164,7 +160,7 @@
         transaction is visible from the dashboard. To see more, there are two
         entrances, which are not really visible or clear. Oh and by the way, why
         do you take the navigation bar off ? I don’t want to multiply the clicks
-        to go back on the main pages.
+        to go back to the main pages.
       </p>
     </div>
 
@@ -183,9 +179,8 @@
       </h4>
       <p class="paragraph">
         How people are supposed to guess they have to go through their profile
-        to find any help? The only way to contact customer service is the chat.
-        From my point of view, this was deliberately thought of by Revolut to
-        compensate for the lack of staff assigned to the chat.
+        to find any help? The only way to contact customer service is the chat
+        which is not very visible and could appear to be insufficient.
       </p>
     </div>
 

@@ -2,11 +2,11 @@
   <div class="graphic-charter">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-6">
+        <div class="col-12 col-lg-6">
           <img src="@/static/img/louboutin-app/colours.png" alt="colours" />
           <img src="@/static/img/louboutin-app/icons.png" alt="icons" />
         </div>
-        <div class="col-12 col-6">
+        <div class="col-12 col-lg-6">
           <img
             src="@/static/img/louboutin-app/typography.png"
             alt="typography"
@@ -28,9 +28,13 @@ export default {}
   background-image: url('../../../static/img/louboutin-app/background-white.jpg');
 
   & img {
-    width: 70%;
+    width: 50%;
     display: block;
     margin: 1rem auto 2rem;
+
+    @media only screen and (max-width: $bp-small) {
+      width: 80%;
+    }
   }
 }
 </style>

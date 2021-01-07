@@ -4,13 +4,13 @@
       <div class="page-content">
         <h3 class="page-content__title">Job Stories</h3>
         <p class="paragraph">
-          Wanting to - once again - emphasise context, causation, and
+          Wanting to - once again - emphasize context, causation and
           motivations, over assumption sprinkled with subjectivity, I chose to
           create Job Stories, instead of User Stories.
         </p>
         <p class="paragraph">
-          The latter are therefore based on the study of interviews conducted
-          previously.
+          The latter are therefore based on the study of interviews previously
+          conducted.
         </p>
       </div>
     </div>
@@ -22,12 +22,12 @@
               >When I go to the restaurant with friends using Revolut</span
             >, there is always someone who pays for everybody.
             <span class="motivation">I want to refund this person</span>,
-            <span class="outcome">so I can make a quick transfert</span> That’s
+            <span class="outcome">so I can make a quick transfer</span> That’s
             awesome!"
           </p>
           <p class="paragraph">
             "<span class="situation">When I have to make a payment</span> and
-            realise I don’t have money anymore on my Revolut account,
+            realise I don’t have anymore credt on my Revolut account,
             <span class="outcome">I make a top-up</span> to
             <span class="motivation">refill it in a few seconds!</span> This is
             very convenient when you are abroad."

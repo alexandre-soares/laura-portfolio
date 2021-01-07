@@ -18,13 +18,14 @@
                 <td>
                   <h4 class="persona__h4">Behavior</h4>
                   <ul class="persona__profile__list">
-                    <li>Mainly works from home</li>
-                    <li>Manage his finance from his phone</li>
-                    <li>Is in charge of domestics spendings</li>
-                    <li>Is interested in trading</li>
-                    <li>Save money for holidays</li>
-                    <li>Lives in Bulgaria with a French bank account</li>
-                    <li>Loves to travel abroad</li>
+                    <li>Makes a lot of online shopping</li>
+                    <li>Works in a fancy area</li>
+                    <li>Collects expensive shoes</li>
+                    <li>Often goes to parties</li>
+                    <li>Follow every fashion week</li>
+                    <li>Tries to optimise her time</li>
+                    <li>Loves to be attractive</li>
+                    <li>She works hard to make good money</li>
                   </ul>
                 </td>
               </tr>
@@ -32,18 +33,18 @@
                 <td>
                   <h4 class="persona__h4">Demographics</h4>
                   <ul class="persona__profile__list">
-                    <li><strong>Age:</strong> 24</li>
-                    <li><strong>Location:</strong> Sofia, Bulgaria</li>
-                    <li><strong>Occupation:</strong> Web Developer</li>
+                    <li><strong>Age:</strong> 31</li>
+                    <li><strong>Location:</strong> Lyon, France</li>
+                    <li><strong>Occupation:</strong> Lawyer</li>
                   </ul>
                 </td>
                 <td>
                   <h4 class="persona__h4">Needs & Goals</h4>
                   <ul class="persona__profile__list">
-                    <li>Wants to change euro in lev for free and quick</li>
-                    <li>Wants to start trading</li>
-                    <li>Wants to manage his online bank account easily</li>
-                    <li>Wants to spare money</li>
+                    <li>Wants to shop online easily</li>
+                    <li>Wants to make things fast</li>
+                    <li>Wants to organise her things</li>
+                    <li>Wants to be elegant & sexy</li>
                   </ul>
                 </td>
               </tr>
@@ -51,68 +52,54 @@
           </table>
 
           <div class="mobile-version">
-            <h4 class="persona__h4">This is Alex</h4>
-            <img src="@/static/img/revolut-app/persona.png" alt="persona" />
+            <h4 class="persona__h4">Meet Anais</h4>
+            <img src="@/static/img/louboutin-app/persona.jpg" alt="persona" />
             <h4 class="persona__h4">Behavior</h4>
             <ul class="persona__profile__list">
-              <li>Mainly works from home</li>
-              <li>Manage his finance from his phone</li>
-              <li>Is in charge of domestics spendings</li>
-              <li>Is interested in trading</li>
-              <li>Save money for holidays</li>
-              <li>Lives in Bulgaria with a French bank account</li>
-              <li>Loves to travel abroad</li>
+              <li>Makes a lot of online shopping</li>
+              <li>Works in a fancy area</li>
+              <li>Collects expensive shoes</li>
+              <li>Often goes to parties</li>
+              <li>Follow every fashion week</li>
+              <li>Tries to optimise her time</li>
+              <li>Loves to be attractive</li>
+              <li>She works hard to make good money</li>
             </ul>
 
             <h4 class="persona__h4">Demographics</h4>
             <ul class="persona__profile__list">
-              <li><strong>Age:</strong> 24</li>
-              <li><strong>Location:</strong> Sofia, Bulgaria</li>
-              <li><strong>Occupation:</strong> Web Developer</li>
+              <li><strong>Age:</strong> 31</li>
+              <li><strong>Location:</strong> Lyon, France</li>
+              <li><strong>Occupation:</strong> Lawyer</li>
             </ul>
 
             <h4 class="persona__h4">Needs & Goals</h4>
             <ul class="persona__profile__list">
-              <li>Wants to change euro in lev for free and quick</li>
-              <li>Wants to start trading</li>
-              <li>Wants to manage his online bank account easily</li>
-              <li>Wants to spare money</li>
+              <li>Wants to shop online easily</li>
+              <li>Wants to make things fast</li>
+              <li>Wants to organise her things</li>
+              <li>Wants to be elegant & sexy</li>
             </ul>
           </div>
         </div>
         <div class="persona__pros-cons col-sm-12 col-lg-4">
-          <small
-            >Most important features according to the users interviewed</small
-          >
-          <ul class="persona__list">
-            <li class="persona__item">
-              <img src="@/static/img/icons/yes.png" alt="yes" />
-              Change currency
-            </li>
-            <li class="persona__item">
-              <img src="@/static/img/icons/yes.png" alt="yes" /> Instant
-              transfers
-            </li>
-            <li class="persona__item">
-              <img src="@/static/img/icons/yes.png" alt="yes" /> Customer
-              service
-            </li>
-          </ul>
-          <ul class="persona__list">
-            <li class="persona__item">
-              <img src="@/static/img/icons/no.png" alt="no" />
-              Trading
-            </li>
-            <li class="persona__item">
-              <img src="@/static/img/icons/no.png" alt="no" /> Gifts & Donations
-            </li>
-            <li class="persona__item">
-              <img src="@/static/img/icons/no.png" alt="no" /> Junior accounts
-            </li>
-            <li class="persona__item">
-              <img src="@/static/img/icons/no.png" alt="no" /> Budget creation
-            </li>
-          </ul>
+          <p class="paragraph">
+            First I made research around Louboutin’s customer-base. I then
+            created a couple of provisional personas to cover the asumpted,
+            largest group of customers: professionals in their 30s and 40s and
+            in the middle-upper income bracket.
+          </p>
+          <p class="paragraph">
+            Here is Anais, 31 years old lawyer in Lyon. She loves Louboutin
+            shoes but she has to purchase online because there is no shop or
+            resellers for this brand in Lyon. She has no time to waste and
+            shopping is a synonym of pleasure & luxury for her. She doesn’t
+            really care about the price, but every purchase must be an
+            experience.
+          </p>
+          <p class="paragraph">
+            Her leitmotiv in life is « Work hard, play hard »
+          </p>
         </div>
       </div>
     </div>

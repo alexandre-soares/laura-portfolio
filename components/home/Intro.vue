@@ -1,29 +1,34 @@
 <template>
   <div class="home__intro container">
-    <div class="row">
-      <div class="col-sm-12 col-lg-8 order-sm-12 order-md-1">
-        <h1>HI! I’m Laura, I’m French & I am an UX Designer !</h1>
+    <div class="row justify-content-between">
+      <div class="col-sm-12 col-lg-7 order-sm-12 order-md-1">
+        <h1>
+          HI! I’m Laura and I’m a French
+          <span class="light-pink">UX Designer !</span>
+        </h1>
         <p class="paragraph">
           Currently based in Sofia, Bulgaria, I lived & worked in several
-          countries to challenge myself and go beyond. Being pushed out of my
-          confort zone makes me alive!
+          countries to challenge myself. Being pushed out of my confort zone
+          makes me alive!
         </p>
         <p class="paragraph">
-          I really enjoy working in a dynamic team, learning new things everyday
-          and break the routine. But I also enjoy working on my own, at home or
-          with my foot in the sea.
+          With 5 years of experience in industrial and web design, I really
+          enjoy working in a dynamic team, involving and sharing my knowledge
+          and experience. Whether from office or home office.
         </p>
         <p class="paragraph">
-          I love loosing myself on internet, being amazed by some Codepen,
-          watching random conferences, swearing at my laptop and wondering if
-          this button is clickable or not. And popping stuffs. I like popping
-          stuffs. Sometimes I draw also. Go check at the end of this page!
+          Digital native, amazed by Codepens, I'm always exploring the
+          functionalities to the core. On my personal time, I also enjoy
+          drawing.
         </p>
-        <p class="paragraph paragraph--lighter">Scroll for more details!</p>
+
         <p class="paragraph">
-          And do not hesitate to drop the line to send me an email, even to talk
-          about your favorite cafe, I’m cool ❤️
+          Do not hesitate to drop a line by email to discuss your projects.
         </p>
+
+        <section id="scroll-down" class="scroll-btn col-12">
+          <a><span></span></a>
+        </section>
       </div>
       <div class="col-sm-12 col-lg-4 order-sm-1 order-md-12">
         <img src="@/static/img/me.jpg" alt="me" />
@@ -37,6 +42,19 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
+.home #scroll-down a {
+  margin: 5rem 0 4rem;
+  display: block;
+  position: relative;
+  padding: 1rem;
+}
+
+.home #scroll-down span {
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .home {
   &__intro {
     display: flex;

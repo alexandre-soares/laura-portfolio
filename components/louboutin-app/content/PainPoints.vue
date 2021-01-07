@@ -138,11 +138,13 @@ export default {}
     & .pp1 {
       width: 70%;
       margin: 1rem auto;
+      height: 100%;
     }
 
     & .pp1-solution {
       width: 100%;
       margin: 1rem auto;
+      height: 100%;
     }
   }
 }

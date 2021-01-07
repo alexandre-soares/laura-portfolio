@@ -14,7 +14,7 @@
       <div class="scenario">
         <span class="scenario__title">Scenario 2</span>
         <p class="paragraph">
-          - You plan to go to Hong Kong next month. So you want to create an HDK
+          - You plan to go to Hong Kong next month. So you want to create an HKD
           account and add money to it.
           <strong>How do you do it?</strong>
         </p>
@@ -31,8 +31,8 @@
           - By consulting your expenses, you notice an irregularity and decide
           to contact customer service.
           <strong
-            >So find out where to contact customer service and send a message in
-            the chat.</strong
+            >So find out where to contact customer service and send a message
+            through the chat.</strong
           >
         </p>
       </div>

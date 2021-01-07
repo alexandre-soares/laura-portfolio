@@ -1,9 +1,7 @@
 <template>
   <div>
     <navbar />
-    <transition name="fade" mode="out-in" appear>
-      <Nuxt />
-    </transition>
+    <Nuxt />
   </div>
 </template>
 
@@ -150,5 +148,38 @@ ol {
 
 .outcome {
   color: #97da7b;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  border: none;
+  color: $light-white;
+  background: rgb(239, 72, 125);
+  background: linear-gradient(
+    180deg,
+    rgba(239, 72, 125, 1) 0%,
+    rgba(165, 21, 66, 1) 100%
+  );
+
+  transition: all 0.4s ease-in;
+
+  &:hover {
+    background: rgb(240, 129, 165) !important;
+    background: linear-gradient(
+      180deg,
+      rgba(240, 129, 165, 1) 0%,
+      rgba(195, 70, 109, 1) 100%
+    ) !important;
+  }
+
+  &:active {
+    background: rgb(239, 72, 125) !important;
+    background: linear-gradient(
+      180deg,
+      rgba(239, 72, 125, 1) 0%,
+      rgba(165, 21, 66, 1) 100%
+    ) !important;
+  }
 }
 </style>

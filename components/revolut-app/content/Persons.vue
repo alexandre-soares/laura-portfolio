@@ -4,15 +4,15 @@
       <h3 class="page-content__title">Persons</h3>
       <p class="paragraph">
         To start, I interviewed real Revolut users, finding the personas to be
-        often biased: they are a mixture of assumptions and presumptions from
-        our own interpretation, which are often not objective.
+        often biased: they are a mixture of assumptions and presumptions
+        filtered by our own interpretation.
       </p>
       <p class="paragraph">
-        I interviewed 8 people with different user profiles: They almost all
-        live in different countries, some travel a lot, others not, but all
-        shared their experience with the current app, why they had chosen this
-        neo-bank and what are the functionalities that seem essential to them as
-        well as those which are useless.
+        I interviewed 8 people with different user profiles: they almost all
+        live from different countries, some travel a lot, others not. All shared
+        their experience with the current app, the reason why they had chosen
+        this neo-bank, their favourite functionalities as well as those
+        perceived as useless.
       </p>
 
       <div class="row persona align-items-start">
@@ -21,7 +21,7 @@
             <tbody>
               <tr>
                 <td>
-                  <h4 class="persona__h4">This is Alex</h4>
+                  <h4 class="persona__h4">User Profile : Alex</h4>
                   <img
                     src="@/static/img/revolut-app/persona.png"
                     alt="persona"
@@ -31,12 +31,12 @@
                   <h4 class="persona__h4">Behavior</h4>
                   <ul class="persona__profile__list">
                     <li>Mainly works from home</li>
-                    <li>Manage his finance from his phone</li>
-                    <li>Is in charge of domestics spendings</li>
+                    <li>Manages his finances from his phone</li>
+                    <li>Is in charge of domestic spendings</li>
                     <li>Is interested in trading</li>
-                    <li>Save money for holidays</li>
+                    <li>Saves money for holidays</li>
                     <li>Lives in Bulgaria with a French bank account</li>
-                    <li>Loves to travel abroad</li>
+                    <li>Loves to travel the world</li>
                   </ul>
                 </td>
               </tr>
@@ -52,7 +52,7 @@
                 <td>
                   <h4 class="persona__h4">Needs & Goals</h4>
                   <ul class="persona__profile__list">
-                    <li>Wants to change euro in lev for free and quick</li>
+                    <li>Wants to change Euro in Lev quickly and for free</li>
                     <li>Wants to start trading</li>
                     <li>Wants to manage his online bank account easily</li>
                     <li>Wants to spare money</li>
@@ -63,17 +63,17 @@
           </table>
 
           <div class="mobile-version">
-            <h4 class="persona__h4">This is Alex</h4>
+            <h4 class="persona__h4">User Profile : Alex</h4>
             <img src="@/static/img/revolut-app/persona.png" alt="persona" />
             <h4 class="persona__h4">Behavior</h4>
             <ul class="persona__profile__list">
               <li>Mainly works from home</li>
-              <li>Manage his finance from his phone</li>
-              <li>Is in charge of domestics spendings</li>
+              <li>Manages his finances from his phone</li>
+              <li>Is in charge of domestic spendings</li>
               <li>Is interested in trading</li>
-              <li>Save money for holidays</li>
+              <li>Saves money for holidays</li>
               <li>Lives in Bulgaria with a French bank account</li>
-              <li>Loves to travel abroad</li>
+              <li>Loves to travel the world</li>
             </ul>
 
             <h4 class="persona__h4">Demographics</h4>
@@ -85,7 +85,7 @@
 
             <h4 class="persona__h4">Needs & Goals</h4>
             <ul class="persona__profile__list">
-              <li>Wants to change euro in lev for free and quick</li>
+              <li>Wants to change Euro in Lev quickly and for free</li>
               <li>Wants to start trading</li>
               <li>Wants to manage his online bank account easily</li>
               <li>Wants to spare money</li>
@@ -94,12 +94,12 @@
         </div>
         <div class="persona__pros-cons col-sm-12 col-lg-4">
           <small
-            >Most important features according to the users interviewed</small
+            >Most important features according to the interviewed users</small
           >
           <ul class="persona__list">
             <li class="persona__item">
               <img src="@/static/img/icons/yes.png" alt="yes" />
-              Change currency
+              Currency change
             </li>
             <li class="persona__item">
               <img src="@/static/img/icons/yes.png" alt="yes" /> Instant

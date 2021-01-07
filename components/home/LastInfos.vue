@@ -1,6 +1,6 @@
 <template>
   <div class="home__infos container">
-    <h4>OK, NOW WHO I AM FOR REAL</h4>
+    <h4>If you wish to know me on a personal level</h4>
     <div class="row">
       <div class="col-sm-12 col-lg">
         <ul>
@@ -23,7 +23,7 @@
           <li>💸 Natural skin care addict</li>
           <li>⛷️ Between-the-trees skier</li>
           <li>🍰 Tiramisu master</li>
-          <li>👺 Devil-hides-in-details priestess</li>
+          <li>👺 Devil-hides-in-details spoter</li>
         </ul>
       </div>
     </div>

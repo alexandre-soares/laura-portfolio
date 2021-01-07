@@ -1,5 +1,5 @@
 <template>
-  <div class="home__portfolio">
+  <div id="ux-design" class="home__portfolio">
     <div class="home__ux-design container">
       <h2>UX Design - Case studies</h2>
       <div class="row">
@@ -26,7 +26,7 @@
             <img src="@/static/img/home/louboutin.jpg" alt="louboutin" />
             <h3>
               LOUBOUTIN <br />
-              APP DESIGN
+              <span class="lighter">APP DESIGN</span>
             </h3>
           </nuxt-link>
         </div>
