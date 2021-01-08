@@ -1,22 +1,56 @@
 <template>
   <div>
-    <Persons />
+    <div class="process-navbar" :class="isFixed ? 'process-navbar--fixed' : ''">
+      <div class="container-fluid">
+        <div class="row justify-content-betwen">
+          <div class="col">
+            <span class="labels process-navbar--active">Emphasize</span>
+          </div>
+          <div class="col">
+            <span class="labels">Define</span>
+          </div>
+          <div class="col">
+            <span class="labels">Ideate</span>
+          </div>
+          <div class="col">
+            <span class="labels"
+              >Build <span class="label-hide">& Test</span></span
+            >
+          </div>
+          <div class="col">
+            <span class="labels">Prototype</span>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <Job-stories />
+    <div id="emphazise" class="categories">
+      <Persons />
 
-    <Guerilla />
+      <Job-stories />
 
-    <Scenarios />
+      <Guerilla />
 
-    <Pain-points />
+      <Scenarios />
+    </div>
 
-    <Solutions />
+    <div id="define" class="categories">
+      <Pain-points />
+    </div>
 
-    <Tests />
+    <div id="ideate" class="categories">
+      <Solutions />
+    </div>
 
-    <Final-result />
+    <div id="build" class="categories">
+      <Tests />
 
-    <Prototype />
+      <Final-result />
+    </div>
+
+    <div id="prototype" class="categories">
+      <Prototype />
+    </div>
   </div>
 </template>
 
@@ -42,10 +76,86 @@ export default {
     FinalResult,
     Prototype,
   },
+  data() {
+    return {
+      counter: 0,
+      isFixed: false,
+    }
+  },
+  mounted() {
+    /* FIXING PROCESS NAVBAR */
+
+    const processNavbar = document.querySelector('.process-navbar')
+    const navbar = document.querySelector('.navbar')
+
+    const rect = processNavbar.getBoundingClientRect()
+    const rect2 = navbar.getBoundingClientRect()
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY >= rect.bottom - rect.height - rect2.height) {
+        this.isFixed = true
+      } else {
+        this.isFixed = false
+      }
+    })
+
+    /* ADDING CSS FOR LABELS ON PROCESS BAR */
+
+    // const triggerBottom = window.innerHeight / 5
+    const categories = document.querySelectorAll('.categories')
+    const labels = document.querySelectorAll('.labels')
+
+    window.addEventListener('scroll', () => {
+      categories.forEach((categorie, index) => {
+        const categorieTop = categorie.getBoundingClientRect().top
+        if (categorieTop < 150) {
+          categorie.classList.add('show')
+          labels[index].classList.add('process-navbar--active')
+        } else {
+          categorie.classList.remove('show')
+          labels[index].classList.remove('process-navbar--active')
+        }
+      })
+    })
+  },
 }
 </script>
 
 <style lang="scss">
+.process-navbar {
+  padding: 2rem 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  background-color: $dark-blue;
+  text-transform: uppercase;
+  z-index: 999;
+  transition: 0.3s ease-in;
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 1.1rem;
+
+    & .label-hide {
+      display: none;
+    }
+  }
+
+  & .labels {
+    transition: 0.3s ease-in;
+  }
+
+  &--fixed {
+    position: fixed;
+    top: 48px;
+    left: 0;
+    width: 100vw;
+  }
+
+  &--active {
+    color: $light-pink;
+  }
+}
+
 .page-content {
   &__title {
     font-family: 'Baskerville', sans-serif;

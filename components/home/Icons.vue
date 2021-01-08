@@ -59,8 +59,15 @@
             <img class="icon" src="@/static/img/icons/dn.svg" alt="icon" />
           </div>
           <h4>5 YEARS OF EXPERIENCE IN THE DESIGN GAME</h4>
-          <p>2 years as an eyewear designer (industrial design)</p>
-          <p>3 years in the web design</p>
+          <p class="paragraph">
+            2 years as an eyewear designer (<a
+              href="/Laura SIBILLE - Portfolio Eyewear.pdf"
+              class="link"
+              target="_blank"
+              >Industrial design</a
+            >)
+          </p>
+          <p class="paragraph">3 years in the web design</p>
         </div>
       </div>
       <div class="col-sm-12 col-lg-4">
@@ -130,18 +137,37 @@ export default {}
     }
 
     & h4 {
-      font-family: 'Baskerville', sans-serif;
+      font-family: 'Gill Sans', sans-serif;
       font-size: 1.8rem;
       letter-spacing: 1px;
       text-transform: uppercase;
       font-weight: lighter;
-      margin-bottom: 3rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+
+      &:first-child {
+        margin-top: 0;
+      }
     }
 
     & .daily-icons {
       & .icon {
         &:first-child {
           margin-left: 2rem;
+        }
+      }
+
+      & .link {
+        text-decoration: none;
+        color: $light-white;
+        transition: 0.3s ease-in;
+
+        @media (prefers-color-scheme: light) {
+          background-color: $dark-blue;
+        }
+
+        &:hover {
+          color: $dark-pink;
         }
       }
     }
@@ -155,6 +181,10 @@ export default {}
     & p {
       padding-left: 1rem;
       font-size: 1.6rem;
+
+      @media only screen and (max-width: $bp-small) {
+        text-align: center;
+      }
     }
 
     & .card {

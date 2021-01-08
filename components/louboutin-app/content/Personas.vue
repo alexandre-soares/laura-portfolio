@@ -154,6 +154,10 @@ export default {}
       margin: 1rem;
     }
 
+    table td {
+      border: 2px solid #f11b18;
+    }
+
     .mobile-version {
       border: 1px solid #f11b18;
       margin: 2rem auto;
@@ -173,40 +177,10 @@ export default {}
         display: none;
       }
     }
-
-    table tr {
-      display: flex;
-      flex-direction: row;
-      align-items: stretch;
-      justify-content: stretch;
-      width: 65rem;
-    }
-
-    table td {
-      padding: 1rem;
-      border: 2px solid #f11b18;
-      display: flex;
-      flex-direction: column;
-      align-items: stretch;
-      justify-content: stretch;
-      width: 65rem;
-    }
-    table tr:first-child td {
-      border-top: 0;
-    }
-    table tr td:first-child {
-      border-left: 0;
-    }
-    table tr:last-child td {
-      border-bottom: 0;
-    }
-    table tr td:last-child {
-      border-right: 0;
-    }
   }
 
   & h4 {
-    color: $light-pink;
+    color: #f11b18;
     text-transform: uppercase;
     font-size: 1.5rem;
     font-weight: bold;

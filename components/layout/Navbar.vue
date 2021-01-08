@@ -64,18 +64,16 @@ export default {
   }
 
   &__background {
-    background-color: $dark-black;
-
-    @media (prefers-color-scheme: light) {
-      background-color: $light-white;
-    }
+    background-color: $dark-blue;
   }
 
   &__logo {
     cursor: pointer;
-    width: 3.5rem;
-    margin-right: 2rem;
+    width: 3rem;
+
+    margin-right: 1rem;
     & img {
+      width: 100%;
       @media only screen and (max-width: $bp-small) {
         width: 4rem;
         height: 3rem;
