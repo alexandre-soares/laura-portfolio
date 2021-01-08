@@ -6,24 +6,7 @@
       <div class="home__map__svg">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1880 848.2">
           <defs>
-            <style>
-              .cls-1 {
-                opacity: 0.35;
-              }
-              .cls-2 {
-                fill: #d1cfd0;
-                stroke: #e0e0e0;
-                stroke-linejoin: round;
-                fill-rule: evenodd;
-              }
-              .cls-3,
-              .cls-4 {
-                fill: #ef487d;
-              }
-              .cls-3 {
-                opacity: 0.6;
-              }
-            </style>
+            <style></style>
           </defs>
           <g id="Calque_2" data-name="Calque 2">
             <g id="svg2">
@@ -1302,5 +1285,22 @@ export default {
   border-radius: 1.5rem;
   position: absolute;
   z-index: 999;
+}
+
+.cls-1 {
+  opacity: 0.35;
+}
+.cls-2 {
+  fill: #d1cfd0;
+  stroke: #e0e0e0;
+  stroke-linejoin: round;
+  fill-rule: evenodd;
+}
+.cls-3,
+.cls-4 {
+  fill: #ef487d;
+}
+.cls-3 {
+  opacity: 0.6;
 }
 </style>
