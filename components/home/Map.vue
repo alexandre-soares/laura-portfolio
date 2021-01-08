@@ -1146,7 +1146,9 @@
           >Bulgaria</span
         >
         <span v-show="labelChina" id="label-china" class="label">China</span>
-        <span v-show="labelKorea" id="label-korea" class="label">Korea</span>
+        <span v-show="labelKorea" id="label-korea" class="label"
+          >South Korea</span
+        >
         <span v-show="labelJapan" id="label-japan" class="label">Japan</span>
       </div>
     </div>
@@ -1170,8 +1172,6 @@ export default {
   },
   methods: {
     setTopAndLeftPostion() {
-      console.log('launched')
-
       const circleFrance = document.getElementById('circle-france')
       const labelFrance = document.getElementById('label-france')
 

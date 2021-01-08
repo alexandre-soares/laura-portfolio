@@ -135,7 +135,7 @@
 export default {}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .persona {
   margin: 10rem 0;
   font-size: 1.7rem;

@@ -1,114 +1,120 @@
 <template>
-  <div class="home__icons container">
-    <div class="row justify-content-center align-items-start">
-      <div class="col-sm-12 col-lg-5">
-        <div class="daily-icons">
-          <h4>What I use on regular basis</h4>
-          <div class="row">
-            <img class="icon" src="@/static/img/icons/sketch.png" alt="icon" />
-            <img class="icon" src="@/static/img/icons/xd.png" alt="icon" />
-            <img class="icon" src="@/static/img/icons/in.svg" alt="icon" />
-            <img
-              class="icon"
-              src="@/static/img/icons/illustrator.png"
-              alt="icon"
-            />
-            <img
-              class="icon"
-              src="@/static/img/icons/photoshop.png"
-              alt="icon"
-            />
-            <img
-              class="icon"
-              src="@/static/img/icons/premiere-pro.png"
-              alt="icon"
-            />
-            <img
-              class="icon"
-              src="@/static/img/icons/lightroom.svg"
-              alt="icon"
-            />
-            <img
-              class="icon"
-              src="@/static/img/icons/indesign.svg"
-              alt="icon"
-            />
+  <div class="black-background">
+    <div class="home__icons container">
+      <div class="row justify-content-center align-items-start">
+        <div class="col-sm-12 col-lg-5">
+          <div class="daily-icons">
+            <h4>What I use on regular basis</h4>
+            <div class="row">
+              <img
+                class="icon"
+                src="@/static/img/icons/sketch.png"
+                alt="icon"
+              />
+              <img class="icon" src="@/static/img/icons/xd.png" alt="icon" />
+              <img class="icon" src="@/static/img/icons/in.svg" alt="icon" />
+              <img
+                class="icon"
+                src="@/static/img/icons/illustrator.png"
+                alt="icon"
+              />
+              <img
+                class="icon"
+                src="@/static/img/icons/photoshop.png"
+                alt="icon"
+              />
+              <img
+                class="icon"
+                src="@/static/img/icons/premiere-pro.png"
+                alt="icon"
+              />
+              <img
+                class="icon"
+                src="@/static/img/icons/lightroom.svg"
+                alt="icon"
+              />
+              <img
+                class="icon"
+                src="@/static/img/icons/indesign.svg"
+                alt="icon"
+              />
+            </div>
+            <h4>(Very) Rarely I code</h4>
+            <div class="row justify-content-start">
+              <img class="icon" src="@/static/img/icons/html.svg" alt="icon" />
+              <img class="icon" src="@/static/img/icons/css.svg" alt="icon" />
+              <img
+                class="icon"
+                src="@/static/img/icons/javascript.svg"
+                alt="icon"
+              />
+            </div>
+            <h4>I would like to learn</h4>
+            <div class="row justify-content-start">
+              <img
+                class="icon"
+                src="@/static/img/icons/after-effects.svg"
+                alt="icon"
+              />
+              <img
+                class="icon"
+                src="@/static/img/icons/rhinoceros.svg"
+                alt="icon"
+              />
+              <img class="icon" src="@/static/img/icons/dn.svg" alt="icon" />
+            </div>
+            <h4>5 YEARS OF EXPERIENCE IN THE DESIGN GAME</h4>
+            <p class="paragraph">
+              2 years as an eyewear designer (<a
+                href="/Laura SIBILLE - Portfolio Eyewear.pdf"
+                class="link"
+                target="_blank"
+                >Industrial design</a
+              >)
+            </p>
+            <p class="paragraph">3 years in the web design</p>
           </div>
-          <h4>(Very) Rarely I code</h4>
-          <div class="row justify-content-start">
-            <img class="icon" src="@/static/img/icons/html.svg" alt="icon" />
-            <img class="icon" src="@/static/img/icons/css.svg" alt="icon" />
-            <img
-              class="icon"
-              src="@/static/img/icons/javascript.svg"
-              alt="icon"
-            />
-          </div>
-          <h4>I would like to learn</h4>
-          <div class="row justify-content-start">
-            <img
-              class="icon"
-              src="@/static/img/icons/after-effects.svg"
-              alt="icon"
-            />
-            <img
-              class="icon"
-              src="@/static/img/icons/rhinoceros.svg"
-              alt="icon"
-            />
-            <img class="icon" src="@/static/img/icons/dn.svg" alt="icon" />
-          </div>
-          <h4>5 YEARS OF EXPERIENCE IN THE DESIGN GAME</h4>
-          <p class="paragraph">
-            2 years as an eyewear designer (<a
-              href="/Laura SIBILLE - Portfolio Eyewear.pdf"
-              class="link"
-              target="_blank"
-              >Industrial design</a
-            >)
-          </p>
-          <p class="paragraph">3 years in the web design</p>
         </div>
-      </div>
-      <div class="col-sm-12 col-lg-4">
-        <div class="card">
-          <h4>See my Linkedin profile</h4>
-          <div class="row justify-content-center">
+        <div class="col-sm-12 col-lg-4">
+          <div class="card">
+            <h4>See my Linkedin profile</h4>
+            <div class="row justify-content-center">
+              <a
+                href="https://www.linkedin.com/in/laura-sibille/"
+                target="_blank"
+              >
+                <img
+                  class="icon"
+                  src="@/static/img/icons/linkedin.svg"
+                  alt="linkedin"
+                />
+              </a>
+            </div>
+            <h4>& my Social media</h4>
+            <div class="row justify-content-center">
+              <a href="https://www.behance.net/laurasibil2c3c" target="_blank">
+                <img
+                  class="icon"
+                  src="@/static/img/icons/behance.svg"
+                  alt="behance"
+                />
+              </a>
+              <a href="https://dribbble.com/LauraSibille" target="_blank">
+                <img
+                  class="icon"
+                  src="@/static/img/icons/dribbble.svg"
+                  alt="dribbble"
+                />
+              </a>
+            </div>
             <a
-              href="https://www.linkedin.com/in/laura-sibille/"
+              class="download btn"
+              href="/Laura SIBILLE - Resume.pdf"
               target="_blank"
             >
-              <img
-                class="icon"
-                src="@/static/img/icons/linkedin.svg"
-                alt="linkedin"
-              />
-            </a>
+              Download My Resume</a
+            >
           </div>
-          <h4>& my Social media</h4>
-          <div class="row justify-content-center">
-            <a href="https://www.behance.net/laurasibil2c3c" target="_blank">
-              <img
-                class="icon"
-                src="@/static/img/icons/behance.svg"
-                alt="behance"
-              />
-            </a>
-            <a href="https://dribbble.com/LauraSibille" target="_blank">
-              <img
-                class="icon"
-                src="@/static/img/icons/dribbble.svg"
-                alt="dribbble"
-              />
-            </a>
-          </div>
-          <a
-            class="download btn"
-            href="/Laura SIBILLE - Resume.pdf"
-            target="_blank"
-          >
-            Download My Resume</a
-          >
         </div>
       </div>
     </div>
@@ -120,6 +126,15 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
+.black-background {
+  background-color: $dark-black;
+
+  @media (prefers-color-scheme: light) {
+    background-color: $dark-blue;
+    color: $light-white;
+  }
+}
+
 .home {
   &__icons {
     padding: 4rem 0;
