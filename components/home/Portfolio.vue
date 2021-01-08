@@ -38,7 +38,12 @@
       <div class="row justify-content-start">
         <div class="col-sm-12 col-lg-4">
           <nuxt-link tag="div" to="/ui-design" class="home__card">
-            <img src="@/static/img/home/ui-design.jpg" alt="ui-design" />
+            <video
+              src="@/static/img/ui-design/videos/skin-care.mp4"
+              type="video/mp4"
+              autoplay
+              loop
+            ></video>
             <h3>
               <span class="lighter">Mock-ups & Prototypes </span>
             </h3>
@@ -86,6 +91,17 @@ h2 {
     }
 
     & img {
+      width: 100%;
+      cursor: pointer;
+
+      @media only screen and (max-width: $bp-large) {
+        width: 75%;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+
+    & video {
       width: 100%;
       cursor: pointer;
 

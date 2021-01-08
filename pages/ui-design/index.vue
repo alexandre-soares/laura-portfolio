@@ -31,19 +31,6 @@
       </div>
 
       <div class="page-content container">
-        <!-- <CoolLightBox :items="items" :index="index" @close="index = null">
-        </CoolLightBox> -->
-
-        <!-- <div class="row justify-content-start">
-          <img
-            v-for="(image, imageIndex) in items"
-            :key="imageIndex"
-            class="img col-4"
-            :src="image"
-            @click="index = imageIndex"
-          />
-        </div> -->
-
         <div class="row justify-content-start">
           <div
             v-for="(image, imageIndex) in items2"
@@ -54,9 +41,7 @@
               <img :src="image.html" />
             </div>
             <div v-else>
-              <video :src="image.html" type="video/mp4" autoplay loop>
-                hello
-              </video>
+              <video :src="image.html" type="video/mp4" autoplay loop></video>
             </div>
           </div>
         </div>
