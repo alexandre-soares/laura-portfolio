@@ -76,6 +76,11 @@ export default {
 
   &__background {
     background-color: $dark-black;
+
+    @media (prefers-color-scheme: light) {
+      background-color: $mid-grey;
+      color: $dark-black;
+    }
   }
 
   &__logo {
@@ -103,6 +108,10 @@ export default {
     @media only screen and (max-width: $bp-small) {
       // margin-left: 1rem;
       display: none;
+    }
+
+    @media (prefers-color-scheme: light) {
+      color: $dark-black;
     }
   }
 

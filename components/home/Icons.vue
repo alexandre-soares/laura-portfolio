@@ -132,15 +132,6 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
-.black-background {
-  background-color: $dark-black;
-
-  @media (prefers-color-scheme: light) {
-    background-color: $dark-blue;
-    color: $light-white;
-  }
-}
-
 .icons {
   padding-top: 5rem;
   padding-bottom: 4rem;

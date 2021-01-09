@@ -45,5 +45,12 @@
     animation: scroll-down-btn 2s infinite;
     box-sizing: border-box;
 }
-  
 
+.black-background {
+    background-color: $dark-black;
+
+    @media (prefers-color-scheme: light) {
+        background-color: $mid-grey;
+        color: $dark-black;
+    }
+}

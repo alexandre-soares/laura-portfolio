@@ -163,6 +163,12 @@ export default {
   font-size: 1.5rem;
   letter-spacing: 1px;
   background-color: $dark-blue;
+
+  @media (prefers-color-scheme: light) {
+    background-color: $mid-grey;
+    color: $dark-black;
+  }
+
   text-transform: uppercase;
   z-index: 999;
   transition: 0.3s ease-in;

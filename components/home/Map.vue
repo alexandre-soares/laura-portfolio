@@ -51,6 +51,10 @@ export default {}
     font-size: 1.7rem;
     letter-spacing: 2px;
     color: $light-white;
+
+    @media (prefers-color-scheme: light) {
+      color: $dark-black;
+    }
   }
 }
 </style>

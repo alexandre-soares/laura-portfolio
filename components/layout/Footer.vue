@@ -37,6 +37,11 @@ export default {}
   font-size: 1.4rem;
   background-color: $dark-black;
 
+  @media (prefers-color-scheme: light) {
+    background-color: $mid-grey;
+    color: $dark-black;
+  }
+
   @media only screen and (max-width: $bp-small) {
     & .col-sm-12 {
       margin: 2rem auto;
@@ -54,6 +59,11 @@ export default {}
     justify-content: center;
     margin: 0 auto;
     color: $light-white;
+
+    @media (prefers-color-scheme: light) {
+      color: $dark-black;
+    }
+
     & img {
       width: 2rem;
       height: 2rem;

@@ -64,6 +64,11 @@ export default {}
     padding: 4rem 0;
     text-decoration: none;
     color: $light-white;
+
+    @media (prefers-color-scheme: light) {
+      color: $dark-black;
+    }
+
     filter: grayscale(1);
     transition: 0.3s ease-in-out;
 
