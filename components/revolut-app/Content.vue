@@ -158,7 +158,7 @@ export default {
 
 <style lang="scss" scoped>
 .process-navbar {
-  padding: 1rem;
+  padding: 1.5rem 1rem;
   text-align: center;
   font-size: 1.5rem;
   letter-spacing: 1px;
@@ -195,6 +195,10 @@ export default {
     top: 58px;
     left: 0;
     width: 100vw;
+
+    @media only screen and (max-width: $bp-small) {
+      top: 56px;
+    }
   }
 
   &--active {

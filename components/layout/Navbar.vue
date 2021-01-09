@@ -121,6 +121,7 @@ export default {
     @media only screen and (max-width: $bp-small) {
       margin-left: auto;
       margin-right: 1rem;
+      margin-top: 2px;
     }
 
     & img {
