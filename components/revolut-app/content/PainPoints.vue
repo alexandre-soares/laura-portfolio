@@ -1,9 +1,7 @@
 <template>
   <div>
     <div class="container">
-      <h3 class="page-content__title">
-        Identifying & Prioritising Pain Points
-      </h3>
+      <h3 class="portfolio-h3">Identifying & Prioritising Pain Points</h3>
       <p class="paragraph">
         After the interviews, I analysed the videos and identified the different
         pain points, grouped them by categories and sorted them on a 2x2 map, by
@@ -21,35 +19,22 @@
     </div>
 
     <div class="container">
-      <h3 class="page-content__title">Defining the problem</h3>
+      <h3 class="portfolio-h3">Defining the problem</h3>
       <ul class="problem__list">
+        <li class="problem__item">❌ Dull and not very intuitive interface</li>
+        <li class="problem__item">❌ Confusing icons</li>
+        <li class="problem__item">❌ Badly highlighted buttons</li>
         <li class="problem__item">
-          <img src="@/static/img/icons/no.png" alt="no" />
-          Dull and not very intuitive interface
+          ❌ Too much space dedicated to secondary features
         </li>
         <li class="problem__item">
-          <img src="@/static/img/icons/no.png" alt="no" />
-          Confusing icons
+          ❌ Customer service that seems intentionally hidden and not accessible
         </li>
         <li class="problem__item">
-          <img src="@/static/img/icons/no.png" alt="no" />
-          Badly highlighted buttons
+          ❌ Need to think too much to know where to go
         </li>
         <li class="problem__item">
-          <img src="@/static/img/icons/no.png" alt="no" />
-          Too much space dedicated to secondary features
-        </li>
-        <li class="problem__item">
-          <img src="@/static/img/icons/no.png" alt="no" />
-          Customer service that seems intentionally hidden and not accessible
-        </li>
-        <li class="problem__item">
-          <img src="@/static/img/icons/no.png" alt="no" />
-          Need to think too much to know where to go
-        </li>
-        <li class="problem__item">
-          <img src="@/static/img/icons/no.png" alt="no" />
-          Seemingly random information architecture
+          ❌ Seemingly random information architecture
         </li>
       </ul>
 
@@ -238,26 +223,6 @@ export default {}
 
   @media only screen and (max-width: $bp-small) {
     width: 90%;
-  }
-}
-
-.radient-background {
-  background: rgb(100, 15, 137);
-  background: linear-gradient(
-    48deg,
-    rgba(100, 15, 137, 1) 0%,
-    rgba(63, 36, 139, 1) 59%,
-    rgba(35, 51, 128, 1) 100%
-  );
-  padding: 4rem 0;
-
-  & p {
-    margin: 3rem 0 !important;
-  }
-
-  & .black-background {
-    background-color: $dark-blue;
-    padding: 2rem 0;
   }
 }
 </style>

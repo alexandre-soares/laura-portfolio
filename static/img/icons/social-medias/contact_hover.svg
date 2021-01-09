@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="67" height="66" viewBox="0 0 67 66">
+  <defs>
+    <filter id="Rectangle_28" x="0" y="0" width="67" height="66" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Composant_39_3" data-name="Composant 39 – 3" transform="translate(9 6)">
+    <g id="Composant_35_11" data-name="Composant 35 – 11">
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle_28)">
+        <rect id="Rectangle_28-2" data-name="Rectangle 28" width="49" height="48" rx="24" transform="translate(9 6)" fill="#f5719b"/>
+      </g>
+    </g>
+    <g id="Groupe_397" data-name="Groupe 397" transform="translate(11 15)">
+      <path id="Tracé_535" data-name="Tracé 535" d="M88.217,156.484v15.747l7.679-7.905Z" transform="translate(-88.217 -155.77)" fill="#fff"/>
+      <path id="Tracé_536" data-name="Tracé 536" d="M334.948,156.484v15.747l-7.641-7.873Z" transform="translate(-308.371 -155.77)" fill="#fff"/>
+      <path id="Tracé_537" data-name="Tracé 537" d="M95.558,147.466h25.365l-9.969,10.38a3.762,3.762,0,0,1-5.427,0Z" transform="translate(-94.977 -147.466)" fill="#fff"/>
+      <path id="Tracé_538" data-name="Tracé 538" d="M111.529,265.027a4.56,4.56,0,0,1-6.577,0l-1.691-1.761-7.7,8.02h25.365l-7.7-8.02Z" transform="translate(-94.977 -254.095)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

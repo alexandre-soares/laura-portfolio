@@ -9,7 +9,6 @@
         </div>
         <div class="col-sm-12 col-lg order-sm-1 order-lg-6">
           <div class="footer__email">
-            <img src="@/static/img/icons/message.svg" alt="icon" class="icon" />
             <span>hello@laurasibille.com</span>
           </div>
         </div>
@@ -56,9 +55,10 @@ export default {}
     margin: 0 auto;
     color: $light-pink;
     & img {
-      width: 3rem;
-      height: 3rem;
+      width: 2rem;
+      height: 2rem;
       margin-right: 1rem;
+      margin-top: -2px;
       display: inline-block;
     }
   }

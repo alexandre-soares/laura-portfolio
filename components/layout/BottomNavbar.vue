@@ -46,4 +46,36 @@ html.light {
     color: #121212 !important;
   }
 }
+
+.bottom-row {
+  font-size: 1.4rem;
+  padding: 2rem 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  & .fas {
+    color: #ef487d;
+  }
+
+  &__item {
+    cursor: pointer;
+    text-decoration: none;
+    color: #f2f2f2;
+    transition: 0.2s ease-in;
+
+    &:hover {
+      color: rgb(95, 95, 95);
+    }
+
+    & i {
+      margin: 0 1.5rem;
+    }
+
+    &:nth-child(2) i {
+      margin: 0 1.5rem 0 0 !important;
+    }
+  }
+}
 </style>

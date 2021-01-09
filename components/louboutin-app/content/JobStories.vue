@@ -1,14 +1,12 @@
 <template>
   <div>
     <div class="job-stories container">
-      <div class="page-content">
-        <h3 class="page-content__title">Job Stories</h3>
-        <p class="paragraph">
-          In addition to personas, I also spent some time understanding the
-          context surrounding the users when they use the app in order to
-          further understand their motivation and desired outcome.
-        </p>
-      </div>
+      <h3 class="portfolio-h3">Job Stories</h3>
+      <p class="paragraph">
+        In addition to personas, I also spent some time understanding the
+        context surrounding the users when they use the app in order to further
+        understand their motivation and desired outcome.
+      </p>
     </div>
     <div class="gold-background">
       <div class="container">

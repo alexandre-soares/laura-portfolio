@@ -83,10 +83,10 @@ export default {
   data() {
     return {
       icons: [
-        require('@/static/img/icons/sketch.png'),
-        require('@/static/img/icons/illustrator.png'),
-        require('@/static/img/icons/photoshop.png'),
-        require('@/static/img/icons/premiere-pro.png'),
+        require('@/static/img/icons/softwares/sketch.svg'),
+        require('@/static/img/icons/softwares/illustrator.svg'),
+        require('@/static/img/icons/softwares/photoshop.svg'),
+        require('@/static/img/icons/softwares/premiere.svg'),
       ],
     }
   },

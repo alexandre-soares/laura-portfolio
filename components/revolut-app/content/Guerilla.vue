@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h3 class="page-content__title">Guerilla</h3>
+    <h3 class="portfolio-h3">Guerilla</h3>
     <p class="paragraph">
       Because of the covid related mandatory social distancing, I focused on
       personal connections with people I know in real life and online. The

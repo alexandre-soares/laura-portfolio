@@ -1,21 +1,19 @@
 <template>
   <div>
     <div class="job-stories container">
-      <div class="page-content">
-        <h3 class="page-content__title">Job Stories</h3>
-        <p class="paragraph">
-          Wanting to - once again - emphasize context, causation and
-          motivations, over assumption sprinkled with subjectivity, I chose to
-          create Job Stories, instead of User Stories.
-        </p>
-        <p class="paragraph">
-          The latter are therefore based on the study of interviews previously
-          conducted.
-        </p>
-      </div>
+      <h3 class="portfolio-h3">Job Stories</h3>
+      <p class="paragraph">
+        Wanting to - once again - emphasize context, causation and motivations,
+        over assumption sprinkled with subjectivity, I chose to create Job
+        Stories, instead of User Stories.
+      </p>
+      <p class="paragraph">
+        The latter are therefore based on the study of interviews previously
+        conducted.
+      </p>
     </div>
     <div>
-      <div class="row job-story blue-background">
+      <div class="row justify-content-between job-story blue-background">
         <div class="col-sm-12 col-lg-8">
           <p class="paragraph">
             "<span class="situation"
@@ -63,7 +61,7 @@
 export default {}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 html.light .job-story {
   color: $light-white;
 }

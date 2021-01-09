@@ -1,10 +1,10 @@
 <template>
-  <div id="ux-design" class="home__portfolio">
-    <div class="home__ux-design container">
+  <div class="portfolio container">
+    <div id="ux-design">
       <h2>UX Design - Case studies</h2>
       <div class="row">
         <div class="col-sm-12 col-lg-4">
-          <nuxt-link tag="div" to="/revolut-app" class="home__card">
+          <nuxt-link tag="a" to="/revolut-app" class="portfolio__card">
             <img src="@/static/img/home/revolut.jpg" alt="revolut" />
             <h3>
               REVOLUT <br />
@@ -13,7 +13,7 @@
           </nuxt-link>
         </div>
         <div class="col-sm-12 col-lg-4">
-          <nuxt-link tag="div" to="/dokogo-app" class="home__card">
+          <nuxt-link tag="a" to="/dokogo-app" class="portfolio__card">
             <img src="@/static/img/home/dokogo.jpg" alt="dokogo" />
             <h3>
               DOKOGO <br />
@@ -22,7 +22,7 @@
           </nuxt-link>
         </div>
         <div class="col-sm-12 col-lg-4">
-          <nuxt-link tag="div" to="/louboutin-app" class="home__card">
+          <nuxt-link tag="a" to="/louboutin-app" class="portfolio__card">
             <img src="@/static/img/home/louboutin.jpg" alt="louboutin" />
             <h3>
               LOUBOUTIN <br />
@@ -32,12 +32,11 @@
         </div>
       </div>
     </div>
-    <div class="home__ui-design container">
+    <div id="ui-design">
       <h2>UI Design</h2>
-
       <div class="row justify-content-start">
         <div class="col-sm-12 col-lg-4">
-          <nuxt-link tag="div" to="/ui-design" class="home__card">
+          <nuxt-link tag="a" to="/ui-design" class="portfolio__card">
             <video
               src="@/static/img/ui-design/videos/skin-care.mp4"
               type="video/mp4"
@@ -59,27 +58,17 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
-h2 {
-  text-transform: uppercase;
-  font-size: 4rem;
-  font-family: 'Baskerville';
-  font-weight: 100;
-  letter-spacing: 1px;
-  margin: 4rem 0;
-
-  @media only screen and (max-width: $bp-small) {
-    margin: 1rem auto;
-    text-align: center;
-  }
-}
-.home {
+.portfolio {
   &__card {
     padding: 4rem 0;
+    text-decoration: none;
+    color: $light-white;
     filter: grayscale(1);
     transition: 0.3s ease-in-out;
 
     &:hover {
       filter: grayscale(0);
+      color: $light-pink;
     }
 
     @media only screen and (max-width: $bp-large) {
@@ -90,17 +79,7 @@ h2 {
       padding: 2rem 0;
     }
 
-    & img {
-      width: 100%;
-      cursor: pointer;
-
-      @media only screen and (max-width: $bp-large) {
-        width: 75%;
-        display: block;
-        margin: 0 auto;
-      }
-    }
-
+    & img,
     & video {
       width: 100%;
       cursor: pointer;
@@ -110,14 +89,6 @@ h2 {
         display: block;
         margin: 0 auto;
       }
-    }
-
-    & h3 {
-      text-transform: uppercase;
-      text-align: center;
-      font-size: 1.6rem;
-      margin: 2rem auto;
-      line-height: 1.6;
     }
   }
 }

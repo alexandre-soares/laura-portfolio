@@ -1,25 +1,36 @@
 <template>
   <div class="navbar" :class="backgroundNav ? 'navbar__background' : ''">
     <nuxt-link to="/" tag="div" class="navbar__logo">
-      <img src="@/static/img/icons/logo white.svg" alt="logo" />
+      <img src="@/static/img/icons/logos/logo white.svg" alt="logo" />
     </nuxt-link>
     <nuxt-link tag="div" to="/" class="navbar__brand">
       <span>Laura SIBILLE - UX Designer</span>
     </nuxt-link>
     <div class="navbar__contact">
       <a href="https://www.behance.net/laurasibil2c3c" target="_blank">
-        <img src="@/static/img/icons/behance.svg" alt="behance" />
+        <img src="@/static/img/icons/social-medias/behance.svg" alt="behance" />
       </a>
       <a href="https://dribbble.com/LauraSibille" target="_blank">
-        <img src="@/static/img/icons/dribbble.svg" alt="dribbble" />
+        <img
+          src="@/static/img/icons/social-medias/dribbble.svg"
+          alt="dribbble"
+        />
       </a>
       <a href="https://www.linkedin.com/in/laura-sibille/" target="_blank">
-        <img src="@/static/img/icons/linkedin.svg" alt="linkedin" />
+        <img
+          src="@/static/img/icons/social-medias/linkedin.svg"
+          alt="linkedin"
+        />
+      </a>
+      <a href="https://www.instagram.com/laurasibille/" target="_blank">
+        <img
+          src="@/static/img/icons/social-medias/instagram.svg"
+          alt="linkedin"
+        />
       </a>
     </div>
     <div class="navbar__email">
-      <a href="mailto:laura.sibille@gmail.com" class="btn">
-        <span>Contact</span>
+      <a href="mailto:laura.sibille@gmail.com">
         <img src="@/static/img/icons/message.svg" alt="email" />
       </a>
     </div>
@@ -64,7 +75,7 @@ export default {
   }
 
   &__background {
-    background-color: $dark-blue;
+    background-color: $dark-black;
   }
 
   &__logo {
@@ -96,10 +107,11 @@ export default {
   }
 
   &__contact {
-    margin-right: 2rem;
+    margin-right: 5rem;
 
     @media only screen and (max-width: $bp-small) {
       margin-left: auto;
+      margin-right: 1rem;
     }
 
     & img {
@@ -110,42 +122,30 @@ export default {
       @media only screen and (max-width: $bp-small) {
         width: 3.2rem;
         height: 3.2rem;
-        margin: 0 1.7rem;
+        margin: 0 1.2rem;
       }
     }
   }
 
   &__email {
-    // @media only screen and (max-width: $bp-small) {
-    //   margin-right: 1.5rem;
-    // }
-
     & a {
       display: inline-flex;
       align-items: center;
       justify-content: space-between;
-
       cursor: pointer;
       text-decoration: none;
-      transition: all 0.8s ease-in;
+      padding: 1rem;
+      border-radius: 50rem;
+      background-color: $light-pink;
+      transition: all 0.3s ease-in;
 
-      & span {
-        line-height: 1;
-        font-size: 1.3rem;
-        margin-top: 2px;
-
-        @media only screen and (max-width: $bp-small) {
-          font-size: 1.6rem;
-        }
+      &:hover {
+        background-color: $dark-pink;
       }
 
       & img {
-        margin: 0 0 0 1rem;
-
-        @media only screen and (max-width: $bp-small) {
-          width: 2rem;
-          height: 2rem;
-        }
+        width: 2rem;
+        height: 2rem;
       }
     }
   }

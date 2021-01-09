@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="page-content">
-      <h3 class="page-content__title">Persons</h3>
+      <h3 class="portfolio-h3">Persons</h3>
       <p class="paragraph">
         To start, I interviewed real Revolut users, finding the personas to be
         often biased: they are a mixture of assumptions and presumptions
@@ -97,33 +97,15 @@
             >Most important features according to the interviewed users</small
           >
           <ul class="persona__list">
-            <li class="persona__item">
-              <img src="@/static/img/icons/yes.png" alt="yes" />
-              Currency change
-            </li>
-            <li class="persona__item">
-              <img src="@/static/img/icons/yes.png" alt="yes" /> Instant
-              transfers
-            </li>
-            <li class="persona__item">
-              <img src="@/static/img/icons/yes.png" alt="yes" /> Customer
-              service
-            </li>
+            <li class="persona__item">✅ Currency change</li>
+            <li class="persona__item">✅ Instant transfers</li>
+            <li class="persona__item">✅ Customer service</li>
           </ul>
           <ul class="persona__list">
-            <li class="persona__item">
-              <img src="@/static/img/icons/no.png" alt="no" />
-              Trading
-            </li>
-            <li class="persona__item">
-              <img src="@/static/img/icons/no.png" alt="no" /> Gifts & Donations
-            </li>
-            <li class="persona__item">
-              <img src="@/static/img/icons/no.png" alt="no" /> Junior accounts
-            </li>
-            <li class="persona__item">
-              <img src="@/static/img/icons/no.png" alt="no" /> Budget creation
-            </li>
+            <li class="persona__item">❌ Trading</li>
+            <li class="persona__item">❌ Gifts & Donations</li>
+            <li class="persona__item">❌ Junior accounts</li>
+            <li class="persona__item">❌ Budget creation</li>
           </ul>
         </div>
       </div>
@@ -237,14 +219,7 @@ export default {}
   }
 
   &__item {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
     margin: 1rem 0;
-
-    & img {
-      margin-right: 1rem;
-    }
   }
 }
 </style>

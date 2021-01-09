@@ -30,30 +30,24 @@
           </p>
           <ul class="problem__explanation__list">
             <li class="problem__explanation__item">
-              <img src="@/static/img/icons/no.svg" alt="no" />The brand doesn’t
-              have an app!
+              ❌ The brand doesn’t have an app!
             </li>
             <li class="problem__explanation__item">
-              <img src="@/static/img/icons/no.svg" alt="no" />Charging a page is
-              super slow, even in an environment with excellent internet
-              connection
+              ❌ Charging a page is super slow, even in an environment with
+              excellent internet connection
             </li>
             <li class="problem__explanation__item">
-              <img src="@/static/img/icons/no.svg" alt="no" />The menu shows
-              only "Gift" which is the homepage and "LouboutinWorld" related to
-              the brand news
+              ❌ The menu shows only "Gift" which is the homepage and
+              "LouboutinWorld" related to the brand news
             </li>
             <li class="problem__explanation__item">
-              <img src="@/static/img/icons/no.svg" alt="no" />All items
-              presented leads to non existing pages
+              ❌ All items presented leads to non existing pages
             </li>
             <li class="problem__explanation__item">
-              <img src="@/static/img/icons/no.svg" alt="no" />I need to scroll
-              up to the top if I want to access the menu
+              ❌ I need to scroll up to the top if I want to access the menu
             </li>
             <li class="problem__explanation__item">
-              <img src="@/static/img/icons/no.svg" alt="no" />The website is not
-              secure!!
+              ❌ The website is not secure!!
             </li>
           </ul>
         </div>
@@ -192,9 +186,6 @@ export default {}
     }
 
     &__item {
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
       margin: 1rem 0;
       text-align: left;
 

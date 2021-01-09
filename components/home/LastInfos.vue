@@ -1,5 +1,5 @@
 <template>
-  <div class="home__infos container">
+  <div class="infos container">
     <h4>If you wish to know me on a personal level</h4>
     <div class="row">
       <div class="col-sm-12 col-lg">
@@ -35,30 +35,25 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
-.home {
-  &__infos {
-    padding-bottom: 5rem;
+.infos {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+
+  @media only screen and (max-width: $bp-small) {
+    text-align: center;
+  }
+
+  & h4 {
+    margin-top: 3rem !important;
+  }
+
+  & ul {
+    list-style-type: none;
 
     @media only screen and (max-width: $bp-small) {
-      text-align: center;
-    }
-
-    & h4 {
-      font-family: 'Baskerville', sans-serif;
-      font-size: 1.8rem;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      font-weight: lighter;
-      margin-bottom: 3rem;
-    }
-    & ul {
-      list-style-type: none;
-
-      @media only screen and (max-width: $bp-small) {
-        text-align: left;
-        display: block;
-        margin: 0 auto;
-      }
+      text-align: left;
+      display: block;
+      margin: 0 auto;
     }
   }
 }

@@ -1,0 +1,165 @@
+/* CSS FOR FONT FAMILY */
+
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('~assets/fonts/gill-sans/GillSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('~assets/fonts/gill-sans/GillSans-CondensedRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('~assets/fonts/gill-sans/GillSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('~assets/fonts/gill-sans/GillSans-CondensedBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('~assets/fonts/gill-sans/GillSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('~assets/fonts/gill-sans/GillSans-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('~assets/fonts/gill-sans/GillSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* CSS FOR GENERAL TYPOGRAPHY */
+
+body {
+  font-family: 'Gill Sans', sans-serif;
+}
+
+p {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    text-align: justify;
+    margin: 1rem 0;
+    letter-spacing: 0.7px;
+
+    &:nth-child(1) {
+        margin-top: 0;
+    }
+
+    &--lighter {
+        font-weight: lighter;
+    }
+} 
+
+ul,
+ol {
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+  text-align: justify;
+  margin: 1rem 0;
+  letter-spacing: 0.7px;
+}
+
+.lighter {
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+.stronger {
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+
+/* CSS FOR HOMEPAGE */
+
+h1 {
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-family: 'Baskerville';
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin: 0 0 6rem;
+    display: block;
+
+    @media only screen and (max-width: $bp-large) {
+      margin: 4rem auto;
+    }
+    @media only screen and (max-width: $bp-small) {
+      margin: 4rem auto;
+      text-align: center;
+    }
+
+}
+
+h2 {
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-family: 'Baskerville';
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin: 4rem 0;
+  
+    @media only screen and (max-width: $bp-small) {
+      margin: 1rem auto;
+      text-align: center;
+    }
+}
+
+.home {
+    & h3 {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.6rem;
+        margin: 2rem auto;
+        line-height: 1.6;
+    }
+
+    & h4 {
+        font-family: 'Gill Sans', sans-serif;
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-weight: lighter;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+
+    }
+}
+
+
+.pain-point-h4 {
+    margin: 3rem 0;
+    font-size: 1.9rem;
+    line-height: 3rem;
+    text-transform: uppercase;
+}

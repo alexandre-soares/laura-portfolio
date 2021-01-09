@@ -2,6 +2,8 @@
 
 $dark-black: #121212;
 
+$light-grey: #c4c4c4;
+
 $dark-blue: #1D2025;
 $light-blue: #1F2F53;
 
@@ -10,10 +12,20 @@ $light-white: #F2F2F2;
 $light-pink: #EF487D;
 $dark-pink: #A51542;
 
-// Breakpoints
 
-$bp-largest: 75em;     // 1200px
-$bp-large: 68.75em;    // 1100px
-$bp-medium: 56.25em;   // 900px
-$bp-small: 37.5em;     // 600px
-$bp-smallest: 31.25em; // 500px
+.light-pink {
+    color: $light-pink;
+}
+
+.situation {
+    color: $light-pink;
+}
+  
+.motivation {
+    color: #948fe2;
+}
+
+.outcome {
+    color: #97da7b;
+}
+

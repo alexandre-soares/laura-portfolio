@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h3 class="page-content__title">Prototype</h3>
+    <h3 class="portfolio-h3">Prototype</h3>
     <iframe
       class="img"
       width="560"
@@ -17,4 +17,4 @@
 export default {}
 </script>
 
-<style></style>
+<style lang="scss" scoped></style>

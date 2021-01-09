@@ -1,15 +1,18 @@
 <template>
   <div>
-    <navbar />
+    <Navbar />
     <Nuxt />
+    <Footer />
   </div>
 </template>
 
 <script>
+import Footer from '../components/layout/Footer.vue'
 import Navbar from '../components/layout/Navbar.vue'
 export default {
   components: {
     Navbar,
+    Footer,
   },
 }
 </script>
@@ -23,17 +26,15 @@ export default {
 html {
   font-size: 62.5%;
   background-color: $dark-blue;
-  color: #c4c4c4;
+  color: $light-grey;
   overflow-x: hidden;
   transition: background-color 0.5s ease-in, color 0.5s ease-in;
 
   @media only screen and (max-width: $bp-large) {
-    font-size: 50%;
+    font-size: 60%;
   }
-}
 
-@media (prefers-color-scheme: light) {
-  html {
+  @media (prefers-color-scheme: light) {
     background-color: $light-white;
     color: $dark-blue;
 
@@ -57,129 +58,45 @@ html {
 }
 
 body {
-  font-family: 'Gill Sans', sans-serif;
   overflow-x: hidden;
 }
 
-ul,
-ol {
-  font-size: 1.7rem;
-  line-height: 2.5rem;
-  text-align: justify;
-  margin: 1rem 0;
-  letter-spacing: 0.7px;
-}
-
-.light-pink {
+a {
+  text-decoration: none;
   color: $light-pink;
-}
+  transition: 0.3s ease-in;
 
-.blue-background {
-  background-color: $light-blue;
-  margin: 3rem 0;
-  padding: 5rem 15rem;
-
-  @media only screen and (max-width: $bp-small) {
-    padding: 2rem 3rem;
+  &:hover {
+    color: $dark-pink;
   }
-}
-
-.lighter {
-  font-weight: lighter;
-  letter-spacing: 2px;
-}
-
-.stronger {
-  font-weight: bolder;
-  letter-spacing: 2px;
-}
-
-.radient-background {
-  background: rgba(100, 15, 137, 0.8);
-  background: linear-gradient(
-    48deg,
-    rgba(100, 15, 137, 0.8) 0%,
-    rgba(63, 36, 139, 0.8) 59%,
-    rgba(35, 51, 128, 0.8) 100%
-  );
-  padding: 4rem 0;
-
-  & p {
-    margin: 3rem 0 !important;
-  }
-
-  & .black-background {
-    background-color: $dark-blue;
-    padding: 2rem 0;
-  }
-}
-
-.pain-point-h4 {
-  margin: 3rem 0;
-  font-size: 1.9rem;
-  line-height: 3rem;
-  text-transform: uppercase;
-}
-
-.page-content {
-  &__title {
-    font-family: 'Baskerville', sans-serif;
-    font-size: 2.4rem;
-    letter-spacing: 1px;
-    text-align: left;
-    margin: 4rem 0;
-    align-self: start;
-    text-transform: uppercase;
-    font-weight: 400;
-
-    @media only screen and (max-width: $bp-small) {
-      text-align: center;
-    }
-  }
-}
-
-.situation {
-  color: $light-pink;
-}
-
-.motivation {
-  color: #948fe2;
-}
-
-.outcome {
-  color: #97da7b;
 }
 
 .btn {
   padding: 1rem 2rem;
   border-radius: 3rem;
+  font-family: 'Baskerville', sans-serif;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: lighter;
   border: none;
+  cursor: pointer;
+  background-color: $light-pink;
   color: $light-white;
-  background: rgb(239, 72, 125);
-  background: linear-gradient(
-    180deg,
-    rgba(239, 72, 125, 1) 0%,
-    rgba(165, 21, 66, 1) 100%
-  );
+  transition: all 0.3s ease-in;
 
-  transition: all 0.4s ease-in;
+  & a {
+    text-decoration: none !important;
+    transition: 0.3s ease-in;
+  }
 
   &:hover {
-    background: rgb(240, 129, 165) !important;
-    background: linear-gradient(
-      180deg,
-      rgba(240, 129, 165, 1) 0%,
-      rgba(195, 70, 109, 1) 100%
-    ) !important;
+    background-color: $dark-pink;
+    color: $light-white;
   }
 
   &:active {
-    background: rgb(239, 72, 125) !important;
-    background: linear-gradient(
-      180deg,
-      rgba(239, 72, 125, 1) 0%,
-      rgba(165, 21, 66, 1) 100%
-    ) !important;
+    transform: translateY(1rem);
   }
 }
 </style>

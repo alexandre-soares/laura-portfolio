@@ -58,9 +58,9 @@ export default {
   data() {
     return {
       icons: [
-        require('@/static/img/icons/xd.png'),
-        require('@/static/img/icons/illustrator.png'),
-        require('@/static/img/icons/rotaro.png'),
+        require('@/static/img/icons/softwares/xd.svg'),
+        require('@/static/img/icons/softwares/illustrator.svg'),
+        require('@/static/img/icons/softwares/rotato.png'),
       ],
       paragraphs: [
         `While I was wandering on Louboutin website before Christmas and grumbling

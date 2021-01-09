@@ -78,7 +78,6 @@ export default {
   },
   data() {
     return {
-      counter: 0,
       isFixed: false,
     }
   },
@@ -118,10 +117,46 @@ export default {
       })
     })
   },
+  updated() {
+    /* FIXING PROCESS NAVBAR */
+
+    const processNavbar = document.querySelector('.process-navbar')
+    const navbar = document.querySelector('.navbar')
+
+    const rect = processNavbar.getBoundingClientRect()
+    const rect2 = navbar.getBoundingClientRect()
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY >= rect.bottom - rect.height - rect2.height) {
+        this.isFixed = true
+      } else {
+        this.isFixed = false
+      }
+    })
+
+    /* ADDING CSS FOR LABELS ON PROCESS BAR */
+
+    // const triggerBottom = window.innerHeight / 5
+    const categories = document.querySelectorAll('.categories')
+    const labels = document.querySelectorAll('.labels')
+
+    window.addEventListener('scroll', () => {
+      categories.forEach((categorie, index) => {
+        const categorieTop = categorie.getBoundingClientRect().top
+        if (categorieTop < 150) {
+          categorie.classList.add('show')
+          labels[index].classList.add('process-navbar--active')
+        } else {
+          categorie.classList.remove('show')
+          labels[index].classList.remove('process-navbar--active')
+        }
+      })
+    })
+  },
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .process-navbar {
   padding: 2rem 1rem;
   text-align: center;
@@ -146,30 +181,13 @@ export default {
 
   &--fixed {
     position: fixed;
-    top: 48px;
+    top: 60px;
     left: 0;
     width: 100vw;
   }
 
   &--active {
     color: $light-pink;
-  }
-}
-
-.page-content {
-  &__title {
-    font-family: 'Baskerville', sans-serif;
-    font-size: 2.4rem;
-    letter-spacing: 1px;
-    text-align: left;
-    margin: 4rem 0;
-    align-self: start;
-    text-transform: uppercase;
-    font-weight: 400;
-
-    @media only screen and (max-width: $bp-small) {
-      text-align: center;
-    }
   }
 }
 

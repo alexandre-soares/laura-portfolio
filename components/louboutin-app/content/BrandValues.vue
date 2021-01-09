@@ -1,9 +1,7 @@
 <template>
   <div class="brand-values">
     <div class="container">
-      <div class="page-content">
-        <h3 class="page-content__title">Brand Values</h3>
-      </div>
+      <h3 class="portfolio-h3">Brand Values</h3>
       <div class="row">
         <ul class="col">
           <li>Luxury</li>

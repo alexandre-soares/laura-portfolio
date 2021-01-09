@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h3 class="page-content__title">Final Result</h3>
+    <h3 class="portfolio-h3">Final Result</h3>
     <p class="paragraph">
       Revolut is a very useful everyday app for tracking expenses and making
       purchases abroad free of charge. Despite all these advantages, the user
@@ -21,4 +21,4 @@
 export default {}
 </script>
 
-<style></style>
+<style lang="scss" scoped></style>

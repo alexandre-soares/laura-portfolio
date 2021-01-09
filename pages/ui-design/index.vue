@@ -5,21 +5,25 @@
     <div class="container">
       <div class="page-description">
         <div class="row">
-          <div class="overview col">
-            <h1 class="main-title">UI Design</h1>
-            <h2 class="subtitle">Year</h2>
+          <div class="overview col-sm-12 col-lg-6">
+            <h1 class="portfolio-h1">UI Design</h1>
+            <h2 class="portfolio-h2">Year</h2>
             <small class="subinfo">2017-2021</small>
-            <h2 class="subtitle">Softwares</h2>
+            <h2 class="portfolio-h2">Softwares</h2>
             <div class="icons">
               <img
                 class="icon"
-                src="@/static/img/icons/illustrator.png"
+                src="@/static/img/icons/softwares/illustrator.svg"
                 alt="icon"
               />
-              <img class="icon" src="@/static/img/icons/xd.png" alt="icon" />
+              <img
+                class="icon"
+                src="@/static/img/icons/softwares/xd.svg"
+                alt="icon"
+              />
             </div>
           </div>
-          <div class="description col">
+          <div class="description col-sm-12 col-lg-6">
             <p class="paragraph">
               “If a picture is worth a thousand words, a prototype is worth a
               1000 meetings” IDEO states.
@@ -35,7 +39,7 @@
           <div
             v-for="(image, imageIndex) in items2"
             :key="imageIndex"
-            class="col-4"
+            class="col-sm-6 col-lg-4"
           >
             <div v-if="image.type == 'img'">
               <img :src="image.html" />

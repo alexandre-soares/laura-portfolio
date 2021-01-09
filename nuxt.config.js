@@ -86,12 +86,38 @@ export default {
   ],
 
   styleResources: {
-    scss: ['~/assets/scss/*.scss'],
+    scss: [
+      '~/assets/scss/breakpoints.scss',
+      '~/assets/scss/colors.scss',
+      '~/assets/scss/typography.scss',
+      '~/assets/scss/portfolio_layout.scss',
+      '~/assets/scss/layout.scss',
+      '~/assets/scss/animations.scss',
+    ],
   },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: ['@nuxtjs/style-resources', '@nuxtjs/google-analytics'],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
-  build: {},
+  build: {
+    html: {
+      minify: {
+        collapseBooleanAttributes: true,
+        decodeEntities: true,
+        minifyCSS: true,
+        minifyJS: true,
+        processConditionalComments: true,
+        removeEmptyAttributes: true,
+        removeRedundantAttributes: true,
+        trimCustomFragments: true,
+        useShortDoctype: true,
+        minifyURLs: true,
+        removeComments: true,
+        removeEmptyElements: true,
+        preserveLineBreaks: false,
+        collapseWhitespace: true,
+      },
+    },
+  },
 }

@@ -1,9 +1,9 @@
 <template>
   <div class="overview">
-    <h1 class="main-title">{{ mainTitle }}</h1>
-    <h2 class="subtitle">Year</h2>
+    <h1 class="portfolio-h1">{{ mainTitle }}</h1>
+    <h2 class="portfolio-h2">Year</h2>
     <small class="subinfo"> {{ year }}</small>
-    <h2 class="subtitle">Softwares</h2>
+    <h2 class="portfolio-h2">Softwares</h2>
     <div class="icons">
       <img
         v-for="(img, index) in icons"
@@ -13,7 +13,7 @@
         class="icon"
       />
     </div>
-    <h2 class="subtitle">Duration</h2>
+    <h2 class="portfolio-h2">Duration</h2>
     <small class="subinfo"> {{ duration }}</small>
   </div>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container">
-      <h3 class="page-content__title">Tests & Iterations</h3>
+      <h3 class="portfolio-h3">Tests & Iterations</h3>
       <p class="paragraph">
         After the wireframes, I jumped to Adobe XD to make the mockups and the
         final prototype. I incorporated the comments made by users from the
@@ -134,4 +134,4 @@
 export default {}
 </script>
 
-<style scoped></style>
+<style lang="scss" scoped></style>

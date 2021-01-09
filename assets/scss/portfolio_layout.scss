@@ -1,0 +1,146 @@
+/* CSS FOR ALL APP PAGES */
+
+
+.page-background {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center center;
+  z-index: 999;
+
+
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media only screen and (max-width: $bp-small) {
+    height: 60vh;
+  }
+}
+
+.portfolio-h1 {
+  font-size: 5rem;
+  margin: 0 0 2rem;
+  font-family: 'Baskerville', sans-serif;
+  font-weight: 200;
+}
+
+.portfolio-h2 {
+  font-size: 2.4rem;
+  margin: 1rem 0;
+  font-family: 'Gill Sans', sans-serif;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+.portfolio-h3 {
+  font-family: 'Baskerville', sans-serif;
+  font-size: 2.4rem;
+  letter-spacing: 1px;
+  text-align: left;
+  margin: 4rem 0;
+  text-transform: uppercase;
+  font-weight: 400;
+
+  @media only screen and (max-width: $bp-small) {
+    text-align: center;
+  }
+}
+  
+.page-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  @media only screen and (max-width: 37.5em) {
+    height: auto !important;
+  }
+
+}
+
+.case-study-subtitle {
+  display: block;
+  color: #EF487D;
+  text-align: center;
+  margin: 1rem auto 3rem;
+  font-size: 3rem;
+  font-weight: bold;
+
+  @media only screen and (max-width: $bp-small) {
+    margin: 3rem;
+
+  }
+
+  &--green {
+    color: #1bab8b;
+  }
+
+  &--red {
+    color: #F11B18;
+  }
+}
+
+.subinfo {
+  margin: 2rem 0;
+  display: block;
+  font-size: 1.5rem;
+
+  @media only screen and (max-width: $bp-small) {
+    text-align: center;
+  }
+}
+  
+.overview {
+  @media only screen and (max-width: $bp-small) {
+    text-align: center !important;
+  }
+}
+
+.icons .icon {
+  height: 3rem;
+  width: 3rem;
+  margin: 0.5rem;
+}
+    
+.img {
+  width: 100%;
+  height: 100%;
+  margin: 1rem auto;  
+}
+  
+.radient-background {
+  background: rgb(100, 15, 137);
+  background: linear-gradient(
+    48deg,
+    rgba(100, 15, 137, 1) 0%,
+    rgba(63, 36, 139, 1) 59%,
+    rgba(35, 51, 128, 1) 100%
+  );
+  padding: 4rem 0;
+
+  & p {
+    margin: 3rem 0 !important;
+  }
+
+  & .black-background {
+    background-color: $dark-blue;
+    padding: 2rem 0;
+  }
+}
+
+.blue-background {
+  background-color: $light-blue;
+  margin: 3rem 0;
+  padding: 5rem 15rem;
+
+  @media only screen and (max-width: $bp-small) {
+    padding: 2rem 3rem;
+  }
+}

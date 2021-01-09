@@ -1,5 +1,5 @@
 <template>
-  <div class="home__intro container">
+  <div class="intro container">
     <div class="row justify-content-between">
       <div class="col-sm-12 col-lg-7 order-sm-12 order-md-1">
         <h1>
@@ -26,12 +26,14 @@
           Do not hesitate to drop a line by email to discuss your projects.
         </p>
 
-        <section id="scroll-down" class="scroll-btn col-12">
-          <a><span></span></a>
-        </section>
+        <div class="col-12">
+          <section class="scroll-down-btn">
+            <span></span>
+          </section>
+        </div>
       </div>
       <div class="col-sm-12 col-lg-4 order-sm-1 order-md-12">
-        <img src="@/static/img/me.jpg" alt="me" />
+        <img class="intro__img" src="@/static/img/me.jpg" alt="me" />
       </div>
     </div>
   </div>
@@ -42,63 +44,28 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
-.home #scroll-down a {
-  margin: 5rem 0 4rem;
-  display: block;
-  position: relative;
-  padding: 1rem;
-}
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8rem 1.5rem 5rem;
+  overflow-y: hidden;
 
-.home #scroll-down span {
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+  @media only screen and (max-width: $bp-large) {
+    padding: 5rem 3rem;
+  }
 
-.home {
-  &__intro {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 8rem 0 5rem;
-    height: 100vh;
-    overflow-y: hidden;
+  & p {
+    margin: 3rem auto;
+  }
 
-    & p {
-      margin: 3rem auto;
-    }
-
-    h1 {
-      text-transform: uppercase;
-      font-size: 4rem;
-      font-family: 'Baskerville';
-      font-weight: 100;
-      letter-spacing: 1px;
-      margin: 0 0 6rem;
-
-      @media only screen and (max-width: $bp-large) {
-        margin: 4rem auto;
-        text-align: center;
-      }
-      @media only screen and (max-width: $bp-small) {
-        margin: 4rem auto;
-        text-align: center;
-      }
-    }
+  &__img {
+    width: 100%;
 
     @media only screen and (max-width: $bp-large) {
-      height: auto;
-      padding: 5rem 3rem;
-    }
-
-    & img {
-      width: 100%;
-
-      @media only screen and (max-width: $bp-large) {
-        display: block;
-        width: 80%;
-        margin: 2rem auto;
-      }
+      display: block;
+      width: 80%;
+      margin: 2rem auto;
     }
   }
 }

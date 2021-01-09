@@ -58,9 +58,9 @@ export default {
   data() {
     return {
       icons: [
-        require('@/static/img/icons/xd.png'),
-        require('@/static/img/icons/illustrator.png'),
-        require('@/static/img/icons/rotaro.png'),
+        require('@/static/img/icons/softwares/xd.svg'),
+        require('@/static/img/icons/softwares/illustrator.svg'),
+        require('@/static/img/icons/softwares/rotato.png'),
       ],
       paragraphs: [
         `"THE NEW REVOLUT UPDATE S**KS" This is what I have been hearing all 2020 long. Dull colours, messy information, Revolut team managed to transform their initial great app into a nightmare for their users.`,
