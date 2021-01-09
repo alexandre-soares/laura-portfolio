@@ -2,7 +2,6 @@
   <div class="container">
     <h3 class="portfolio-h3">Prototype</h3>
     <iframe
-      class="img"
       width="560"
       height="615"
       src="https://www.youtube.com/embed/R1tI1uUkOtc"

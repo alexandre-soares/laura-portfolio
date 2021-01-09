@@ -30,10 +30,10 @@
     </div>
 
     <Bottom-navbar
-      previous-text="Revolut App"
-      next-text="Dokogo App"
-      previous="/revolut-app"
-      next="/dokogo-app"
+      previous-text="Dokogo App"
+      next-text="UI Design"
+      previous="/dokogo-app"
+      next="/ui-design"
     />
   </div>
 </template>

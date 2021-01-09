@@ -1,7 +1,6 @@
 <template>
   <div class="row">
     <iframe
-      class="iframe"
       width="560"
       height="515"
       src="https://www.youtube.com/embed/gY8j9aBq0GA"
@@ -10,7 +9,6 @@
       allowfullscreen
     ></iframe>
     <iframe
-      class="iframe"
       width="560"
       height="515"
       src="https://www.youtube.com/embed/8vGQD67ROjY"
@@ -37,11 +35,5 @@ export default {}
     width: 90% !important;
     margin: 1rem auto !important;
   }
-}
-
-.iframe {
-  width: 100% !important;
-  margin: 5rem auto;
-  display: block;
 }
 </style>

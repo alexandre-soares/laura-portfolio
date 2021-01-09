@@ -1,24 +1,39 @@
 <template>
   <div>
-    <div class="process-navbar" :class="isFixed ? 'process-navbar--fixed' : ''">
+    <div
+      class="process-navbar"
+      :class="isFixed ? 'process-navbar--fixed' : 'process-navbar--unfixed'"
+    >
       <div class="container-fluid">
         <div class="row justify-content-betwen">
           <div class="col">
-            <span class="labels process-navbar--active">Emphasize</span>
+            <span
+              v-scroll-to="{ el: '#emphazise', offset: -150 }"
+              class="labels process-navbar--active"
+              >Emphasize</span
+            >
           </div>
           <div class="col">
-            <span class="labels">Define</span>
+            <span v-scroll-to="{ el: '#define', offset: -150 }" class="labels"
+              >Define</span
+            >
           </div>
           <div class="col">
-            <span class="labels">Ideate</span>
+            <span v-scroll-to="{ el: '#ideate', offset: -150 }" class="labels"
+              >Ideate</span
+            >
           </div>
           <div class="col">
-            <span class="labels"
+            <span v-scroll-to="{ el: '#build', offset: -150 }" class="labels"
               >Build <span class="label-hide">& Test</span></span
             >
           </div>
           <div class="col">
-            <span class="labels">Prototype</span>
+            <span
+              v-scroll-to="{ el: '#prototype', offset: -150 }"
+              class="labels"
+              >Prototype</span
+            >
           </div>
         </div>
       </div>
@@ -65,6 +80,7 @@ import Solutions from './content/Solutions.vue'
 import Tests from './content/Tests.vue'
 import Prototype from './content/Prototype.vue'
 export default {
+  scrollToTop: true,
   components: {
     Persons,
     JobStories,
@@ -81,44 +97,13 @@ export default {
       isFixed: false,
     }
   },
+
   mounted() {
     /* FIXING PROCESS NAVBAR */
 
-    const processNavbar = document.querySelector('.process-navbar')
-    const navbar = document.querySelector('.navbar')
+    // console.log('mounted')
 
-    const rect = processNavbar.getBoundingClientRect()
-    const rect2 = navbar.getBoundingClientRect()
-
-    window.addEventListener('scroll', () => {
-      if (window.scrollY >= rect.bottom - rect.height - rect2.height) {
-        this.isFixed = true
-      } else {
-        this.isFixed = false
-      }
-    })
-
-    /* ADDING CSS FOR LABELS ON PROCESS BAR */
-
-    // const triggerBottom = window.innerHeight / 5
-    const categories = document.querySelectorAll('.categories')
-    const labels = document.querySelectorAll('.labels')
-
-    window.addEventListener('scroll', () => {
-      categories.forEach((categorie, index) => {
-        const categorieTop = categorie.getBoundingClientRect().top
-        if (categorieTop < 150) {
-          categorie.classList.add('show')
-          labels[index].classList.add('process-navbar--active')
-        } else {
-          categorie.classList.remove('show')
-          labels[index].classList.remove('process-navbar--active')
-        }
-      })
-    })
-  },
-  updated() {
-    /* FIXING PROCESS NAVBAR */
+    this.isFixed = false
 
     const processNavbar = document.querySelector('.process-navbar')
     const navbar = document.querySelector('.navbar')
@@ -126,11 +111,26 @@ export default {
     const rect = processNavbar.getBoundingClientRect()
     const rect2 = navbar.getBoundingClientRect()
 
+    const limitHeight = rect.bottom - rect.height - rect2.height
+
+    // console.log(`processnavbar bounding client is ${rect.bottom}`)
+    // console.log(`navbar bounding client is ${rect2.height}`)
+    // console.log(`before scroll : limit Height is ${limitHeight}px`)
+
     window.addEventListener('scroll', () => {
-      if (window.scrollY >= rect.bottom - rect.height - rect2.height) {
-        this.isFixed = true
-      } else {
+      // console.log(`window.scrollY is ${window.scrollY}`)
+      // console.log(rect.bottom)
+
+      if (
+        window.scrollY < limitHeight ||
+        window.scrollY <= 0 ||
+        rect.bottom < 0
+      ) {
+        // console.log('unfix nav')
         this.isFixed = false
+      } else {
+        // console.log('fix nav')
+        this.isFixed = true
       }
     })
 
@@ -176,12 +176,17 @@ export default {
   }
 
   & .labels {
+    cursor: pointer;
     transition: 0.3s ease-in;
+  }
+
+  &--unfixed {
+    position: relative;
   }
 
   &--fixed {
     position: fixed;
-    top: 60px;
+    top: 58px;
     left: 0;
     width: 100vw;
   }

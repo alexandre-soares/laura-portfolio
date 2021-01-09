@@ -56,10 +56,10 @@
     </div>
 
     <Bottom-navbar
-      previous-text="Louboutin App"
-      next-text="UI Design"
-      previous="/louboutin-app"
-      next="/ui-design"
+      previous-text="Revolut App"
+      next-text="Louboutin App"
+      previous="/revolut-app"
+      next="/louboutin-app"
     />
   </div>
 </template>

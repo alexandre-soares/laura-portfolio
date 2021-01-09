@@ -34,7 +34,6 @@ export default {}
 <style lang="scss" scoped>
 .map {
   padding-top: 4rem;
-  padding-bottom: 4rem;
 
   &__record {
     font-weight: 100;
@@ -63,7 +62,7 @@ export default {}
     margin: 2rem auto;
     font-size: 1.7rem;
     letter-spacing: 2px;
-    color: #939495;
+    color: $light-white;
   }
 }
 </style>

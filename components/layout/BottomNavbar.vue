@@ -1,7 +1,11 @@
 <template>
   <div class="container-fluid">
     <div class="bottom-row">
-      <nuxt-link tag="a" class="bottom-row__item" :to="previous">
+      <nuxt-link
+        tag="a"
+        class="bottom-row__item"
+        :to="{ path: previous, force: true }"
+      >
         <i class="fas fa-chevron-left"></i> {{ previousText }}
       </nuxt-link>
       <nuxt-link

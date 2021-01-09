@@ -12,9 +12,10 @@
           makes me alive!
         </p>
         <p class="paragraph">
-          With 5 years of experience in industrial and web design, I really
-          enjoy working in a dynamic team, involving and sharing my knowledge
-          and experience. Whether from office or home office.
+          With <strong> 5 years of experience </strong> in industrial and web
+          design, I really enjoy working in a dynamic team, involving and
+          sharing my knowledge and experience. Whether from office or home
+          office.
         </p>
         <p class="paragraph">
           Digital native, amazed by Codepens, I'm always exploring the

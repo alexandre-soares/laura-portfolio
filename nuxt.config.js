@@ -97,7 +97,11 @@ export default {
   },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: ['@nuxtjs/style-resources', '@nuxtjs/google-analytics'],
+  modules: [
+    '@nuxtjs/style-resources',
+    '@nuxtjs/google-analytics',
+    'vue-scrollto/nuxt',
+  ],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {

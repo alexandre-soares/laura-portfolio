@@ -67,7 +67,7 @@ export default {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 3rem;
-  z-index: 998;
+  z-index: 9999;
   transition: 0.3s ease-in-out;
 
   @media only screen and (max-width: $bp-small) {

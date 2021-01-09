@@ -53,7 +53,7 @@ export default {}
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    color: $light-pink;
+    color: $light-white;
     & img {
       width: 2rem;
       height: 2rem;

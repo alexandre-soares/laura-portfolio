@@ -29,9 +29,9 @@
 
     <Bottom-navbar
       previous-text="UI Design"
-      next-text="Louboutin App"
+      next-text="Dokogo App"
       previous="/ui-design"
-      next="/louboutin-app"
+      next="/dokogo-app"
     />
   </div>
 </template>
