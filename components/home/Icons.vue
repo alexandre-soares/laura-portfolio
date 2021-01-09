@@ -76,7 +76,7 @@
         </div>
         <div class="col-sm-12 col-lg-6">
           <div class="icons__social-medias">
-            <h4>See my Linkedin profile</h4>
+            <h4>Visit my Linkedin profile</h4>
             <div class="row justify-content-center">
               <a
                 href="https://www.linkedin.com/in/laura-sibille/"
