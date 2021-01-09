@@ -5,11 +5,11 @@
         <div class="col">
           <p class="paragraph">
             Louboutin is one of my favorite shoe brands, but I run into problems
-            every time I use go the website on my phone. Although I am not
-            affiliated with the red sole brand, I wanted to figure out if other
-            users were having similar issues. I decided to conduct usability
-            tests, which led me to discover some pain points and redesign part
-            of the experience.
+            whenever I connect to the website through my phone. Although I am
+            not affiliated with the red sole brand, I wanted to figure out if
+            other users were facing similar issues. I decided to conduct
+            usability tests, which led me to discover some pain points and
+            redesign part of the experience.
           </p>
         </div>
       </div>

@@ -59,6 +59,7 @@ export default {}
 
 <style lang="scss" scoped>
 .portfolio {
+  padding-bottom: 2.5rem;
   &__card {
     padding: 4rem 0;
     text-decoration: none;

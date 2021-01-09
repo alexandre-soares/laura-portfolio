@@ -142,7 +142,7 @@ export default {}
 }
 
 .icons {
-  padding-top: 4rem;
+  padding-top: 5rem;
   padding-bottom: 4rem;
 
   @media only screen and (max-width: $bp-small) {
@@ -161,10 +161,14 @@ export default {}
     margin-top: 0;
   }
 
+  & h4:nth-child(2) {
+    margin-top: 0;
+  }
+
   & .icon {
     width: 3rem;
     height: 3rem;
-    margin: 0 0.5rem 2rem;
+    margin: 1rem 0.5rem 3rem;
   }
 
   & .daily-icons {

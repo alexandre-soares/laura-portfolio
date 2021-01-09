@@ -3,7 +3,7 @@
     <div class="row justify-content-between">
       <div class="col-sm-12 col-lg-7 order-sm-12 order-md-1">
         <h1>
-          HI! I’m Laura and I’m a French
+          HI! I’m Laura, a French
           <span class="light-pink">UX Designer !</span>
         </h1>
         <p class="paragraph">
@@ -12,15 +12,14 @@
           makes me alive!
         </p>
         <p class="paragraph">
-          With <strong> 5 years of experience </strong> in industrial and web
-          design, I really enjoy working in a dynamic team, involving and
-          sharing my knowledge and experience. Whether from office or home
-          office.
+          With <strong> 5 years of experience </strong> in industrial-web
+          design, including psychology and marketing analytics, I really enjoy
+          working in a dynamic team, involving and sharing my knowledge and
+          experience. Whether from office or home office.
         </p>
         <p class="paragraph">
-          Digital native, amazed by Codepens, I'm always exploring the
-          functionalities to the core. On my personal time, I also enjoy
-          drawing.
+          Digital native, amazed by some Codepens, exploring the functionalities
+          to the core, on my personal time, I also enjoy crafting and drawing.
         </p>
 
         <p class="paragraph">
@@ -51,6 +50,7 @@ export default {}
   align-items: flex-start;
   padding: 8rem 1.5rem 5rem;
   overflow-y: hidden;
+  overflow-x: hidden;
 
   @media only screen and (max-width: $bp-large) {
     padding: 5rem 3rem;

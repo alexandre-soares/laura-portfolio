@@ -27,9 +27,9 @@
             of categories (beauty, men, women, accessories etc) and pretty well
             organised. Let’s keep this in our app. The navigation is clear and
             items are suggested to complete your look when you are wandering on
-            the app. The navbar also let the user go through the other
-            categories such as locations stores, favorites items, cart and
-            personal info.
+            the app. The navbar enables the user the user go through other
+            categories such as located stores, favorite items, cart and personal
+            info.
           </p>
         </div>
       </div>
@@ -56,7 +56,8 @@
       <div class="row">
         <div class="col">
           <h4 class="pain-point-h4">
-            PAIN POINT 2: LET ME SPEND MY MONEY & SAVE ITEMS FOR LATER
+            PAIN POINT 2: I AM IN THE MOOD FOR SHOPPING SPREE, SPENDING MONEY &
+            SAVING ITEMS FOR LATER
           </h4>
 
           <img
@@ -72,11 +73,11 @@
 
           <p class="paragraph">
             <span class="outcome stronger">Design solution:</span> Users can
-            favorite any item, anytime, when he see it on his screen. When he
-            selects a product, this one appears in big, with an animation. From
-            this overlay, he can choose several option: put it in favorite,
-            select the size if required, check for more information, add to
-            cart, see more pictures and go back to the previous page.
+            favorite any item, anytime, when displayed on screen. When selected,
+            a product shows highlighted with aninmation. From this overlay; a
+            choice of several options to choose: put it in favorite, select the
+            size if required, check for more information, add to cart, see more
+            pictures and go back to the previous page.
           </p>
         </div>
       </div>

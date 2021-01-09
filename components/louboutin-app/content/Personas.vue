@@ -21,10 +21,10 @@
                   <li>Works in a fancy area</li>
                   <li>Collects expensive shoes</li>
                   <li>Often goes to parties</li>
-                  <li>Follow every fashion week</li>
+                  <li>Follows every Fashion Week</li>
                   <li>Tries to optimise her time</li>
                   <li>Loves to be attractive</li>
-                  <li>She works hard to make good money</li>
+                  <li>Works hard to make good money</li>
                 </ul>
               </td>
             </tr>
@@ -59,10 +59,10 @@
             <li>Works in a fancy area</li>
             <li>Collects expensive shoes</li>
             <li>Often goes to parties</li>
-            <li>Follow every fashion week</li>
+            <li>Follows every Fashion Week</li>
             <li>Tries to optimise her time</li>
             <li>Loves to be attractive</li>
-            <li>She works hard to make good money</li>
+            <li>Works hard to make good money</li>
           </ul>
 
           <h4 class="persona__h4">Demographics</h4>
@@ -84,7 +84,7 @@
       <div class="persona__pros-cons col-sm-12 col-lg-4">
         <p class="paragraph">
           First I made research around Louboutin’s customer-base. I then created
-          a couple of provisional personas to cover the asumpted, largest group
+          a couple of provisional personas to cover the assumpted, largest group
           of customers: professionals in their 30s and 40s and in the
           middle-upper income bracket.
         </p>

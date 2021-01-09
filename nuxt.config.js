@@ -105,6 +105,9 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+    splitChunks: {
+      layouts: true,
+    },
     html: {
       minify: {
         collapseBooleanAttributes: true,

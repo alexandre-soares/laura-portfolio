@@ -5,7 +5,7 @@
         <div class="problem__video--content">
           <small
             >Video screen of the <br />
-            original louboutin website</small
+            original Louboutin website</small
           >
           <video
             class="problem__mp4"
@@ -157,7 +157,7 @@ export default {}
     }
 
     &--content {
-      width: 50%;
+      width: 45%;
       margin-left: auto;
       margin-right: 2rem;
 

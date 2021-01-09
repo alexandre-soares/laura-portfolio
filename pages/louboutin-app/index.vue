@@ -63,14 +63,15 @@ export default {
         require('@/static/img/icons/softwares/rotato.png'),
       ],
       paragraphs: [
-        `While I was wandering on Louboutin website before Christmas and grumbling
-          about how slow their website is, I saw how easy it was to spend money on
-          Nike store. Sneakers are cool, but high heels are better for a fancy
+        `While I was browsing on Louboutin website before Christmas and grumbling
+          about how slow their website is, I could not help but compare how easy it was to spend money on such apps as
+          Nike store. And indeed sneakers are cool, but high heels are better for a fancy
           event.`,
-        `The next day, I was designing an app for the famous red sole brand.`,
-        `The goal of this study case is to check if the web pages on mobile
-          correspond to the brand values through a survey and developing an
-          e-commerce app that allows user to search and buy shoes in a clean, catchy
+        `As soon as the next day, I engaged in designing an app for the famous red sole brand.`,
+        `The goal of this study case was to check if the web pages on mobile
+          feature to the brand values through a survey and the development of an
+          e-commerce app.`,
+        `The objective was to identify how user search and enable them to buy shoes in a clean, catchy
           and easy to interact interface.`,
       ],
     }
