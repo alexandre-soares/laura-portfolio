@@ -24,6 +24,26 @@ export default {
         name: 'theme-color',
         content: '#ffffff',
       },
+      {
+        property: 'og:title',
+        content: 'Laura SIBILLE - UX Designer Portfolio',
+      },
+      {
+        property: 'og:description',
+        content: `UX RESEARCH / DESIGN - My name is Laura SIBILLE and I'm a user experience designer & researcher rooted in psychology.`,
+      },
+      {
+        property: 'og:image',
+        content: `/img/home/revolut.jpg`,
+      },
+      {
+        property: 'og:url',
+        content: `https://www.laurasibille.com`,
+      },
+      {
+        property: 'twitter:card',
+        content: `/img/icons/favicon/favicon-32x32.png`,
+      },
     ],
     link: [
       // { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

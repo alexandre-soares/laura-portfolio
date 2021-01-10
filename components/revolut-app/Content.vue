@@ -158,7 +158,7 @@ export default {
 
 <style lang="scss" scoped>
 .process-navbar {
-  padding: 1.5rem 1rem;
+  padding: 1.7rem 1rem;
   text-align: center;
   font-size: 1.5rem;
   letter-spacing: 1px;

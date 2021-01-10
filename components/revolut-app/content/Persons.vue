@@ -118,6 +118,10 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
+.portfolio-h3:nth-child(1) {
+  padding-top: 3rem;
+}
+
 .persona {
   margin: 10rem 0;
   font-size: 1.7rem;
