@@ -30,7 +30,7 @@
       </a>
     </div>
     <div class="navbar__email">
-      <a href="mailto:laura.sibille@gmail.com">
+      <a href="mailto:hello@laurasibille.com">
         <img src="@/static/img/icons/message.svg" alt="email" />
       </a>
     </div>

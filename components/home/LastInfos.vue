@@ -5,7 +5,7 @@
       <div class="col-sm-12 col-lg">
         <ul>
           <li>☠️ Plant killer</li>
-          <li>🍜 Experimental cooker</li>
+          <li>🍜 Experimental cook</li>
           <li>⏱️ Always-on-time freak</li>
           <li>👩🏻‍💻 Apple user</li>
         </ul>

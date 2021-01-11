@@ -192,6 +192,7 @@ export default {}
     }
 
     & .download {
+      font-family: 'Gill sans', sans-serif;
       margin-top: 2rem;
       display: inline-block;
     }
