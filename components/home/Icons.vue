@@ -114,7 +114,7 @@
               </a>
             </div>
             <a
-              href="/Laura SIBILLE - Resume.pdf"
+              href="/Laura SIBILLE - UX Design - Resume.pdf"
               targe="_blank"
               class="btn download"
             >
@@ -195,6 +195,8 @@ export default {}
       font-family: 'Gill sans', sans-serif;
       margin-top: 2rem;
       display: inline-block;
+      padding-bottom: 10px;
+      padding-top: 15px;
     }
   }
 }
